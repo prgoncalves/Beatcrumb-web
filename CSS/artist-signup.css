@@ -1,0 +1,104 @@
+.version.artist_signup /* version checker */
+{
+	color: #00001E;
+	background-color: #E9B1C8;
+}
+
+.html
+{
+	background: #FFFFFF url("../images/background-pattern-2.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 500px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-bottom: -36px;
+	padding-top: 4px;
+}
+
+#u323
+{
+	z-index: 8;
+	width: 213px;
+	height: 58px;
+	border-style: none;
+	border-color: transparent;
+	margin-left: 20px;
+	position: relative;
+	background: transparent url("../images/beatcrumblogo-u108-fr.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u322
+{
+	z-index: 7;
+	width: 533px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	padding-bottom: 20px;
+	margin-left: 226px;
+	margin-top: 54px;
+	position: relative;
+	background: #FFFFFF url("../images/artist%20signup-u322-fr.jpg") no-repeat center center;
+	background-size: contain;
+}
+
+#u1113
+{
+	z-index: 9;
+	width: 166px;
+	height: 29px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 285px;
+	left: 139px;
+}
+
+.ie #u1113
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u148-5
+{
+	z-index: 2;
+	min-height: 98px;
+}
+
+#u148-5-bw
+{
+	z-index: 2;
+	min-height: 98px;
+	margin-top: 33px;
+	height: 98px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-bottom: 35px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

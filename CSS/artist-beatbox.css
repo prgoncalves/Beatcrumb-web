@@ -1,0 +1,320 @@
+.version.artist_beatbox /* version checker */
+{
+	color: #0000E0;
+	background-color: #0B34AB;
+}
+
+.html
+{
+	background: #FFFFFF url("../images/background-pattern-2.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 500px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-bottom: -36px;
+	padding-top: 103px;
+}
+
+#u836
+{
+	z-index: 12;
+	width: 5522px;
+	height: 62px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #000000;
+	position: fixed;
+	top: 0px;
+	left: -1528px;
+}
+
+#u837
+{
+	z-index: 13;
+	width: 49px;
+	height: 42px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 11px;
+	left: -76px;
+	background: transparent url("../images/beatcrumblogolarge%20rollover-u823-r-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u837:hover
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0px;
+	background-size: contain;
+}
+
+#u838
+{
+	z-index: 14;
+	width: 41px;
+	height: 34px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 16px;
+	left: -9px;
+	background: transparent url("../images/donation%20list-u824-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u838:hover
+{
+	margin: 0px;
+	background: transparent url("../images/donation%20list%20rollover-u824-r-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u841
+{
+	z-index: 23;
+	width: 445px;
+	height: 29px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 18px;
+	left: 236px;
+	background: transparent url("../images/search%20png-u827-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u839-4
+{
+	z-index: 15;
+	width: 51px;
+	background-color: transparent;
+	font-size: 19px;
+	color: #00FFFF;
+	line-height: 23px;
+	position: fixed;
+	top: 23px;
+	left: 55px;
+}
+
+#u840-4
+{
+	z-index: 19;
+	width: 74px;
+	background-color: transparent;
+	font-size: 19px;
+	color: #00FFFF;
+	line-height: 23px;
+	position: fixed;
+	top: 23px;
+	left: 134px;
+}
+
+#u839-4:hover,#u840-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 0px;
+	margin: 0px;
+}
+
+#u839-4:hover p,#u840-4:hover p
+{
+	color: #FF0000;
+	visibility: inherit;
+}
+
+#u842
+{
+	z-index: 24;
+	width: 31px;
+	height: 27px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 20px;
+	left: 863px;
+	background: transparent url("../images/settings%20red-u828-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u842:hover
+{
+	margin: 0px;
+	background: transparent url("../images/settings%20redrollover-u828-r-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#pu503
+{
+	width: 0.01px;
+	margin-left: 32px;
+}
+
+#u503
+{
+	z-index: 7;
+	width: 875px;
+	border-style: none;
+	border-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	background: transparent url("../images/beatbox%20screen2.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u503_position_content
+{
+	padding-top: 10px;
+	padding-bottom: 116px;
+}
+
+#u1183
+{
+	z-index: 25;
+	width: 735px;
+	height: 106px;
+	left: -12px;
+	position: relative;
+}
+
+#pu1200
+{
+	width: 0.01px;
+	margin-left: -12px;
+	margin-top: 6px;
+}
+
+#u1200
+{
+	z-index: 26;
+	width: 460px;
+	height: 287px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u586
+{
+	z-index: 8;
+	width: 61px;
+	height: 220px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 19px;
+	left: 529px;
+}
+
+#u593
+{
+	z-index: 9;
+	width: 61px;
+	height: 155px;
+	margin-left: 513px;
+	margin-top: 112px;
+	position: relative;
+}
+
+#u594
+{
+	z-index: 10;
+	width: 57px;
+	height: 50px;
+	margin-left: 517px;
+	margin-top: 108px;
+	position: relative;
+}
+
+#u595
+{
+	z-index: 11;
+	width: 61px;
+	height: 54px;
+	margin-left: 513px;
+	margin-top: 222px;
+	position: relative;
+}
+
+#u1201
+{
+	z-index: 27;
+	width: 723px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	padding-bottom: 17px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 401px;
+}
+
+#u1202
+{
+	z-index: 28;
+	width: 57px;
+	height: 67px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 36px;
+	left: 48px;
+}
+
+#u1203
+{
+	z-index: 29;
+	width: 448px;
+	height: 713px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 507px;
+}
+
+.ie #u1183,.ie #u1200,.ie #u586,.ie #u593,.ie #u594,.ie #u595,.ie #u1202,.ie #u1203
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u148-5
+{
+	z-index: 2;
+	min-height: 98px;
+}
+
+#u148-5-bw
+{
+	z-index: 2;
+	min-height: 98px;
+	margin-top: 33px;
+	height: 98px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-bottom: 35px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

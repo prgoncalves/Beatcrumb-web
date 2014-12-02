@@ -1,0 +1,99 @@
+.version.login /* version checker */
+{
+	color: #0000EE;
+	background-color: #176035;
+}
+
+.html
+{
+	background: #FFFFFF url("../images/background-pattern-2.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 500px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u199
+{
+	z-index: 7;
+	width: 213px;
+	height: 58px;
+	border-style: none;
+	border-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 20px;
+	background: transparent url("../images/beatcrumblogo-u108-fr.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u200
+{
+	z-index: 8;
+	width: 513px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	padding-bottom: 54px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 93px;
+	left: 244px;
+	background: #FFFFFF url("../images/login%20widget-u200-fr.jpg") no-repeat center center;
+	background-size: contain;
+}
+
+#u207
+{
+	z-index: 9;
+	width: 85px;
+	height: 31px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 206px;
+	left: 130px;
+}
+
+#u148-5
+{
+	z-index: 2;
+	min-height: 98px;
+}
+
+#u148-5-bw
+{
+	z-index: 2;
+	min-height: 98px;
+	margin-bottom: -36px;
+	margin-top: 438px;
+	height: 98px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-bottom: 35px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+	margin-bottom: -438px;
+}
+

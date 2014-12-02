@@ -1,0 +1,19 @@
+#u148-5
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #323232;
+	background-color: rgba(0, 0, 0, 0.8);
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	color: #00FFFF;
+	text-align: center;
+	-pie-background: rgba(0, 0, 0, 0.8);
+}
+
+#u148-2
+{
+	color: #00FFFF;
+}
+

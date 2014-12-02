@@ -1,0 +1,85 @@
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1417486042880">
+  <folder name="css">
+    <file name="site_global.css" crc="365011649"/>
+    <file name="master_a-master.css" crc="399256207" ref="login:fan-discover:fan-favorites:artist-home-setup:artist-favorites:artist-listening-page:fan-home-setup:artist-donation-authenticate:listening-page-copy:artist-fan-page:artist-beatbox:fan-signup:index:artist-discover:artist-signup:fan-beatbox:listening-page:artist-home"/>
+    <file name="login.css" crc="3994509365" ref="login"/>
+    <file name="fan-discover.css" crc="212825524" ref="fan-discover"/>
+    <file name="fan-favorites.css" crc="4077145886" ref="fan-favorites"/>
+    <file name="artist-home-setup.css" crc="4198411159" ref="artist-home-setup"/>
+    <file name="artist-favorites.css" crc="4160042615" ref="artist-favorites"/>
+    <file name="artist-listening-page.css" crc="341230894" ref="artist-listening-page"/>
+    <file name="fan-home-setup.css" crc="4095354896" ref="fan-home-setup"/>
+    <file name="artist-donation-authenticate.css" crc="3894642771" ref="artist-donation-authenticate"/>
+    <file name="listening-page-copy.css" crc="4274989863" ref="listening-page-copy"/>
+    <file name="artist-fan-page.css" crc="53583057" ref="artist-fan-page"/>
+    <file name="artist-beatbox.css" crc="3758830763" ref="artist-beatbox"/>
+    <file name="fan-signup.css" crc="197190961" ref="fan-signup"/>
+    <file name="index.css" crc="391370862" ref="index"/>
+    <file name="artist-discover.css" crc="322084864" ref="artist-discover"/>
+    <file name="artist-signup.css" crc="518631880" ref="artist-signup"/>
+    <file name="fan-beatbox.css" crc="467223620" ref="fan-beatbox"/>
+    <file name="listening-page.css" crc="3898294817" ref="listening-page"/>
+    <file name="artist-home.css" crc="73676109" ref="artist-home"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index:login:artist-home:artist-discover:artist-beatbox:artist-signup:fan-signup:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="museutils.js" crc="3777594392" ref="index:login:artist-home:artist-discover:artist-beatbox:artist-signup:fan-signup:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4259541792" ref="index:login:artist-home:artist-discover:artist-beatbox:artist-signup:fan-signup:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="pie.js" crc="3827607177" ref="index:artist-home"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="index:login:artist-home:artist-discover:artist-beatbox:artist-signup:fan-signup:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="jquery.scrolleffects.js" crc="117544926" ref="artist-home:artist-discover:artist-beatbox:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+  </folder>
+  <folder name="images">
+    <file name="background-pattern-2.jpg" crc="39366308" ref="index:login:artist-home:artist-discover:artist-beatbox:artist-signup:fan-signup:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="beatcrumblogo-u108-fr.png" crc="4210953496" ref="index:login:artist-signup:fan-signup"/>
+    <file name="login widget-u200-fr.jpg" crc="3839045242" ref="login"/>
+    <file name="beatcrumblogolarge-u823-fr.png" crc="225066043" ref="artist-home:artist-discover:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="beatcrumblogolarge rollover-u823-r-fr.png" crc="466217666" ref="artist-home:artist-discover:artist-beatbox:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="donation list-u824-fr.png" crc="292668048" ref="artist-home:artist-discover:artist-beatbox:artist-home-setup:fan-home-setup:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:artist-listening-page:artist-donation-authenticate"/>
+    <file name="donation list rollover-u824-r-fr.png" crc="452744569" ref="artist-home:artist-discover:artist-beatbox:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="noelleartist-u388-fr.png" crc="312766474" ref="artist-home:artist-favorites:fan-favorites"/>
+    <file name="search png-u827-fr.png" crc="3916657405" ref="artist-home:artist-discover:artist-beatbox:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="fan 2-u1047-fr.png" crc="4219024763" ref="artist-home:fan-home-setup"/>
+    <file name="crumb circle-u419-fr.png" crc="129489475" ref="artist-home:artist-home-setup:fan-home-setup"/>
+    <file name="crumb circle rollover-u419-r-fr.png" crc="4136219055" ref="artist-home:artist-home-setup:fan-home-setup"/>
+    <file name="beatgift2-u1024-fr.png" crc="523501291" ref="artist-home:fan-home-setup"/>
+    <file name="beatgift-u1024-r-fr.png" crc="294726707" ref="artist-home:fan-home-setup"/>
+    <file name="fans list-u451-fr.png" crc="128667711" ref="artist-home:artist-home-setup:fan-home-setup"/>
+    <file name="buncee_clipart_bubble_33a-u464-fr.png" crc="402577978" ref="artist-home:artist-home-setup:fan-home-setup"/>
+    <file name="text bubble rollover-u464-r-fr.png" crc="4062360372" ref="artist-home:artist-home-setup:fan-home-setup"/>
+    <file name="settings red-u828-fr.png" crc="88494745" ref="artist-home:artist-discover:artist-beatbox:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="settings redrollover-u828-r-fr.png" crc="390378795" ref="artist-home:artist-discover:artist-beatbox:artist-home-setup:fan-home-setup:artist-favorites:listening-page:artist-fan-page:listening-page-copy:fan-discover:fan-beatbox:fan-favorites:artist-listening-page:artist-donation-authenticate"/>
+    <file name="discover screen.png" crc="284973806" ref="artist-discover:fan-discover"/>
+    <file name="discoverscreenfilter-u496-fr.png" crc="4104152628" ref="artist-discover:fan-discover"/>
+    <file name="beatbox screen2.png" crc="472635975" ref="artist-beatbox:fan-beatbox"/>
+    <file name="artist signup-u322-fr.jpg" crc="25666289" ref="artist-signup"/>
+    <file name="fan signup widget.jpg" crc="231901716" ref="fan-signup"/>
+    <file name="photo upload-u364-fr.png" crc="3760142877" ref="artist-home-setup:fan-home-setup:artist-fan-page"/>
+    <file name="photo upload rollover-u364-r-fr.png" crc="3927249141" ref="artist-home-setup:fan-home-setup:artist-fan-page"/>
+    <file name="heart screen-u904-fr.png" crc="74189858" ref="artist-favorites:fan-favorites"/>
+    <file name="listening screen-u937-fr.png" crc="433769354" ref="listening-page:listening-page-copy:artist-listening-page:artist-donation-authenticate"/>
+    <file name="listening screen2-u944-fr.png" crc="120856897" ref="listening-page:listening-page-copy:artist-listening-page:artist-donation-authenticate"/>
+    <file name="follow button-u1015-fr.png" crc="3830464180" ref="artist-fan-page"/>
+    <file name="donation list-u1006-fr.png" crc="4165720792" ref="artist-fan-page"/>
+    <file name="donation list rollover-u1006-r-fr.png" crc="38992571" ref="artist-fan-page"/>
+    <file name="donation authentication page.jpg" crc="282788813" ref="listening-page-copy:artist-donation-authenticate"/>
+  </folder>
+  <file name="index.html" crc="3966903039" mt="1417226954752" redirect="true"/>
+  <file name="login.html" crc="3811941518" mt="1417226954754" redirect="true"/>
+  <file name="artist-home.html" crc="535442618" mt="1417228345233" redirect="true"/>
+  <file name="artist-discover.html" crc="419699181" mt="1417227793628" redirect="true"/>
+  <file name="artist-beatbox.html" crc="134499071" mt="1417227199248" redirect="true"/>
+  <file name="artist-signup.html" crc="4282395094" mt="1417226954762" redirect="true"/>
+  <file name="fan-signup.html" crc="474551947" mt="1417226954763" redirect="true"/>
+  <file name="artist-home-setup.html" crc="431814879" mt="1417226954765" redirect="true"/>
+  <file name="fan-home-setup.html" crc="3886821873" mt="1417226954767" redirect="true"/>
+  <file name="artist-favorites.html" crc="3805158091" mt="1417227557071" redirect="true"/>
+  <file name="listening-page.html" crc="4194670176" mt="1417226954771" redirect="true"/>
+  <file name="artist-fan-page.html" crc="3933653659" mt="1417227276629" redirect="true"/>
+  <file name="listening-page-copy.html" crc="4119474431" mt="1417226954774" redirect="true"/>
+  <file name="fan-discover.html" crc="90339672" mt="1417226954776" redirect="true"/>
+  <file name="fan-beatbox.html" crc="4068822301" mt="1417226954778" redirect="true"/>
+  <file name="fan-favorites.html" crc="444054114" mt="1417226954780" redirect="true"/>
+  <file name="artist-listening-page.html" crc="371671520" mt="1417227430470" redirect="true"/>
+  <file name="artist-donation-authenticate.html" crc="121412982" mt="1417227491851" redirect="true"/>
+</manifest>

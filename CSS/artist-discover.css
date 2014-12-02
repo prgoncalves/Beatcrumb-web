@@ -1,0 +1,238 @@
+.version.artist_discover /* version checker */
+{
+	color: #000013;
+	background-color: #32A000;
+}
+
+.html
+{
+	background: #FFFFFF url("../images/background-pattern-2.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 500px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-bottom: -36px;
+	padding-top: 92px;
+}
+
+#u829
+{
+	z-index: 9;
+	width: 5522px;
+	height: 62px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #000000;
+	position: fixed;
+	top: 0px;
+	left: -1528px;
+}
+
+#u830
+{
+	z-index: 10;
+	width: 49px;
+	height: 42px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 11px;
+	left: -76px;
+	background: transparent url("../images/beatcrumblogolarge-u823-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u830:hover
+{
+	margin: 0px;
+	background: transparent url("../images/beatcrumblogolarge%20rollover-u823-r-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u831
+{
+	z-index: 11;
+	width: 41px;
+	height: 34px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 16px;
+	left: -9px;
+	background: transparent url("../images/donation%20list-u824-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u831:hover
+{
+	margin: 0px;
+	background: transparent url("../images/donation%20list%20rollover-u824-r-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u834
+{
+	z-index: 16;
+	width: 445px;
+	height: 29px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 18px;
+	left: 236px;
+	background: transparent url("../images/search%20png-u827-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u832-4
+{
+	z-index: 12;
+	width: 51px;
+	background-color: transparent;
+	font-size: 19px;
+	color: #00FFFF;
+	line-height: 23px;
+	position: fixed;
+	top: 23px;
+	left: 55px;
+}
+
+#u832-4:hover p
+{
+	color: #FF0000;
+	visibility: inherit;
+}
+
+#u924-4
+{
+	z-index: 18;
+	width: 74px;
+	background-color: transparent;
+	font-size: 19px;
+	color: #FF0000;
+	line-height: 23px;
+	position: fixed;
+	top: 23px;
+	left: 134px;
+}
+
+#u832-4:hover,#u924-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 0px;
+	margin: 0px;
+}
+
+#u924-4:hover p
+{
+	color: #00FFFF;
+	visibility: inherit;
+}
+
+#u835
+{
+	z-index: 17;
+	width: 31px;
+	height: 27px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 20px;
+	left: 863px;
+	background: transparent url("../images/settings%20red-u828-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u835:hover
+{
+	margin: 0px;
+	background: transparent url("../images/settings%20redrollover-u828-r-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u489
+{
+	z-index: 7;
+	width: 668px;
+	border-style: none;
+	border-color: transparent;
+	padding-bottom: 29px;
+	margin-left: 259px;
+	position: relative;
+	background: transparent url("../images/discover%20screen.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u1222
+{
+	z-index: 22;
+	width: 453px;
+	height: 1056px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 16px;
+}
+
+.ie #u1222
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u496
+{
+	z-index: 8;
+	width: 187px;
+	height: 343px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 108px;
+	left: 9px;
+	background: transparent url("../images/discoverscreenfilter-u496-fr.png") no-repeat center center;
+	background-size: contain;
+}
+
+#u148-5
+{
+	z-index: 2;
+	min-height: 98px;
+}
+
+#u148-5-bw
+{
+	z-index: 2;
+	min-height: 98px;
+	margin-top: 33px;
+	height: 98px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-bottom: 35px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
