@@ -1,1 +1,2 @@
-<?php $CI->load->module_view('app', '_install') ?>
+<?php 
+echo("Beatcrumb holding page");
