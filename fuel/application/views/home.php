@@ -1,2 +1,2 @@
 <?php 
-echo("Beatcrumb holding page");
+$this->load->view('offline');
