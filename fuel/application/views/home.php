@@ -1,2 +1,2 @@
 <?php 
-$this->load->view('offline');
+$this->load->view('templates');
