@@ -25,10 +25,6 @@
 			echo $CI->fuel_blog->header();
 		endif;
 	?>
- <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?3977984863"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?399256207"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?391370862" id="pagesheet"/>
  
 </head>
  <body>
