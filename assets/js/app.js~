@@ -29,10 +29,7 @@ app.appRouter.on('route:logout', function(id){
 });
 
 app.appRouter.on('route:login',function(){
-		if (!app.loginView){
-			app.loginView = new LoginView();
-		}
-		app.loginView.render();
+	console.log('Login');
 });
 
 app.appRouter.on('route:defaultAction',function(action){
