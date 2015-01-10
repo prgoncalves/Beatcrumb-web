@@ -49,6 +49,10 @@ app.appRouter.on('route:fanSetup',function(action){
 });
 app.appRouter.on('route:artistSetup',function(action){
 	console.log('artistSetup');
+	if (!app.artistSetup){
+		app.artistSetup = new ArtistSetupView()
+	}
+	app.artistSetup.render();
 });
 
 Backbone.history.start();
