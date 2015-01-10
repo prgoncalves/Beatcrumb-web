@@ -29,14 +29,19 @@ app.appRouter.on('route:logout', function(id){
 });
 
 app.appRouter.on('route:login',function(){
-		if (!app.loginView){
-			app.loginView = new LoginView();
-		}
-		app.loginView.render();
+	if (!app.loginView){
+		app.loginView = new LoginView();
+	}
+	app.loginView.render();
 });
 
 app.appRouter.on('route:defaultAction',function(action){
 	console.log('Default');
+	if (!app.landingView){
+		app.landingView = new LandingView();
+	}
+	console.log($('#landing-page').html());
+	app.landingView.render();
 });
 
 app.appRouter.on('route:fanSetup',function(action){
