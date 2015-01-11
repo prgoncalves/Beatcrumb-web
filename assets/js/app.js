@@ -46,6 +46,10 @@ app.appRouter.on('route:defaultAction',function(action){
 
 app.appRouter.on('route:fanSetup',function(action){
 	console.log('fanSetup');
+	if (!app.fanSetup){
+		app.fanSetup = new FanSetupView()
+	}
+	app.fanSetup.render();
 });
 app.appRouter.on('route:artistSetup',function(action){
 	console.log('artistSetup');
