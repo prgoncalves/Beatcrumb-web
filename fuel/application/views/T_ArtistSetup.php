@@ -3,14 +3,15 @@
    <p>Already have an account then <a href='#login'>Login</a></p>
     <form class="artist-signup">
     	<label>Username</label>
-    	<input type="text" name="username" placeholder="Username"></input>
+    	<input type="text" name="username" id="username" placeholder="Username"></input>
     	<label>Password</label>
-    	<input type="text" name="password" placeholder="Password"></input>
+    	<input type="password" name="password" id="password" placeholder="Password"></input>
     	<label>Email</label>
-    	<input type="text" name="email" placeholder="Email"></input>
+    	<input type="text" name="email" id="email" placeholder="Email"></input>
     	<label>Artist/Band name</label>
-    	<input type="text" name="artist" placeholder="Artist/and name"></input>
-    	<p>I have read and agree to the terms of use.<Input type='checkbox' id="terms" name='terms'></input></p>
+    	<input type="text" name="artist" id="artist" placeholder="Artist/and name"></input>
+    	<br>
+    	<Input type='checkbox' id="terms" name='terms'>I have read and agree to the terms of use.</input>
     	<input type="submit" name="SignUp" value="Sign up"></input>
     </form>
 

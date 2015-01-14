@@ -20,6 +20,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 	<?php
 		echo css('main').css($css);
+		echo css('common').css($css);
 
 		if (!empty($is_blog)):
 			echo $CI->fuel_blog->header();

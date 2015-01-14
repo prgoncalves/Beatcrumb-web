@@ -10,12 +10,12 @@ ArtistSetupView = Backbone.View.extend({
 	},
 	
 	'submit' : function() {
-		console.log('Submit me');
 		var artist = new Artist();
-		artist.set('username',$('.artist-signup input[name="username"]').val());
-		artist.set('email',$('.artist-signup input[name="email"]').val());
-		artist.set('password',$('.artist-signup input[name="password"]').val());
-		artist.set('artist_name',$('.artist-signup input[name="artist"]').val());
+		var that = this;
+		artist.set('username',$('#username').val());
+		artist.set('email',$('#email').val());
+		artist.set('password',$('#password').val());
+		artist.set('artist_name',$('#artist').val());
 		if ($('#terms').is(':checked')){
 			artist.set('terms',1);			
 		} else {
@@ -25,4 +25,12 @@ ArtistSetupView = Backbone.View.extend({
 		artist.save();
 		return false;
 	},
+	showErrors: function(errors) {
+	    _.each(errors, function (error) {
+		var controlGroup = this.$('#' + error.name);
+		controlGroup.addClass('error');
+		controlGroup.find('.help-inline').text(error.message);
+	    }, this);
+	},
+
 });
