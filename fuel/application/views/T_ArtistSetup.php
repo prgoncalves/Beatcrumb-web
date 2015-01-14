@@ -10,7 +10,7 @@
     	<input type="text" name="email" placeholder="Email"></input>
     	<label>Artist/Band name</label>
     	<input type="text" name="artist" placeholder="Artist/and name"></input>
-    	<p>I have read and agree to the terms of use.<Input type='checkbox' name='terms'></input></p>
+    	<p>I have read and agree to the terms of use.<Input type='checkbox' id="terms" name='terms'></input></p>
     	<input type="submit" name="SignUp" value="Sign up"></input>
     </form>
 
