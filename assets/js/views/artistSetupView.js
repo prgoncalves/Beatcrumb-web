@@ -14,7 +14,10 @@ ArtistSetupView = Backbone.View.extend({
 		var that = this;
 		artist.set('username',$('#username').val());
 		artist.set('email',$('#email').val());
-		artist.set('password',$('#password').val());
+		var passwd = $('#password').val();
+		passwd = CryptoJS.MD5(passwd);
+		passwd = passwd.toString(CryptoJS.enc.Hex);
+		artist.set('password',passwd);
 		artist.set('artist_name',$('#artist').val());
 		if ($('#terms').is(':checked')){
 			artist.set('terms',1);			
@@ -22,7 +25,14 @@ ArtistSetupView = Backbone.View.extend({
 			artist.set('terms',0);			
 		}
 		app.artistCollection.add(artist);
-		artist.save();
+		artist.save(artist.attributes,{
+			success:function(model, response, options){
+				alert('Artist setup');
+			},
+			error:function(){
+				alert('Error saving artist');
+			}
+		});
 		return false;
 	},
 	showErrors: function(errors) {

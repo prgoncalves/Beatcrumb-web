@@ -7,7 +7,7 @@ class Artist_model extends base_model{
 		parent::__construct();
 	}
 	public function create($data){
-		var_dump($data);
+// 		var_dump($data);
 		$query = array();
 		if (is_array($data)){
 			if (isset($data['username'])){
@@ -32,7 +32,7 @@ class Artist_model extends base_model{
 			}			
 		}
 		$result = parent::create($data);
-		echo($this->db->last_query());
+// 		echo($this->db->last_query());
 		return $result->id;
 	}
 }
