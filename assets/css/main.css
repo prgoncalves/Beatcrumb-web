@@ -3,17 +3,17 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 /* CORE================================================================ */
 html, body {min-height: 100%; padding: 0; margin: 0; width: 100%; }
 /*html {font-size: 62.5%; background: #3dbfd9; }*/
-body {font-size: 16px; line-height: 1.5; color: white; font-family: 'Raleway', 'Lucida Grande', 'Gill Sans', Arial, Helvetica, Sans-serif; }
+body {font-size: 16px; line-height: 1.5; color: white; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; }
 .wrapper { max-width: 1000px; margin: 0 auto; }
 .page { background: #212326; }
-a:link, a:visited { color: #3dbfd9; text-decoration: none; }
-a:hover, a:active, a:focus { text-decoration: underline; }
+/*a:link, a:visited { color: #3dbfd9; text-decoration: none; }
+a:hover, a:active, a:focus { text-decoration: underline; }*/
 h1 { font-size: 56px; line-height: 1; margin: 0; }
 h2 { font-size: 30px; font-weight: normal; }
 h3 { font-size: 44px; margin: 0.25em 0; }
 h4 { font-size: 24px; font-weight: bold; margin: 1.2em 0; color: #3dbfd9;}
 .page_header { text-align: center; padding-top: 20px; }
-section { padding: 3em; }
+section { padding: 0em; }
 section header { border-top: 1px solid #3dbfd9; border-bottom: 1px solid #3dbfd9; clear: both; }
 ol { list-style: none; margin: 2em 0; padding:0;  }
 ol li { clear: both; margin: 1em 0; }
@@ -57,10 +57,208 @@ ol li { clear: both; margin: 1em 0; }
 /*Main Styling*/
 
 
-/*html{   
-    background:url("../images/background-pattern-2.jpg") no-repeat fixed center center / cover  #ffffff;
+html{   
+    background:url("/images/background-pattern-2.jpg") no-repeat fixed center center / cover  #ffffff;
+}
+
+.position_content{
+    width:100%;
+    height: 100%;
+    display: table;
+    clear: both;
+    
+}
+
+#landing-page-wrapper{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: table;
+    clear: both;
 }
 
 .landing-logo{
-    background: transparent url("../images/beatcrumblogo-u108-fr.png") no-repeat left top;
-}*/
+    background: url("/images/beatcrumblogo-u108-fr.png") no-repeat scroll left top / contain transparent;
+    border-color: transparent;
+    border-style: none;
+    height: 58px;
+    margin-left: 20px;
+    position: relative;
+    width: 213px;
+    z-index: 7;
+}
+
+.signup-container{
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 150px;
+    position: relative;
+    display: table;
+    height: 300px;
+}
+
+.rgba-background.clearfix{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/*End of main styling CSS*/
+
+
+
+/*Login*/
+
+.landing-login, .artist-signup, .fan-signup{
+    position: absolute;
+    font-size:31px;
+    color: #fff;
+    text-decoration:none;
+    
+}
+
+.landing-login{
+    left: 35%;
+    color: #fff;
+}
+
+.artist-signup{
+    
+    top: 15%;
+    left: 12%;
+    
+}
+
+.fan-signup{
+   
+    top: 30%;
+    left: 20%;
+    
+}
+
+a.landing-login:hover{
+    color: red;
+}
+
+a.artist-signup:hover{
+    color: red;
+}
+
+a.fan-signup:hover{
+    color: red;
+}
+
+
+
+/*End of Login CSS*/
+
+
+/*forms*/
+.form-container{
+    background: #fff;
+    display: table;
+    clear: both;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 90%;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding-bottom: 1em;
+}
+
+.artist-signup-form{
+    float:left;
+    display: table;
+    clear:both;
+    box-sizing: border-box;
+    margin-top: 5%;
+    
+}
+
+.artist-signup-form label{
+    color: #000;
+    float:left;
+    clear:left;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+.artist-signup-form input{
+    float:right;
+    margin-right: 10%;
+    width: 55%;
+}
+
+.terms{
+    display: table;
+    clear: both;
+    margin-top: 0%;
+    margin: 0 auto;
+    width: 80%;
+    box-sizing: border-box;
+    padding-left: 24%;
+    padding-top: 2%;
+}
+
+.terms input{
+    float: left;
+    width: 50%;
+    background: #1A8AF2;
+    color: #fff;
+    border: none;
+    font-size: .8em;
+    padding: 2%
+}
+
+.terms p{
+    font-size: .8em;
+    float: left;
+    margin-top: -15px;
+    margin-left: 25px;
+    z-index: 2;
+    color:#000;
+
+}
+
+/*End of Forms*/
+
+.copyright-container{
+    margin: 0 auto; 
+    width: 150px;
+    box-sizing: border-box;
+}
+
+
+/*Fonts*/
+h1.form-header{
+    color:#000;
+    font-size: 1.2em;
+    margin-left: 2em;
+    margin-top: 1em;
+    float:left;
+}
+
+p.form-login{
+    color:#8e8e8e;
+    float:left;
+    font-size:.8em;
+    margin-top: 1.67em;
+    margin-left: 3em;
+}
+
+p.form-login a{
+    text-decoration:none;
+}
+
+/*End of Fonts*/
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 450px) {
+    .landing-logo{
+        margin: 0 auto;
+    }
+}
+
