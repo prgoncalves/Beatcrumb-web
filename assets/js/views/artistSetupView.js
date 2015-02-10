@@ -22,8 +22,7 @@ ArtistSetupView = Backbone.View.extend({
 		if ($('#terms').is(':checked')){
 			artist.set('terms',1);			
 		} else {
-			alert('Please accept our terms and conditions!');
-			return false;
+			artist.set('terms',0);			
 		}
 		app.artistCollection.addArtist(artist);
 		artist.save(artist.attributes,{
@@ -43,6 +42,8 @@ ArtistSetupView = Backbone.View.extend({
 	},
 	showErrors: function(errors) {
 	    _.each(errors, function (error) {
+		$('.feedback').html(error.message);
+		$('.feedback').addClass('error');
 		var controlGroup = this.$('#' + error.name);
 		controlGroup.addClass('error');
 		controlGroup.find('.help-inline').text(error.message);

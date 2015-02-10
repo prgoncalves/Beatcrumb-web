@@ -17,6 +17,7 @@
     	<Input type='checkbox' id="terms" name='terms'><p>I have read and agree to the terms of use.</p></input>
     	<input type="submit" name="SignUp" value="Sign up"></input>
         </div>
+		<div class="feedback"></div>
     </form>
     
     </div>
