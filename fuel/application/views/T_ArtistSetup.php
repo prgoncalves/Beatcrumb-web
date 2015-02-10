@@ -14,9 +14,10 @@
     	<label>Artist/Band name</label>
     	<input type="text" name="artist" id="artist" placeholder="Artist/and name"></input>
     	<div class="terms">
-    	<Input type='checkbox' id="terms" name='terms'><p>I have read and agree to the terms of use.</p></input>
-    	<input type="submit" name="SignUp" value="Sign up"></input>
-        </div>
+    	<input type='checkbox' id="terms" name='terms'></input>
+        <p>I have read and agree to the terms of use.</p>
+    	</div>
+        <input id="submit-btn" type="submit" name="SignUp" value="Sign up"></input>
     </form>
     
     </div>
