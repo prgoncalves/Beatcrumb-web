@@ -166,7 +166,7 @@ a.fan-signup:hover{
     padding-bottom: 1em;
 }
 
-.artist-signup-form{
+.artist-signup-form, .fan-signup-form{
     float:left;
     display: table;
     clear:both;
@@ -176,6 +176,13 @@ a.fan-signup:hover{
 }
 
 .artist-signup-form label{
+    color: #000;
+    float:left;
+    clear:left;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+.fan-signup-form label{
     color: #000;
     float:left;
     clear:left;

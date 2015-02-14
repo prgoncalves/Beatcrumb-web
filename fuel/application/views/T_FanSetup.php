@@ -17,6 +17,7 @@
 	<div class="terms">
    	<p><Input type='checkbox' name='privacy'></input>I agree to the terms of use and privacy policy.</p>
 	</div>
+	<input type="submit" name="SignUp" value="Sign up"></input>
     </form>
 	</div>
 	</div>
