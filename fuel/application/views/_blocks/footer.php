@@ -7,8 +7,11 @@
 		<script src="//crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
 		
 		<script src="/assets/js/models/artistModel.js"></script>
+		<script src="/assets/js/models/fanModel.js"></script>
 		
+
 		<script src="/assets/js/collections/artistCollection.js"></script>		
+		<script src="/assets/js/collections/fanCollection.js"></script>		
 		
 		<script src="/assets/js/views/loginView.js"></script>
 		<script src="/assets/js/views/landingView.js"></script>
