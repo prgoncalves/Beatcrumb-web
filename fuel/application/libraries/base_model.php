@@ -25,6 +25,12 @@ class base_model extends CI_Model{
 			return $this->findOneById($data->$keyfield);
 		}
 	}
+	public function activate($uuid){
+		$this->db->where('uuid',$uuid);
+		$this->db->set('activated','Yes');
+		$this->db->update($this->tableName);
+		return $this->db->affected_rows();
+	}
 	public function create($data){
 		$this->db->insert($this->tableName,$data);
 		$id =  $this->db->insert_id();
