@@ -11,8 +11,6 @@
                 <input type="text" name="username" placeholder="Username"></input>
                 <label>Choose a password</label>
                 <input type="text" name="password" placeholder="Password"></input>
-                <label>Artist/Band name</label>
-                <input type="text" name="artist" placeholder="Artist/and name"></input>
                 <div class="fan-terms">
                     <Input type='checkbox' name='terms'></input>
                     <p>Yes send me Email updates about Beatcrumb.</p>
