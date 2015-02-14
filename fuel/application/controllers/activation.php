@@ -17,10 +17,10 @@ class Activation extends CI_Controller{
 	private function activateCheck($updated){
 		if ($updated > 0){
 			// show activation worked message
-			$this->load->view('activated');
+			$this->fuel->pages->render('activated');
 		} else {
 			// show activation failed message
-			$this->load->view('activation_error');
+			$this->fuel->pages->render('activation_error');
 		}
 	}
 }
