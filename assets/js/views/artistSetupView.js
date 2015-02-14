@@ -6,7 +6,7 @@ ArtistSetupView = Backbone.View.extend({
 		this.$el.html($('#artist-setup-form').html());
 	},
 	events : {
-		'submit .artist-signup' : 'submit',
+		'submit .artist-signup-form' : 'submit',
 	},
 	
 	'submit' : function() {
@@ -24,10 +24,15 @@ ArtistSetupView = Backbone.View.extend({
 		} else {
 			artist.set('terms',0);			
 		}
-		app.artistCollection.add(artist);
+		app.artistCollection.addArtist(artist);
 		artist.save(artist.attributes,{
 			success:function(model, response, options){
-				alert('Artist setup');
+				if (response.Status == 'ERR'){
+					alert('Username/Email/Artist Name is in use.');
+				} else {
+					alert('Artist Setup!');
+			        app.appRouter.navigate('/login', true);
+				}
 			},
 			error:function(){
 				alert('Error saving artist');
@@ -37,6 +42,8 @@ ArtistSetupView = Backbone.View.extend({
 	},
 	showErrors: function(errors) {
 	    _.each(errors, function (error) {
+		$('.feedback').html(error.message);
+		$('.feedback').addClass('error');
 		var controlGroup = this.$('#' + error.name);
 		controlGroup.addClass('error');
 		controlGroup.find('.help-inline').text(error.message);

@@ -7,31 +7,40 @@ class Artist_model extends base_model{
 		parent::__construct();
 	}
 	public function create($data){
-// 		var_dump($data);
+		$bytes = openssl_random_pseudo_bytes(100);
+		$hex = bin2hex($bytes);
 		$query = array();
-		if (is_array($data)){
-			if (isset($data['username'])){
-				$query['username'] = $data['username'];
-			}
-			if (isset($data['email'])){
-				$query['email'] = $data['email'];
-			}
-		} else if (is_object($data)){
-			if (isset($data->username)){
-				$query['username'] = $data->username;
-			}
-			if (isset($data->email)){
-				$query['email'] = $data->email;
-			}
+		$data->uuid      = $hex;
+		$data->activated = 'No';
+		if (isset($data->username)){
+			$query['username'] = $data->username;
 		}
+		if (isset($data->email)){
+			$query['email'] = $data->email;
+			}
+		// check if email and username setup
 		if (!empty($query)){
 			$artist_exists = $this->find($query);
 			if (isset($artist_exists[0])){
-				var_dump($artist_exists[0]);
-				return $artist_exists[0]->id;
+//				var_dump($artist_exists[0]);
+				return null;
 			}			
 		}
+		// check if artist name used
+		if (isset($data->artist_name)){
+			$artist_exists = $this->find(array('artist_name'=>$data->artist_name));
+			if (isset($artist_exists[0])){
+				return null;
+			}
+		}		
 		$result = parent::create($data);
+		$this->load->library('email');
+		$message = $this->load->view('emails/ArtistActivation',array('data'=>$result),TRUE);
+		$this->email->from('membership@beatcrumb.com');
+		$this->email->to($result->email);
+		$this->email->subject("Beatcrumb activation!");
+		$this->email->message($message);
+		$this->email->send();
 // 		echo($this->db->last_query());
 		return $result->id;
 	}
