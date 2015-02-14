@@ -4,7 +4,7 @@
         <div class="form-container">
  <h1 class="form-header">Sign up for an Fan account</h1>
    <p class="form-login">Already have an account then <a href='#login'>Login</a></p>
-    <form class="artist-signup-form">
+    <form class="fan-signup-form">
     	<label>What's your Email address</label>
     	<input type="text" name="email" placeholder="Email"></input>
     	<label>Choose a username</label>
