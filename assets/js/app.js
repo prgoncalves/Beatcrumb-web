@@ -18,6 +18,7 @@ var AppRouter = Backbone.Router.extend({
 		"logout" : 'logout',
 		"fansetup": 'fanSetup',
 		"artistsetup" : 'artistSetup',
+		"activation" : 'activate',
 		"*action": "defaultAction"
 	}
 });
@@ -33,6 +34,13 @@ app.appRouter.on('route:login',function(){
 		app.loginView = new LoginView();
 	}
 	app.loginView.render();
+});
+
+app.appRouter.on('route:activate',function(){
+	if (!app.loginView){
+		app.activationView = new ActivationView();
+	}
+	app.activationView.render();
 });
 
 app.appRouter.on('route:defaultAction',function(action){

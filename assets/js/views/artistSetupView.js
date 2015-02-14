@@ -30,8 +30,7 @@ ArtistSetupView = Backbone.View.extend({
 				if (response.Status == 'ERR'){
 					alert('Username/Email/Artist Name is in use.');
 				} else {
-					alert('Artist Setup!');
-			        app.appRouter.navigate('/login', true);
+				        app.appRouter.navigate('/activate', true);
 				}
 			},
 			error:function(){

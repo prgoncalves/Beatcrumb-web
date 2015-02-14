@@ -28,8 +28,7 @@ FanSetupView = Backbone.View.extend({
 				if (response.Status == 'ERR'){
 					alert('Username/Email is in use.');
 				} else {
-					alert('Fan Setup!');
-			        app.appRouter.navigate('/login', true);
+			        	app.appRouter.navigate('/activate', true);
 				}
 			},
 			error:function(){

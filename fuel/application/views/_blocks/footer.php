@@ -17,6 +17,7 @@
 		<script src="/assets/js/views/landingView.js"></script>
 		<script src="/assets/js/views/artistSetupView.js"></script>
 		<script src="/assets/js/views/fanSetupView.js"></script>
+		<script src="/assets/js/views/activationView.js"></script>
 		<script src="/assets/js/app.js"></script>
 	</footer>
 
