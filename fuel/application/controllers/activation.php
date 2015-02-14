@@ -6,4 +6,6 @@ class Activation extends CI_Controller{
 	function artist($uuid){
 		echo('Yay');
 	}
+	function fan($uuid){
+	}
 }
