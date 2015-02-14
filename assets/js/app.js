@@ -37,7 +37,7 @@ app.appRouter.on('route:login',function(){
 });
 
 app.appRouter.on('route:activate',function(){
-	if (!app.loginView){
+	if (!app.activationView){
 		app.activationView = new ActivationView();
 	}
 	app.activationView.render();
