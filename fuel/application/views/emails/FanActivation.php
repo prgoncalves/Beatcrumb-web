@@ -19,9 +19,7 @@
 						  </tr>
 						  <tr>
 						   <td>
-							<p>Thanks for signing up for a Fan account on Beatcrumb.</p>
-							<p>In order to start using your new account and sharing your music with your friends you will need to activate your account by clicking on the link below. If the link does not work please copy and paste the link address in your favourite browser.</p>
-							<p><a href="http://beta.fitzos.com/activation/fan/<?php echo $data->uuid; ?>">Activate Me!</a></p>
+							<p>Thank you for joining Beatcrumb as a Fan, a new and exciting way to release and message music, in order to verify you are the real deal please follow <a href="http://beta.fitzos.com/activation/fan/<?php echo $data->uuid; ?>">this link</a>. We also welcome your feedback, please send inquiries or comments to info@beatcrumb.com.</p>
 							<p>Regards</p>
 							</td>
 						  </tr>
