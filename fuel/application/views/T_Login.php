@@ -18,10 +18,10 @@
           <h1 class="form-header">Account Log in</h1>
           <p class="form-login">Don't have an account?  <a href='#artistsetup'>Sign up as an artist</a> or <a href='#fansetup'>sign up as a fan</a></p>
             <form class="artist-signup-form">
-                <label>Username / email</label>
+                <label>Username</label>
                 <input type="text" name="username" id="username" placeholder="Username"></input>
                 <label>Password</label>
-                <input type="text" name="password" placeholder="Password"></input>
+                <input type="password" name="password" placeholder="Password"></input>
 
                 <div class="forgot-password">
                         <a href="">Forgot your password?</a>
