@@ -16,7 +16,7 @@
     <div class="landing-logo"></div>
         <div class="form-container">
           <h1 class="form-header">Account Log in</h1>
-          <p class="form-login">Don't have an account?  <a href='#login'>Sign up as an artist</a> or <a href='#login'>sign up as a fan</a></p>
+          <p class="form-login">Don't have an account?  <a href='#artistsetup'>Sign up as an artist</a> or <a href='#fansetup'>sign up as a fan</a></p>
             <form class="artist-signup-form">
                 <label>Username / email</label>
                 <input type="text" name="username" id="username" placeholder="Username"></input>
