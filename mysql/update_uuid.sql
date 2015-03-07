@@ -1,0 +1,4 @@
+ALTER TABLE `beatcrumb`.`artist` 
+CHANGE COLUMN `uuid` `uuid` VARCHAR(512) NULL DEFAULT NULL ;
+ALTER TABLE `beatcrumb`.`fan` 
+CHANGE COLUMN `uuid` `uuid` VARCHAR(512) NULL DEFAULT NULL ;

@@ -8,6 +8,7 @@
 		
 		<script src="/assets/js/models/artistModel.js"></script>
 		<script src="/assets/js/models/fanModel.js"></script>
+		<script src="/assets/js/models/userModel.js"></script>
 		
 
 		<script src="/assets/js/collections/artistCollection.js"></script>		

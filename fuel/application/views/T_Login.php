@@ -21,10 +21,10 @@
                 <label>Username</label>
                 <input type="text" name="username" id="username" placeholder="Username"></input>
                 <label>Password</label>
-                <input type="password" name="password" placeholder="Password"></input>
+                <input type="password" id="password" name="password" placeholder="Password"></input>
 
                 <div class="forgot-password">
-                        <a href="">Forgot your password?</a>
+                        <a href="#forogotPassword">Forgot your password?</a>
                     </div>
                 <input id="login-btn" type="submit" name="login" value="Log in"></input>
 		<div class="feedback"></div>
