@@ -10,12 +10,18 @@ class user_model extends base_model{
 		// check if fan
 		$fan = $this->db->get_where('fan',array('username'=>$username,'password'=>$password))->result();
 		if (isset($fan[0])){
-			return 'fan';
+			return array(
+				'type'=>'fan',
+				'uuid'=>$fan->uuid
+			);
 		}
 		// check if artist
 		$artist = $this->db->get_where('artist',array('username'=>$username,'password'=>$password))->result();
 		if (isset($artist[0])){
-			return 'artist';
+			return array(
+				'type'=>'artist',
+				'uuid'=>$fan->uuid
+			);
 		}
 		return null;
 	}
