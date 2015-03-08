@@ -1,6 +1,7 @@
 <script id="artist-dashboard" type="text/template">
   <div class="landing-page-wrapper">
     <div class="landing-logo"></div>
+	<h1>Artist Dashboard</h1>
     <div class="browser_width colelem" id="u148-5-bw">
     	<div class="clearfix" id="u148-5"><!-- content -->
                 <p>&nbsp;</p>

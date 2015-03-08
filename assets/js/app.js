@@ -46,11 +46,16 @@ app.appRouter.on('route:activate',function(){
 
 app.appRouter.on('route:defaultAction',function(action){
 	console.log('Default');
-	if (!app.landingView){
-		app.landingView = new LandingView();
+	// check to see if already stored
+	if (app.user){
+		app.appRouter.navigate('/dashboard',true);				
+	} else {
+		if (!app.landingView){
+			app.landingView = new LandingView();
+		}
+		console.log($('#landing-page').html());
+		app.landingView.render();		
 	}
-	console.log($('#landing-page').html());
-	app.landingView.render();
 });
 
 app.appRouter.on('route:fanSetup',function(action){
@@ -69,8 +74,21 @@ app.appRouter.on('route:artistSetup',function(action){
 });
 
 app.appRouter.on('route:dashboard',function(){
-	console.log('The dashboard is here');
-	console.log(app.user);
+	if (app.user){
+		if (app.user.type == 'artist'){
+			if (!app.artistDashboard){
+				app.artistDashboard = new ArtistDashboardView()
+			}
+			app.artistDashboard.render();		
+		} else {
+			if (!app.fanDashboard){
+				app.fanDashboard = new FanDashboardView()
+			}
+			app.fanDashboard.render();				
+		}		
+	} else {
+		app.appRouter.navigate('/login',true);		
+	}
 });
 
 Backbone.history.start();
