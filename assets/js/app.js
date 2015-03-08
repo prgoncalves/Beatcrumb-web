@@ -19,6 +19,7 @@ var AppRouter = Backbone.Router.extend({
 		"fansetup": 'fanSetup',
 		"artistsetup" : 'artistSetup',
 		"activation" : 'activate',
+		"dashboard" : "dashboard",
 		"*action": "defaultAction"
 	}
 });
@@ -65,6 +66,11 @@ app.appRouter.on('route:artistSetup',function(action){
 		app.artistSetup = new ArtistSetupView()
 	}
 	app.artistSetup.render();
+});
+
+app.appRouter.on('route:dashboard',function(){
+	console.log('The dashboard is here');
+	console.log(app.user);
 });
 
 Backbone.history.start();
