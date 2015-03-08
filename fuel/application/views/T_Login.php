@@ -24,7 +24,7 @@
                 <input type="password" id="password" name="password" placeholder="Password"></input>
 
                 <div class="forgot-password">
-                        <a href="#forogotPassword">Forgot your password?</a>
+                        <a href="#forgotPassword">Forgot your password?</a>
                     </div>
                 <input id="login-btn" type="submit" name="login" value="Log in"></input>
 		<div class="feedback"></div>

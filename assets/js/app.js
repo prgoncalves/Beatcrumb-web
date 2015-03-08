@@ -20,6 +20,7 @@ var AppRouter = Backbone.Router.extend({
 		"artistsetup" : 'artistSetup',
 		"activation" : 'activate',
 		"dashboard" : "dashboard",
+		"forgotPassword" : 'forgotPassword',
 		"*action": "defaultAction"
 	}
 });
@@ -65,12 +66,18 @@ app.appRouter.on('route:fanSetup',function(action){
 	}
 	app.fanSetup.render();
 });
-app.appRouter.on('route:artistSetup',function(action){
-	console.log('artistSetup');
-	if (!app.artistSetup){
-		app.artistSetup = new ArtistSetupView()
+app.appRouter.on('route:fanSetup',function(action){
+	console.log('fanSetup');
+	if (!app.fanSetup){
+		app.fanSetup = new FanSetupView()
 	}
-	app.artistSetup.render();
+	app.fanSetup.render();
+});
+app.appRouter.on('route:forgotPassword',function(action){
+	if (!app.forgotPassword){
+		app.forgotPassword = new ForgottenPasswordView()
+	}
+	app.forgotPassword.render();
 });
 
 app.appRouter.on('route:dashboard',function(){
