@@ -12,7 +12,7 @@ class user_model extends base_model{
 		if (isset($fan[0])){
 			return array(
 				'type'=>'fan',
-				'uuid'=>$fan->uuid
+				'uuid'=>$fan[0]->uuid
 			);
 		}
 		// check if artist
@@ -20,7 +20,7 @@ class user_model extends base_model{
 		if (isset($artist[0])){
 			return array(
 				'type'=>'artist',
-				'uuid'=>$fan->uuid
+				'uuid'=>$artist[0]->uuid
 			);
 		}
 		return null;
