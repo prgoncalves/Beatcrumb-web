@@ -53,7 +53,6 @@ class user_model extends base_model{
 		} else {
 			$user = $this->db->get_where('artist',array('email'=>$email))->result();
 		}
-		echo($this->db->last_query());
 		if (isset($user[0])){
 			// if they do then create new password
 			$pass = $this->createPassword();
