@@ -15,10 +15,10 @@
                 discover
             </div>
             <div class="header-search">
-                <input></input>
+                <input name="search" class="js-Search"></input>
             </div>
             <div class="header-settings">
-                <img class="" src ="images/settings-red-u828-fr.png"/>
+                <img class="js-Settings" src ="images/settings-red-u828-fr.png"/>
             </div>
         </div>
     </header>
@@ -31,6 +31,11 @@
                 </div>
             </div>
             <div class="artist-profile-right">
+				<div class="js-upload">
+					upload
+				</div>
+				<div class="uploaded-tracks">
+				</div>
             </div>
         </div>
         
