@@ -6,8 +6,13 @@
             <form class="fan-signup-form forgotten-password-form">
                 <label>What's your Email address</label>
                 <input type="text" id="email" name="email" placeholder="Email"></input>
-                <input id="submit-btn" type="submit" name="SignUp" value="Sign up"></input>
-		<div class="feedback"></div>
+				<label>Artist or Fan Account</label>
+				<select name="type">
+					<option value="artist">Artist</option>
+					<option value="fan">Fan</option>
+				</select>
+                <input id="submit-btn" type="submit" name="NewPassword" value="Request New Password"></input>
+				<div class="feedback"></div>
             </form>
 	</div>
 
