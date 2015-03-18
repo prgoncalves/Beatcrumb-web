@@ -254,6 +254,17 @@ a.fan-signup:hover{
     width: 55%;
 }
 
+.fan-signup-form select{
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    box-shadow: none;
+    color: #757575;
+    float: right;
+    margin-right: 5%;
+    width: 56%;
+    height: 20px;
+}
+
 .fan-terms{
     display: table;
     clear: both;
@@ -293,7 +304,12 @@ a.fan-signup:hover{
 }
 
 .forgotten-password-form > #submit-btn{
-    margin-top: 5%;
+    clear: left;
+    display: block;
+    float: none;
+    margin: 5% auto 0;
+    
+
 }
 
 /*end of forgotton password*/
@@ -575,7 +591,7 @@ header{
         margin-left:5%;
     }
     
-    .fan-signup-form input{
+    .fan-signup-form input, .fan-signup-form select{
         box-sizing: border-box;
         float: none;
         margin-bottom: 0;
@@ -584,6 +600,8 @@ header{
         margin-top: 0;
         width: 90%;
     }
+    
+    
     
     .fan-terms{
         padding-left:15%;
@@ -595,6 +613,12 @@ header{
     }
     
    
+}
+
+@media screen and (max-width: 600px){
+    .forgotten-password-form > #submit-btn{
+        width: 50% ;
+    }
 }
 
 @media screen and (max-width: 450px) {
