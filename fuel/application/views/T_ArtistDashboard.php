@@ -31,8 +31,13 @@
                 </div>
             </div>
             <div class="artist-profile-right">
-				<div class="js-upload">
+				<button class="js-upload">
 					upload
+				</button>
+				<div class="upload-form" style="display:none;">
+					<span class="btn">
+  						Upload Track&hellip; <input id="fileInput" type="file" name="fileInput">
+					</span>
 				</div>
 				<div class="uploaded-tracks">
 				</div>
