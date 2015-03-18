@@ -6,15 +6,15 @@ ArtistDashboardView = Backbone.View.extend({
 		this.$el.html($('#artist-dashboard').html());
 	},
 	events : {
-		'click .js-upload'  : 'uploadTrack',
-		'click .addContact' : 'addContact',
-		'click .settings'   : 'settings',
+		'click .js-upload'     : 'uploadTrack',
+		'click .addContact'    : 'addContact',
+		'click .js-settings'   : 'settings',
 	},
 	/*
 	 * Upload a track.
 	 */
 	uploadTrack : function(){
-		
+		$('.upload-form').show();
 	},
 	/*
 	 * Adding a new contact
@@ -26,6 +26,6 @@ ArtistDashboardView = Backbone.View.extend({
 	 * This will be used for setting profile image/password etc
 	 */
 	settings : function(){
-		
+		console.log('Settings man');
 	}
 });
