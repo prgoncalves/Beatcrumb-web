@@ -8,7 +8,7 @@ ArtistDashboardView = Backbone.View.extend({
 	events : {
 		'click .js-upload'     : 'uploadTrack',
 		'click .addContact'    : 'addContact',
-		'click .js-settings'   : 'settings',
+		'click .js-Settings'   : 'settings',
 	},
 	/*
 	 * Upload a track.
