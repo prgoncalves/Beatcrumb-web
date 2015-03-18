@@ -60,18 +60,16 @@ app.appRouter.on('route:defaultAction',function(action){
 });
 
 app.appRouter.on('route:fanSetup',function(action){
-	console.log('fanSetup');
 	if (!app.fanSetup){
 		app.fanSetup = new FanSetupView()
 	}
 	app.fanSetup.render();
 });
-app.appRouter.on('route:fanSetup',function(action){
-	console.log('fanSetup');
-	if (!app.fanSetup){
-		app.fanSetup = new FanSetupView()
+app.appRouter.on('route:artistSetup',function(action){
+	if (!app.artistSetup){
+		app.artistSetup = new ArtistSetupView()
 	}
-	app.fanSetup.render();
+	app.artistSetup.render();
 });
 app.appRouter.on('route:forgotPassword',function(action){
 	if (!app.forgotPassword){
