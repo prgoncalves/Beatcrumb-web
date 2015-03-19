@@ -19,7 +19,7 @@
 						  </tr>
 						  <tr>
 						  	<td>
-						  	<p>You have reported that you have forgotten your password on the Beatcrumb server. We have reset the password to <?php echo $pass;?></p>
+						  	<p>You have reported that you have forgotten your password on the Beatcrumb server. We have reset the password to <?php echo $password;?></p>
 						  	<p>If you did not report that you forgot your password please report this to us immediately.</p>
 						  	</td>
 						  </tr>

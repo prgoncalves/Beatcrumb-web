@@ -61,6 +61,9 @@ class user_model extends base_model{
 			// email new password to them
 			$this->load->library('email');
 			$message = $this->load->view('emails/forgottenPassword',array('data'=>$user[0],'password'=>$pass),TRUE);
+			if (TESTING){
+				var_dump($message);
+			}
 			$this->email->from('membership@beatcrumb.com');
 			$this->email->to($user[0]->email);
 			$this->email->subject("Beatcrumb Forgotten password!");
