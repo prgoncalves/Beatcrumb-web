@@ -44,4 +44,38 @@ class Artist_model extends base_model{
 // 		echo($this->db->last_query());
 		return $result->id;
 	}
+	public function upload($data){
+		$result = $this->db->get_where('artist',array('uuid'=>$data['uuid']))->result();
+		if ($result[0]){
+			$artist = $result[0];
+			$file = $_FILES['track'];
+			$destination = ASSETS_FOLDER.'artists/'.$artist->id;
+			if (file_exists($destination)){
+				if (!is_dir($destination)){
+					$worked = false;
+				} else {
+					$worked = true;
+				}
+			} else {
+				// create it
+				$worked = mkdir($destination,0755,true);
+			}
+			if ($worked){
+				$worked = move_uploaded_file($file['tmp_name'], $destination . '/'. $file['name']);
+				if ($worked){
+					// save to the database too
+					$this->db->insert('tracks',array(
+						'artist_id'=>$artist->id,
+						'filename'=>$file['name']
+					));
+					$worked = $this->db->affected_rows() > 0;
+				}
+				return $worked;
+			} else {
+				return null;
+			}
+		} else {
+			return null;
+		}
+	}
 }

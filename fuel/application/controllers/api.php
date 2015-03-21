@@ -6,19 +6,24 @@ class Api extends CI_Controller{
 
 	private function doTheMethodCall($class,$method,$data){
 		$data['data'] = $data;
-		$r = new ReflectionMethod($class.'_model', $method);
-		$pass = array();
-		foreach($r->getParameters() as $param){
-			if (isset($data[$param->getName()])){
-				$pass[] = $data[$param->getName()];
-			} else {
-				if($param->isOptional()){
-					$pass[] = $param->getDefaultValue();
+		try {
+			$r = new ReflectionMethod($class.'_model', $method);
+			$pass = array();
+			foreach($r->getParameters() as $param){
+				if (isset($data[$param->getName()])){
+					$pass[] = $data[$param->getName()];
+				} else {
+					if($param->isOptional()){
+						$pass[] = $param->getDefaultValue();
+					}
 				}
 			}
+			$result = $r->invokeArgs($this->$class, $pass);
+			return $result;
+		} catch (Exception $e) {
+			// not brilliant catching and doing nowt but it means the call will not fail when a method doe snot exist
+			return null;
 		}
-		$result = $r->invokeArgs($this->$class, $pass);
-		return $result;
 	}
 
 	function r($model,$function){

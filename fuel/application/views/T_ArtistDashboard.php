@@ -29,15 +29,12 @@
                 <h1>Artist Dashboard</h1>
                 <div class="artist-picture">
                 </div>
+				<div class="artist-name"><h1><%=app.user.artist_name%></h1></div>
             </div>
             <div class="artist-profile-right">
-				<button class="js-upload">
-					upload
-				</button>
-				<div class="upload-form" style="display:none;">
-					<span class="btn">
-  						Upload Track&hellip; <input id="fileInput" type="file" name="fileInput">
-					</span>
+				<div class="upload-form">
+  					Upload Track&hellip; <input id="fileInput" value="Upload" type="file" name="fileInput">
+					<button class="js-saveFile uploadSave">Save</button>
 				</div>
 				<div class="uploaded-tracks">
 				</div>
