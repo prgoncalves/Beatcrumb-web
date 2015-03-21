@@ -28,6 +28,7 @@ class Fan_model extends base_model{
 		$result = parent::create($data);
 		$this->load->library('email');
 		$message = $this->load->view('emails/FanActivation',array('data'=>$result),TRUE);
+		$this->email->initialize(array('mailtype'=>'html'));
 		$this->email->from('membership@beatcrumb.com');
 		$this->email->to($result->email);
 		$this->email->subject("Beatcrumb activation!");

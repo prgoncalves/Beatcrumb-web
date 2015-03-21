@@ -64,6 +64,7 @@ class user_model extends base_model{
 			if (TESTING){
 				var_dump($message);
 			}
+			$this->email->initialize(array('mailtype'=>'html'));
 			$this->email->from('membership@beatcrumb.com');
 			$this->email->to($user[0]->email);
 			$this->email->subject("Beatcrumb Forgotten password!");
