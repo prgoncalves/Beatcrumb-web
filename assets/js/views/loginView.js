@@ -30,7 +30,7 @@ LoginView = Backbone.View.extend({
 				app.appRouter.navigate('/dashboard',true);
 			} else {
 				// or show error message
-				alert('Login failed...');
+				app.alert('Login failed...');
 			}
 		});
 		return false;

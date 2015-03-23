@@ -2,6 +2,8 @@
   <div class="landing-page-wrapper">
     <div class="landing-logo"></div>
 	<div class="form-container">
+    <div class="messages js-messages"></div>
+    <div class="alerts js-alerts"></div>
             <h1 class="form-header">Forgotten Password</h1>
             <form class="fan-signup-form forgotten-password-form">
                 <label>What's your Email address</label>

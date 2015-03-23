@@ -96,4 +96,13 @@ app.appRouter.on('route:dashboard',function(){
 	}
 });
 
+app.alert = function(message){
+	$('.js-alerts').html(message);
+	$('.js-alerts').show().delay(20000).hide(0);
+}
+app.message = function(message){
+	$('.js-messages').html(message);
+	$('.js-messages').show().delay(20000).hide(0);
+}
+
 Backbone.history.start();

@@ -19,12 +19,12 @@ ForgottenPasswordView = Backbone.View.extend({
     		url : '/api/r/user/forgottenPassword'
     	}).success(function(data){
 			if (data.Result == true ){
-				alert('Email sent with new password');
+				app.message('Email sent with new password');
 			} else {
-				alert('Error setting new password');
+				app.alert('Error setting new password');
 			}				    		
     	}).error(function(){
-			alert('Error setting new password');    		
+			app.alert('Error setting new password');    		
     	});
     	return false;
 	}

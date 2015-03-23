@@ -22,9 +22,14 @@
             </div>
         </div>
     </header>
-    
     <div class="main-container">
+<<<<<<< HEAD
         
+=======
+    <div class="messages js-messages"></div>
+    <div class="alerts js-alerts"></div>
+        <div class="artist-profile">
+>>>>>>> origin/master
             <div class="artist-profile-left">
                 <div class="artist-name"><h1><%=app.user.artist_name%></h1><h1 class="artist-test">Noelle Music</h1></div>
                 <div class="artist-picture">
@@ -33,6 +38,7 @@
 				
             </div>
             <div class="artist-profile-right">
+				<span class='js-upload'>Upload</span>
 				<div class="upload-form">
   					Upload Track&hellip; <input id="fileInput" value="Upload" type="file" name="fileInput">
 					<button class="js-saveFile uploadSave">Save</button>

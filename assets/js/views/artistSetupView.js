@@ -28,13 +28,13 @@ ArtistSetupView = Backbone.View.extend({
 		artist.save(artist.attributes,{
 			success:function(model, response, options){
 				if (response.Status == 'ERR'){
-					alert('Username/Email/Artist Name is in use.');
+					app.alert('Username/Email/Artist Name is in use.');
 				} else {
 				        app.appRouter.navigate('/activation', true);
 				}
 			},
 			error:function(){
-				alert('Error saving artist');
+				app.alert('Error saving artist');
 			}
 		});
 		return false;

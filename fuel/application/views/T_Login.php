@@ -15,6 +15,8 @@
   <div class="landing-page-wrapper">
     <div class="landing-logo"></div>
         <div class="form-container">
+	    <div class="messages js-messages"></div>
+    	<div class="alerts js-alerts"></div>
           <h1 class="form-header">Account Log in</h1>
           <p class="form-login">Don't have an account?  <a href='#artistsetup'>Sign up as an artist</a> or <a href='#fansetup'>sign up as a fan</a></p>
             <form class="artist-signup-form">

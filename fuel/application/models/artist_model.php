@@ -64,12 +64,20 @@ class Artist_model extends base_model{
 			if ($worked){
 				$worked = move_uploaded_file($file['tmp_name'], $destination . '/'. $file['name']);
 				if ($worked){
-					// save to the database too
-					$this->db->insert('tracks',array(
+					// put the data together
+					$record = array(
 						'artist_id'=>$artist->id,
 						'filename'=>$file['name']
-					));
-					$worked = $this->db->affected_rows() > 0;
+					);
+					// check if already in the db
+					$result = $this->db->get_where('tracks',$record)->result();
+					if (isset($result[0])){
+						$worked = false;
+					} else {
+						// save to the database too
+						$this->db->insert('tracks',$record);
+						$worked = $this->db->affected_rows() > 0;
+					}
 				}
 				return $worked;
 			} else {
