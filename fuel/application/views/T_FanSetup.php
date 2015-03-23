@@ -2,6 +2,8 @@
   <div class="landing-page-wrapper">
     <div class="landing-logo"></div>
         <div class="form-container">
+	    <div class="messages js-messages"></div>
+    	<div class="alerts js-alerts"></div>
             <h1 class="form-header">Sign up for an Fan account</h1>
             <p class="form-login">Already have an account then <a href='#login'>Login</a></p>
             <form class="fan-signup-form">

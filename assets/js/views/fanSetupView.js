@@ -26,13 +26,13 @@ FanSetupView = Backbone.View.extend({
 		fan.save(fan.attributes,{
 			success:function(model, response, options){
 				if (response.Status == 'ERR'){
-					alert('Username/Email is in use.');
+					app.alert('Username/Email is in use.');
 				} else {
-			        	app.appRouter.navigate('/activation', true);
+			        app.appRouter.navigate('/activation', true);
 				}
 			},
 			error:function(){
-				alert('Error saving fan');
+				app.salert('Error saving fan');
 			}
 		});
 		return false;
