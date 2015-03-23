@@ -32,6 +32,7 @@
 				<div class="artist-name"><h1><%=app.user.artist_name%></h1></div>
             </div>
             <div class="artist-profile-right">
+				<span class='js-upload'>Upload</span>
 				<div class="upload-form">
   					Upload Track&hellip; <input id="fileInput" value="Upload" type="file" name="fileInput">
 					<button class="js-saveFile uploadSave">Save</button>

@@ -671,7 +671,7 @@ header{
     
    
 }
-.uploadSave{
+.uploadSave,.upload-form{
 	display:none;
 }
 

@@ -9,15 +9,21 @@ ArtistDashboardView = Backbone.View.extend({
 		'click .addContact'    : 'addContact',
 		'click .js-Settings'   : 'settings',
 		'change #fileInput'	   : 'fileSelected',
-		'click .js-saveFile'   : 'fileUpload'
+		'click .js-saveFile'   : 'fileUpload',
+		'click .js-upload'	   : 'showUpload',
 	},
 	/*
 	 * File has been selected
 	 */
 	fileSelected : function(e){
 		var fileName = $(e.target).val();
-		//show save button.
-		$('.uploadSave').show();
+		if (fileName.search('.mp3') > 0){
+			//show save button.
+			$('.uploadSave').show();			
+		} else {
+			$(e.target).val('');
+			alert('Sorry we only allow MP3 file uploads.');
+		}
 	},
 	fileUpload : function(e){
 		var that = this;
@@ -51,6 +57,9 @@ ArtistDashboardView = Backbone.View.extend({
 	 */
 	addContact : function(){
 		
+	},
+	showUpload : function(){
+		$('.upload-form').show();
 	},
 	/*
 	 * This will be used for setting profile image/password etc
