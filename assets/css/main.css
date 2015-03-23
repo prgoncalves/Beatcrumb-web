@@ -390,6 +390,12 @@ p.form-login a{
     text-decoration:none;
 }
 
+.release, .beatgifts-head{
+    text-align: right;
+    margin: 0;
+    font-size: 1.2em;
+}
+
 /*End of Fonts*/
 
 
@@ -531,7 +537,9 @@ header{
     display: table;
     margin-top: 0;
     padding-top: 15%;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
 }
 
 .artist-profile{
@@ -543,39 +551,117 @@ header{
 
 }
 
+.scroll-container{
+    width: 33%;
+    float: left;
+    min-height: 400px;
+    height: auto;
+}
+
 .fans-scroll{
+   background: none repeat scroll 0 0 red;
     box-sizing: border-box;
-    width: 30%;
     float: right;
-    background: red;
-    height: 2000px;
+    height: 300px;
+    overflow: scroll;
+    width: 100%;
+    
+}
+
+.scroll-inner{
+    height: auto;
+    
 }
 
 .artist-profile-left{
     float: left;
-    width: 50%;
+    width: 33%;
     box-sizing: border-box;
     background: green;
 }
 
 .artist-picture{
     border-radius: 100%;
-    height: 250px;
-    width: 250px;
+    height: 0;
+    box-sizing: border-box;
+    width: 90%;
+    padding-bottom: 90%;
     background: yellow;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.artist-picture img{
+    width: 100%;
 }
 
 .artist-profile-right{
     float:left;
-    width: 50%;
+    width: 33%;
     box-sizing: border-box;
     background: orange;
+}
+
+.fan-block{
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+}
+
+.fan-info{
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+}
+
+.fan-mini-picture{
+    border-radius: 100%;
+    height: 0;
+    box-sizing: border-box;
+    width: 20%;
+    padding-bottom: 20%;
+    background: yellow;
+    overflow: hidden;
+    float: left;
+}
+
+.fan-mini-picture img{
+    width: 100%;
+}
+
+.fan-name{
+    float:left;
+}
+
+.fan-crumb{
+    background-image:url('/images/crumb-circle-rollover-u419-r-fr.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:0px 0px;
+    width: 30px;
+    float: right;
+}
+
+.fan-crumb img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+        
+.fan-crumb img:hover{
+    opacity:0;
 }
 /*end of artist dashboard*/
 
 
 
 /*Media Queries*/
+
+
+
 
 @media screen and (max-width: 630px) {
     .artist-signup-form label{
@@ -673,5 +759,11 @@ header{
 }
 .uploadSave{
 	display:none;
+}
+
+
+.artist-test{
+    font-size: 2em;
+    text-align: center;
 }
 

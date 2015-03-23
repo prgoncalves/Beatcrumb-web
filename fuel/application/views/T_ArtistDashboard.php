@@ -24,12 +24,13 @@
     </header>
     
     <div class="main-container">
-        <div class="artist-profile">
+        
             <div class="artist-profile-left">
-                <h1>Artist Dashboard</h1>
+                <div class="artist-name"><h1><%=app.user.artist_name%></h1><h1 class="artist-test">Noelle Music</h1></div>
                 <div class="artist-picture">
+                    <img src="/images/noelleartist-u388-fr.png"/>
                 </div>
-				<div class="artist-name"><h1><%=app.user.artist_name%></h1></div>
+				
             </div>
             <div class="artist-profile-right">
 				<div class="upload-form">
@@ -38,11 +39,94 @@
 				</div>
 				<div class="uploaded-tracks">
 				</div>
+                               
             </div>
-        </div>
+    
+            <div class="scroll-container">
+                <h4 class="release">release</h4>
+                <div class="fans-scroll">
+                    <div class="scroll-inner">
+                    
+                        <div class="fan-block">
+                            <div class="fan-info">
+                                <div class="fan-mini-picture">
+                                    <img src="/images/noelleartist-u388-fr.png"/>
+                                </div>
+                                <h5 class="fan-name">Alice</h5>
+                                <div class="fan-crumb">
+                                    <img src="/images/crumb-circle-u419-fr.png"/>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="fan-block">
+                            <div class="fan-info">
+                                <div class="fan-mini-picture">
+                                    <img src="/images/noelleartist-u388-fr.png"/>
+                                </div>
+                                <h5 class="fan-name">Alice</h5>
+                                <div class="fan-crumb">
+                                    <img src="/images/crumb-circle-u419-fr.png"/>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="fan-block">
+                            <div class="fan-info">
+                                <div class="fan-mini-picture">
+                                    <img src="/images/noelleartist-u388-fr.png"/>
+                                </div>
+                                <h5 class="fan-name">Alice</h5>
+                                <div class="fan-crumb">
+                                    <img src="/images/crumb-circle-u419-fr.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="fan-block">
+                            <div class="fan-info">
+                                <div class="fan-mini-picture">
+                                    <img src="/images/noelleartist-u388-fr.png"/>
+                                </div>
+                                <h5 class="fan-name">Alice</h5>
+                                <div class="fan-crumb">
+                                    <img src="/images/crumb-circle-u419-fr.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                    <div class="fan-block">
+                            <div class="fan-info">
+                                <div class="fan-mini-picture">
+                                    <img src="/images/noelleartist-u388-fr.png"/>
+                                </div>
+                                <h5 class="fan-name">Alice</h5>
+                                <div class="fan-crumb">
+                                    <img src="/images/crumb-circle-u419-fr.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                    <div class="fan-block">
+                            <div class="fan-info">
+                                <div class="fan-mini-picture">
+                                    <img src="/images/noelleartist-u388-fr.png"/>
+                                </div>
+                                <h5 class="fan-name">Alice</h5>
+                                <div class="fan-crumb">
+                                    <img src="/images/crumb-circle-u419-fr.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+    
+            </div>
         
-        <div class="fans-scroll">
-        </div>
             
         <div class="browser_width colelem" id="u148-5-bw">
             <div class="clearfix" id="u148-5"><!-- content -->
