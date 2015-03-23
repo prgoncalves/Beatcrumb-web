@@ -23,9 +23,11 @@
         </div>
     </header>
     <div class="main-container">
+
     <div class="messages js-messages"></div>
     <div class="alerts js-alerts"></div>
         <div class="artist-profile">
+
             <div class="artist-profile-left">
                 <div class="artist-name"><h1><%=app.user.artist_name%></h1><h1 class="artist-test">Noelle Music</h1></div>
                 <div class="artist-picture">
