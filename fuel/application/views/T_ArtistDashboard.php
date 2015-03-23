@@ -22,8 +22,9 @@
             </div>
         </div>
     </header>
-    
     <div class="main-container">
+    <div class="messages js-messages"></div>
+    <div class="alerts js-alerts"></div>
         <div class="artist-profile">
             <div class="artist-profile-left">
                 <h1>Artist Dashboard</h1>

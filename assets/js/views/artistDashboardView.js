@@ -22,7 +22,7 @@ ArtistDashboardView = Backbone.View.extend({
 			$('.uploadSave').show();			
 		} else {
 			$(e.target).val('');
-			alert('Sorry we only allow MP3 file uploads.');
+			app.alert('Sorry we only allow MP3 file uploads.');
 		}
 	},
 	fileUpload : function(e){
@@ -41,14 +41,14 @@ ArtistDashboardView = Backbone.View.extend({
 			    type: 'POST',
 			    success: function(Result){
 			    	if (Result.Status == 'OK'){
-			    		alert('File upload worked');
+			    		app.message('File upload worked');
 			    		that.render();		
 			    	} else {
-			    		alert('File upload failed.');
+			    		app.alert('File upload failed.');
 			    	}
 			    },
 			    error: function(data){
-			      alert('no upload');
+			      app.alert('no upload');
 			    }
 		 });
 	},

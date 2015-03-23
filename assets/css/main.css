@@ -671,6 +671,15 @@ header{
     
    
 }
+
+.alerts{
+	background-color:red;
+	color:white;
+}
+.messages{
+	background-color:green;
+	color:white;
+}
 .uploadSave,.upload-form{
 	display:none;
 }
