@@ -87,4 +87,14 @@ class Artist_model extends base_model{
 			return null;
 		}
 	}
+	public function tracks($uuid){
+		$artists = $this->db->get_where('artist',array('uuid'=>$uuid))->result();
+		if (isset($artists[0])){
+			$artist = $artists[0];
+			$results = $this->db->get_where('tracks',array('artist_id'=>$artist->id))->result();
+			return $results;
+		} else {
+			return null;
+		}
+	}
 }
