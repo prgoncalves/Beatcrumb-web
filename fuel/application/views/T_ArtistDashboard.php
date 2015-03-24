@@ -44,7 +44,11 @@
 				</div>
 				<div class="uploaded-tracks">
 					<% _.each(tracks, function(value) { %>
-						<a href="tracks/<%=app.user.uuid%>/<%=value.filename%>"><p><%=value.filename%></p></a>
+						<audio controls>
+  							<source src="tracks/index/<%=app.user.uuid%>/<%=value.filename%>" type="audio/mpeg">
+							Your browser does not support the audio element.
+						</audio>
+						<p><%=value.filename%></p>
 					<% }); %>					
 				</div>
                                

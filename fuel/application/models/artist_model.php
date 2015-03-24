@@ -97,4 +97,12 @@ class Artist_model extends base_model{
 			return null;
 		}
 	}
+	public function getArtistTrack($uuid,$filename){
+		$this->db->select('artist.id');
+		$this->db->where('artist.uuid',$uuid);
+		$this->db->where('filename',$filename);
+		$this->db->join('tracks','artist.id = tracks.artist_id');
+		$result = $this->db->get('artist')->result();
+		return $result;
+	}
 }
