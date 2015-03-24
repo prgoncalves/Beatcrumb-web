@@ -42,6 +42,9 @@
 					<button class="js-saveFile uploadSave">Save</button>
 				</div>
 				<div class="uploaded-tracks">
+					<% _.each(tracks, function(value) { %>
+						<p><%=value.filename%></p>
+					<% }); %>					
 				</div>
                                
             </div>

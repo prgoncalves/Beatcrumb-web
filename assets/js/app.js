@@ -84,7 +84,21 @@ app.appRouter.on('route:dashboard',function(){
 			if (!app.artistDashboard){
 				app.artistDashboard = new ArtistDashboardView()
 			}
-			app.artistDashboard.render();		
+			data = {
+					uuid : app.user.uuid	
+			};
+			app.artistTrackCollection.fetch({
+				data : data,
+				success:function(){
+					console.log('Yay');
+					app.artistDashboard.tracks = app.artistTrackCollection.models;
+					app.artistDashboard.render();		
+				},
+				error:function(){
+					app.artistDashboard.render();
+					app.alert('Unable to load artist tracks');
+				}
+			});
 		} else {
 			if (!app.fanDashboard){
 				app.fanDashboard = new FanDashboardView()

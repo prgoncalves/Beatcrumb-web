@@ -3,7 +3,9 @@ var app = app || {};
 ArtistDashboardView = Backbone.View.extend({
 	el : '#app',
 	render : function(){
-		this.$el.html(_.template($('#artist-dashboard').html()));
+		var data = {tracks : this.tracks[0].attributes};
+		var content = _.template($('#artist-dashboard').html(),data);
+		this.$el.html(content);
 	},
 	events : {
 		'click .addContact'    : 'addContact',
