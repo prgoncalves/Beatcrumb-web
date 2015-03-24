@@ -43,7 +43,7 @@
 				</div>
 				<div class="uploaded-tracks">
 					<% _.each(tracks, function(value) { %>
-						<p><%=value.filename%></p>
+						<a href="tracks/<%=app.user.uuid%>/<%=value.filename%>"><p><%=value.filename%></p></a>
 					<% }); %>					
 				</div>
                                
