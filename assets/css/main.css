@@ -394,11 +394,26 @@ p.form-login a{
     text-align: right;
     margin: 0;
     font-size: 1.2em;
+    font-style: italic;
+    color: #00ffff;
+    font-weight: normal;
+    
 }
 
 .js-upload{
     float: right;
-    fon-size:1.2em;
+    font-size:1.2em;
+    font-style: italic;
+    color: #00ffff;
+    font-weight: normal;
+}
+
+.artist-header{
+    color: #00ffff;
+    font-size: 1.8em;
+    font-weight: normal;
+    margin-bottom: 10%;
+    text-align: center;
 }
 
 /*End of Fonts*/
@@ -496,13 +511,28 @@ header{
     line-height: 3em;
 }
 
+.header-search{
+    position: relative;
+}
+
 .header-search > input{
-    width: 45%;
+    width: 40%;
     border-radius: 5px;
-    height: 25px;
-    margin-top: 10px;
+    height: 20px;
+    margin-top: 20px;
     float: left;
     margin-left:20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size:.7em;
+    padding-top: 4px;
+}
+
+.search-icon{
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    margin-left: -22px;
 }
 
 
@@ -541,18 +571,16 @@ header{
     box-sizing: border-box;
     display: table;
     margin-top: 0;
-    padding-top: 15%;
+    padding-top: 10%;
     width: 80%;
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 800px;
 }
 
 .artist-profile{
     box-sizing: border-box;
-    width: 70%;
-    position: fixed;
-    background: blue;
-    height: 400px;
+    width: 100%;
+    height: auto;
 
 }
 
@@ -564,12 +592,12 @@ header{
 }
 
 .fans-scroll{
-   background: none repeat scroll 0 0 red;
     box-sizing: border-box;
     float: right;
     height: 300px;
     overflow: scroll;
     width: 100%;
+    margin-top: 10%;
     
 }
 
@@ -582,7 +610,6 @@ header{
     float: left;
     width: 33%;
     box-sizing: border-box;
-    background: green;
 }
 
 .artist-picture{
@@ -591,7 +618,6 @@ header{
     box-sizing: border-box;
     width: 90%;
     padding-bottom: 90%;
-    background: yellow;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -625,7 +651,6 @@ header{
     box-sizing: border-box;
     width: 20%;
     padding-bottom: 20%;
-    background: yellow;
     overflow: hidden;
     float: left;
 }
@@ -639,26 +664,31 @@ header{
 }
 
 .fan-crumb{
-    background-image:url('/images/crumb-circle-rollover-u419-r-fr.png');
+/*    background-image:url('/images/crumb-circle-rollover-u419-r-fr.png');*/
     background-repeat:no-repeat;
     background-size:contain;
     background-position:0px 0px;
-    width: 30px;
+    width: 10%;
+    height: 0;
+    padding-bottom:10%;
+    border: 3px solid red;
     float: right;
+    border-radius: 100%;
+    margin-right: 20px;
 }
 
-.fan-crumb img{
+/*.fan-crumb img{
     width: 100%;
     border-top-left-radius: 15px;
     opacity: 1;
     transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -webkit-transition: opacity .3s ease-in-out;
-}
+}*/
         
-.fan-crumb img:hover{
+/*.fan-crumb img:hover{
     opacity:0;
-}
+}*/
 /*end of artist dashboard*/
 
 
@@ -776,8 +806,98 @@ header{
 }
 
 
-.artist-test{
-    font-size: 2em;
-    text-align: center;
+
+
+
+
+/*Animations*/
+
+.active-crumb {
+	-webkit-animation: active-crumb 1.5s linear infinite;
+	-moz-animation: active-crumb 1.5s linear infinite;
+	-ms-animation: active-crumb 1.5s linear infinite;
+	animation: active-crumb 1.5s linear infinite;
+        background-color:#00ffff;
+        
+}
+
+@keyframes "active-crumb" {
+ 0% {
+    -webkit-transform: scale(1);
+   	-moz-transform: scale(1);
+   	-o-transform: scale(1);
+   	-ms-transform: scale(1);
+   	transform: scale(1);
+        
+ }
+ 50% {
+    -webkit-transform: scale(0.9);
+   	-moz-transform: scale(0.9);
+   	-o-transform: scale(0.9);
+   	-ms-transform: scale(0.9);
+   	transform: scale(0.9);
+ }
+ 100% {
+    -webkit-transform: scale(1);
+   	-moz-transform: scale(1);
+   	-o-transform: scale(1);
+   	-ms-transform: scale(1);
+   	transform: scale(1);
+        
+ }
+
+}
+
+@-moz-keyframes active-crumb {
+ 0% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+   
+ }
+ 50% {
+   -moz-transform: scale(0.9);
+   transform: scale(0.9);
+   
+ }
+ 100% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+   
+   
+ }
+
+}
+
+@-webkit-keyframes "active-crumb" {
+ 0% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+ 50% {
+   -webkit-transform: scale(0.9);
+   transform: scale(0.9);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-ms-keyframes "active-crumb" {
+ 0% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+   
+ }
+ 50% {
+   -ms-transform: scale(0.9);
+   transform: scale(0.9);
+ }
+ 100% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
+
 }
 

@@ -15,7 +15,8 @@
                 discover
             </div>
             <div class="header-search">
-                <input name="search" class="js-Search"></input>
+                <input name="search" placeholder="Search" class="js-Search"></input>
+                <img class="search-icon" src="/assets/images/header-search-icon.png"/>    
             </div>
             <div class="header-settings">
                 <img class="js-Settings" src ="images/settings-red-u828-fr.png"/>
@@ -29,7 +30,7 @@
         <div class="artist-profile">
 
             <div class="artist-profile-left">
-                <div class="artist-name"><h1><%=app.user.artist_name%></h1><h1 class="artist-test">Noelle Music</h1></div>
+                <div class="artist-name"><h1><%=app.user.artist_name%></h1><h1 class="artist-header">Noelle Music</h1></div>
                 <div class="artist-picture">
                     <img src="/images/noelleartist-u388-fr.png"/>
                 </div>
@@ -60,8 +61,21 @@
                                     <img src="/images/noelleartist-u388-fr.png"/>
                                 </div>
                                 <h5 class="fan-name">Alice</h5>
+                                <div class="fan-crumb active-crumb">
+                                   
+                                </div>
+                                
+                        
+                            </div>
+                        </div>
+                
+                        <div class="fan-block">
+                            <div class="fan-info">
+                                <div class="fan-mini-picture">
+                                    <img src="/images/noelleartist-u388-fr.png"/>
+                                </div>
+                                <h5 class="fan-name">Alice</h5>
                                 <div class="fan-crumb">
-                                    <img src="/images/crumb-circle-u419-fr.png"/>
                                 </div>
                             </div>
                         </div>
@@ -73,19 +87,6 @@
                                 </div>
                                 <h5 class="fan-name">Alice</h5>
                                 <div class="fan-crumb">
-                                    <img src="/images/crumb-circle-u419-fr.png"/>
-                                </div>
-                            </div>
-                        </div>
-                
-                        <div class="fan-block">
-                            <div class="fan-info">
-                                <div class="fan-mini-picture">
-                                    <img src="/images/noelleartist-u388-fr.png"/>
-                                </div>
-                                <h5 class="fan-name">Alice</h5>
-                                <div class="fan-crumb">
-                                    <img src="/images/crumb-circle-u419-fr.png"/>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +99,6 @@
                                 </div>
                                 <h5 class="fan-name">Alice</h5>
                                 <div class="fan-crumb">
-                                    <img src="/images/crumb-circle-u419-fr.png"/>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +111,6 @@
                                 </div>
                                 <h5 class="fan-name">Alice</h5>
                                 <div class="fan-crumb">
-                                    <img src="/images/crumb-circle-u419-fr.png"/>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +123,6 @@
                                 </div>
                                 <h5 class="fan-name">Alice</h5>
                                 <div class="fan-crumb">
-                                    <img src="/images/crumb-circle-u419-fr.png"/>
                                 </div>
                             </div>
                         </div>
