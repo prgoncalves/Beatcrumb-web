@@ -20,6 +20,7 @@ $config['modules']['projects'] = array(
 );
 
 *********************** /EXAMPLE ***********************************/
+$config['modules']['genre'] = array();
 
 
 
