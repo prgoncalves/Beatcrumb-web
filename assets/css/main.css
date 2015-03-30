@@ -368,6 +368,10 @@ a.fan-signup:hover{
     clear: both;
 }
 
+.copyright-container > p{
+    margin: 0;
+}
+
 
 /*Fonts*/
 h1.form-header{
@@ -513,15 +517,18 @@ header{
 
 .header-search{
     position: relative;
+    display: table;
+    width: 40%;
+    float:left;
+    box-sizing: border-box;
+    margin-left: 20px;
 }
 
 .header-search > input{
-    width: 40%;
+    width: 100%;
     border-radius: 5px;
     height: 20px;
     margin-top: 20px;
-    float: left;
-    margin-left:20px;
     padding-left: 10px;
     box-sizing: border-box;
     font-size:.7em;
@@ -546,6 +553,7 @@ header{
     float:right;
     margin-top: 15px;
     cursor: pointer;
+    position: relative;
     
     
 }
@@ -589,6 +597,7 @@ header{
     float: left;
     min-height: 400px;
     height: auto;
+    display: block;
 }
 
 .fans-scroll{
@@ -610,6 +619,7 @@ header{
     float: left;
     width: 33%;
     box-sizing: border-box;
+    display: block;
 }
 
 .artist-picture{
@@ -631,6 +641,7 @@ header{
     width: 33%;
     box-sizing: border-box;
     background: orange;
+    display: block;
 }
 
 .fan-block{
@@ -696,7 +707,40 @@ header{
 /*Media Queries*/
 
 
-
+@media screen and (max-width:700px){
+    .header-search{
+        width: 80%;
+        clear: left;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .header-settings{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .main-container{
+        padding-top: 125px;
+    }
+    
+    .artist-profile-left{
+        width: 100%;
+    }
+    
+    .artist-profile-right{
+        width: 100%;
+        display: none;
+        
+    }
+    
+    .scroll-container{
+        width: 100%;
+        display: none;
+    }
+}
 
 @media screen and (max-width: 630px) {
     .artist-signup-form label{
