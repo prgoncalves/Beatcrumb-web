@@ -67,7 +67,7 @@ class Artist_model extends base_model{
 					// put the data together
 					$record = array(
 						'artist_id'=>$artist->id,
-						'filename'=>$file['name']
+						'filename'=>$file['name'],
 					);
 					// check if already in the db
 					$result = $this->db->get_where('tracks',$record)->result();
@@ -75,6 +75,7 @@ class Artist_model extends base_model{
 						$worked = false;
 					} else {
 						// save to the database too
+						$record['genre']=$data['genre'];
 						$this->db->insert('tracks',$record);
 						$worked = $this->db->affected_rows() > 0;
 					}

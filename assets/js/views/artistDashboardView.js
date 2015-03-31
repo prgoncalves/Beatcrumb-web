@@ -23,7 +23,6 @@ ArtistDashboardView = Backbone.View.extend({
 	playMP3 : function (e){
 		e.preventDefault();
 		var track = $(e.target).attr("href");
-		console.log($(e.target).attr("href"));
 		var mySoundObject = soundManager.createSound({
 			 url: track,
 			 autoPlay: true,
@@ -50,6 +49,7 @@ ArtistDashboardView = Backbone.View.extend({
 		var data = new FormData();
 		data.append('track', track);
 		data.append('uuid',app.user.uuid);
+		data.append('genre',$('.upload-form select[name="genre"]').val() );
 		$.ajax({
 			    url: 'api/r/artist/upload',
 			    data: data,
