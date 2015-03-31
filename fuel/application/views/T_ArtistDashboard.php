@@ -40,6 +40,11 @@
 				<span class='js-upload'>Upload</span>
 				<div class="upload-form">
   					Upload Track&hellip; <input id="fileInput" value="Upload" type="file" name="fileInput">
+					<select name="genre">
+						<% _.each(genres, function(value) { %>
+							<option value="<%=value.id%>"><%=value.name%></option>
+						<% }); %>											
+					</select>
 					<button class="js-saveFile uploadSave">Save</button>
 				</div>
 				<div class="uploaded-tracks">

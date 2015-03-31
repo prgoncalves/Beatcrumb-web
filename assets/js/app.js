@@ -87,17 +87,18 @@ app.appRouter.on('route:dashboard',function(){
 			data = {
 					uuid : app.user.uuid	
 			};
-			app.artistTrackCollection.fetch({
-				data : data,
-				success:function(){
-					console.log('Yay');
-					app.artistDashboard.tracks = app.artistTrackCollection.models;
-					app.artistDashboard.render();		
-				},
-				error:function(){
-					app.artistDashboard.render();
-					app.alert('Unable to load artist tracks');
-				}
+			$.when(deferGenre).done(function(){
+				app.artistTrackCollection.fetch({
+					data : data,
+					success:function(){
+						app.artistDashboard.tracks = app.artistTrackCollection.models;
+						app.artistDashboard.render();		
+					},
+					error:function(){
+						app.artistDashboard.render();
+						app.alert('Unable to load artist tracks');
+					}
+				});				
 			});
 		} else {
 			if (!app.fanDashboard){

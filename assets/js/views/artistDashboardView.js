@@ -3,7 +3,11 @@ var app = app || {};
 ArtistDashboardView = Backbone.View.extend({
 	el : '#app',
 	render : function(){
-		var data = {tracks : this.tracks[0].attributes};
+		console.log(app.genres.attributes);
+		var data = {
+			tracks : this.tracks[0].attributes,
+			genres : app.genres.attributes
+		};
 		var content = _.template($('#artist-dashboard').html(),data);
 		this.$el.html(content);
 	},
