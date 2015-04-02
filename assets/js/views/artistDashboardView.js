@@ -12,7 +12,6 @@ ArtistDashboardView = Backbone.View.extend({
 	},
 	events : {
 		'click .addContact'    : 'addContact',
-		'click .js-Settings'   : 'settings',
 		'change #fileInput'	   : 'fileSelected',
 		'click .js-saveFile'   : 'fileUpload',
 		'click .js-upload'	   : 'showUpload',
@@ -95,10 +94,4 @@ ArtistDashboardView = Backbone.View.extend({
 	showUpload : function(){
 		$('.upload-form').show();
 	},
-	/*
-	 * This will be used for setting profile image/password etc
-	 */
-	settings : function(){
-		console.log('Settings man');
-	}
 });

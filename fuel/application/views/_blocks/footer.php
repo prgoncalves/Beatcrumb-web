@@ -26,6 +26,7 @@
 		<script src="/assets/js/views/fanDashboardView.js"></script>
 		<script src="/assets/js/views/artistDashboardView.js"></script>
 		<script src="/assets/js/views/forgottenPasswordView.js"></script>
+		<script src="/assets/js/views/artistSettingsView.js"></script>
 		<script src="/assets/js/app.js"></script>
 		<script>
 		soundManager.setup({
