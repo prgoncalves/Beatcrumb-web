@@ -5,7 +5,7 @@
         <a href="#dashboard"><img class="" src ="images/beatcrumblogolarge-u823-fr.png"/></a>
     </div>
     <div class="header-favourite">
-        <img class="" src ="images/donation-list-u824-fr.png"/>
+        <a href="#favourites"><img class="" src ="images/donation-list-u824-fr.png"/></a>
     </div>
     <div class="header-page-active">
         home

@@ -28,6 +28,7 @@
 		<script src="/assets/js/views/forgottenPasswordView.js"></script>
 		<script src="/assets/js/views/artistSettingsView.js"></script>
 		<script src="/assets/js/views/discoverView.js"></script>
+		<script src="/assets/js/views/favouritesView.js"></script>
 		<script src="/assets/js/views/pageHeader.js"></script>
 		<script src="/assets/js/app.js"></script>
 		<script>

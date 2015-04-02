@@ -14,16 +14,17 @@ _.extend(Backbone.Router.prototype,{
 
 var AppRouter = Backbone.Router.extend({
 	routes:{
-		"login" : 'login',
-		"logout" : 'logout',
-		"fansetup": 'fanSetup',
-		"artistsetup" : 'artistSetup',
-		"activation" : 'activate',
-		"dashboard" : "dashboard",
+		"login"          : 'login',
+		"logout"         : 'logout',
+		"fansetup"       : 'fanSetup',
+		"artistsetup"    : 'artistSetup',
+		"activation"     : 'activate',
+		"dashboard"      : "dashboard",
 		"forgotPassword" : 'forgotPassword',
 		"artistSettings" : 'artistSettings',
-		"discover": 'discover',
-		"*action": "defaultAction"
+		"discover"       : 'discover',
+		"favourites"     : 'favourites',
+		"*action"        : "defaultAction"
 	}
 });
 
@@ -92,6 +93,16 @@ app.appRouter.on('route:discover',function(action){
 	}
 	app.pageHeader.render();
 	app.discover.render();
+});
+app.appRouter.on('route:favourites',function(action){
+	if (!app.favourites){
+		app.favourites = new FavouritesView()
+	}
+	if (!app.pageHeader){
+		app.pageHeader = new PageHeader();
+	}
+	app.pageHeader.render();
+	app.favourites.render();
 });
 app.appRouter.on('route:forgotPassword',function(action){
 	if (!app.forgotPassword){
