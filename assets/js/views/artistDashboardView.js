@@ -3,7 +3,6 @@ var app = app || {};
 ArtistDashboardView = Backbone.View.extend({
 	el : '#app',
 	render : function(){
-		console.log(app.genres.attributes);
 		var data = {
 			tracks : this.tracks[0].attributes,
 			genres : app.genres.attributes
@@ -61,7 +60,7 @@ ArtistDashboardView = Backbone.View.extend({
 			    success: function(Result){
 			    	if (Result.Status == 'OK'){
 			    		app.message('File upload worked');
-			    		that.render();		
+						that.getTracks();		
 			    	} else {
 			    		app.alert('File upload failed.');
 			    	}
@@ -70,6 +69,22 @@ ArtistDashboardView = Backbone.View.extend({
 			      app.alert('no upload');
 			    }
 		 });
+	},
+	getTracks : function(){
+		data = {
+				uuid : app.user.uuid	
+		};
+		app.artistTrackCollection.fetch({
+			data : data,
+			success:function(){
+				app.artistDashboard.tracks = app.artistTrackCollection.models;
+				app.artistDashboard.render();		
+			},
+			error:function(){
+				app.artistDashboard.render();
+				app.alert('Unable to load artist tracks');
+			}
+		});						
 	},
 	/*
 	 * Adding a new contact
