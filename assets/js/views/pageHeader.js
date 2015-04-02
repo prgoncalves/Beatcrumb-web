@@ -7,5 +7,10 @@ PageHeader = Backbone.View.extend({
 		this.$el.html($('#page-header').html());
 	},
 	events : {
+		'click .search-icon' : 'doSearch',
 	},
+	doSearch : function(){
+		console.log('Doing search!');
+		app.alert('Search not yet implemented!');
+	}
 });
