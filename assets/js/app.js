@@ -22,6 +22,7 @@ var AppRouter = Backbone.Router.extend({
 		"dashboard" : "dashboard",
 		"forgotPassword" : 'forgotPassword',
 		"artistSettings" : 'artistSettings',
+		"discover": 'discover',
 		"*action": "defaultAction"
 	}
 });
@@ -81,6 +82,16 @@ app.appRouter.on('route:artistSettings',function(action){
 	}
 	app.pageHeader.render();
 	app.artistSettings.render();
+});
+app.appRouter.on('route:discover',function(action){
+	if (!app.discover){
+		app.discover = new DiscoverView()
+	}
+	if (!app.pageHeader){
+		app.pageHeader = new PageHeader();
+	}
+	app.pageHeader.render();
+	app.discover.render();
 });
 app.appRouter.on('route:forgotPassword',function(action){
 	if (!app.forgotPassword){

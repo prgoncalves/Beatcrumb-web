@@ -1,6 +1,5 @@
 <script id="artist-dashboard" type="text/template">
   <div class="landing-page-wrapper">
-	<?php // $this->load->view('_blocks/pageHeader'); ?>
     <div class="main-container">
 
     <div class="messages js-messages"></div>
