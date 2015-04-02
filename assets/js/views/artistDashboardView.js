@@ -66,7 +66,7 @@ ArtistDashboardView = Backbone.View.extend({
 			    	}
 			    },
 			    error: function(data){
-			      app.alert('no upload');
+			      app.alert('File upload failed');
 			    }
 		 });
 	},
