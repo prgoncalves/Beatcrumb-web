@@ -5,6 +5,7 @@ ArtistSettingsView = Backbone.View.extend({
 	render : function(){
 		console.log('Rendering!');
 		this.$el.html($('#artistSettings').html());
+		$('.header-page-active').html('settings');
 	},
 	events : {
 	},
