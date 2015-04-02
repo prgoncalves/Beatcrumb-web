@@ -76,6 +76,10 @@ app.appRouter.on('route:artistSettings',function(action){
 	if (!app.artistSettings){
 		app.artistSettings = new ArtistSettingsView()
 	}
+	if (!app.pageHeader){
+		app.pageHeader = new PageHeader();
+	}
+	app.pageHeader.render();
 	app.artistSettings.render();
 });
 app.appRouter.on('route:forgotPassword',function(action){
@@ -91,6 +95,10 @@ app.appRouter.on('route:dashboard',function(){
 			if (!app.artistDashboard){
 				app.artistDashboard = new ArtistDashboardView()
 			}
+			if (!app.pageHeader){
+				app.pageHeader = new PageHeader();
+			}
+			app.pageHeader.render();
 			data = {
 					uuid : app.user.uuid	
 			};
