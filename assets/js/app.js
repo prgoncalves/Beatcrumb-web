@@ -28,6 +28,19 @@ var AppRouter = Backbone.Router.extend({
 	}
 });
 
+app.showLandingPage = function(){
+	if (!app.landingView){
+		app.landingView = new LandingView();
+	}
+	app.landingView.render();			
+}
+app.showPageHeader = function(){
+	if (!app.pageHeader){
+		app.pageHeader = new PageHeader();
+	}
+	app.pageHeader.render();	
+}
+
 app.appRouter = new AppRouter;
 
 app.appRouter.on('route:logout', function(id){
@@ -49,16 +62,11 @@ app.appRouter.on('route:activate',function(){
 });
 
 app.appRouter.on('route:defaultAction',function(action){
-	console.log('Default');
 	// check to see if already stored
 	if (app.user){
 		app.appRouter.navigate('/dashboard',true);				
 	} else {
-		if (!app.landingView){
-			app.landingView = new LandingView();
-		}
-		console.log($('#landing-page').html());
-		app.landingView.render();		
+		app.showLandingPage();
 	}
 });
 
@@ -75,34 +83,37 @@ app.appRouter.on('route:artistSetup',function(action){
 	app.artistSetup.render();
 });
 app.appRouter.on('route:artistSettings',function(action){
-	if (!app.artistSettings){
-		app.artistSettings = new ArtistSettingsView()
+	if (app.user){
+		if (!app.artistSettings){
+			app.artistSettings = new ArtistSettingsView()
+		}
+		app.showPageHeader();
+		app.artistSettings.render();		
+	} else {
+		app.showLandingPage();
 	}
-	if (!app.pageHeader){
-		app.pageHeader = new PageHeader();
-	}
-	app.pageHeader.render();
-	app.artistSettings.render();
 });
 app.appRouter.on('route:discover',function(action){
-	if (!app.discover){
-		app.discover = new DiscoverView()
+	if (app.user){
+		if (!app.discover){
+			app.discover = new DiscoverView()
+		}
+		app.showPageHeader();
+		app.discover.render();		
+	} else {
+		app.showLandingPage();
 	}
-	if (!app.pageHeader){
-		app.pageHeader = new PageHeader();
-	}
-	app.pageHeader.render();
-	app.discover.render();
 });
 app.appRouter.on('route:favourites',function(action){
-	if (!app.favourites){
-		app.favourites = new FavouritesView()
+	if (app.user){
+		if (!app.favourites){
+			app.favourites = new FavouritesView()
+		}
+		app.showPageHeader();
+		app.favourites.render();		
+	} else {
+		app.showLandingPage();
 	}
-	if (!app.pageHeader){
-		app.pageHeader = new PageHeader();
-	}
-	app.pageHeader.render();
-	app.favourites.render();
 });
 app.appRouter.on('route:forgotPassword',function(action){
 	if (!app.forgotPassword){
@@ -117,10 +128,7 @@ app.appRouter.on('route:dashboard',function(){
 			if (!app.artistDashboard){
 				app.artistDashboard = new ArtistDashboardView()
 			}
-			if (!app.pageHeader){
-				app.pageHeader = new PageHeader();
-			}
-			app.pageHeader.render();
+			app.showPageHeader();
 			data = {
 					uuid : app.user.uuid	
 			};
