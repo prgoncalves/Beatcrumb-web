@@ -700,6 +700,16 @@ header{
 /*.fan-crumb img:hover{
     opacity:0;
 }*/
+
+
+.uploaded-tracks > a{
+    width:100%;
+    float: left;
+    clear: left;
+    color: #00ffff;
+    text-decoration: none;
+    
+}
 /*end of artist dashboard*/
 
 
@@ -857,10 +867,10 @@ header{
 /*Animations*/
 
 .active-crumb {
-	-webkit-animation: active-crumb 1.5s linear infinite;
-	-moz-animation: active-crumb 1.5s linear infinite;
-	-ms-animation: active-crumb 1.5s linear infinite;
-	animation: active-crumb 1.5s linear infinite;
+	-webkit-animation: active-crumb .5s linear infinite;
+	-moz-animation: active-crumb .5s linear infinite;
+	-ms-animation: active-crumb .5s linear infinite;
+	animation: active-crumb .5s linear infinite;
         background-color:#00ffff;
         
 }
