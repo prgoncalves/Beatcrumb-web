@@ -2,8 +2,21 @@
 class Api extends CI_Controller{
 	function __construct(){
 		parent::__construct();
+		$this->load->model('audit_model','audit');
 	}
 
+	private function logStuff($user = null,$action=null,$message=null,$data=null){
+		$log = array(
+			'user'=>$user,
+			'date'=>date('Y-m-d H:i:s'),
+			'ip'=>$_SERVER['REMOTE_ADDR'],
+			'action'=>$action,
+			'message'=>$message,
+			'data'=>json_encode($data)		
+		);
+		$this->audit->log($log);
+	}
+	
 	private function doTheMethodCall($class,$method,$data){
 		$data['data'] = $data;
 		try {
@@ -28,6 +41,7 @@ class Api extends CI_Controller{
 
 	function r($model,$function){
 		$data = $_REQUEST;
+		$this->logStuff('',$model.'->'.$function,'API CALL',$data);
 		// var_dump($data);
 		$modelName = $model . '_model';
 		$this->load->model($modelName,$model);
@@ -45,6 +59,7 @@ class Api extends CI_Controller{
 	}
 	
 	function index(){
+		$this->logStuff('','API INDEX PAGE','WARNING');
 		echo "<h1>Hello, what are you doing here?</h1>";
 		echo "<p>You really should not be here looking at this... Please go away!</p>";
 	}
@@ -84,6 +99,7 @@ class Api extends CI_Controller{
 		$this->load->model($modelName,$model);
 		if (isset($this->$model)){
 			$method = $this->_getRestMethod($verb,$id);
+			$this->logStuff('',$model.'->'.$method,'REST CALL',$data);
 			if ($verb === 'POST' || $verb === 'PUT'){
 				$result = $this->$model->$method($data);
 			} else {
