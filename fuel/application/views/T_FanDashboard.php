@@ -2,6 +2,7 @@
   <div class="landing-page-wrapper">
     <div class="landing-logo"></div>
 	<h1>Fan Dashboard</h1>
+	<p><a href="#logout">Logout</a></p>
     <div class="browser_width colelem" id="u148-5-bw">
     	<div class="clearfix" id="u148-5"><!-- content -->
                 <p>&nbsp;</p>

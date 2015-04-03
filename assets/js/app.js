@@ -44,7 +44,9 @@ app.showPageHeader = function(){
 app.appRouter = new AppRouter;
 
 app.appRouter.on('route:logout', function(id){
-	console.log('Logout');
+	localStorage.removeItem('Beat_User');
+	app.user = undefined;
+	app.appRouter.navigate('/login',true);
 });
 
 app.appRouter.on('route:login',function(){
