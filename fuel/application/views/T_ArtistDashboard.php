@@ -7,7 +7,7 @@
         <div class="artist-profile">
 
             <div class="artist-profile-left">
-                <div class="artist-name"><h1><%=app.user.artist_name%></h1><h1 class="artist-header">Noelle Music</h1></div>
+                <div class="artist-name"><h1 class="artist-header"><%=app.user.artist_name%></h1></div>
                 <div class="artist-picture">
                     <img src="/images/noelleartist-u388-fr.png"/>
                 </div>
@@ -26,7 +26,9 @@
 				</div>
 				<div class="uploaded-tracks">
 					<% _.each(tracks, function(value) { %>
-						<a href="tracks/index/<%=app.user.uuid%>/<%=value.filename%>" class="js-playMe"><%=value.filename%></a>
+						<div class="uploaded-track"><a href="tracks/index/<%=app.user.uuid%>/<%=value.filename%>" class="js-playMe"><%=value.filename%></a> <div class="fan-crumb active-crumb">
+                                   
+                                </div></div>
 					<% }); %>					
 				</div>
                                

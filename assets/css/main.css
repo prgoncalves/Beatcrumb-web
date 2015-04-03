@@ -580,9 +580,9 @@ header{
     display: table;
     margin-top: 0;
     padding-top: 10%;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .artist-profile{
@@ -595,9 +595,9 @@ header{
 .scroll-container{
     width: 33%;
     float: left;
-    min-height: 400px;
-    height: auto;
+    height: 68vh;
     display: block;
+    overflow: hidden;
 }
 
 .fans-scroll{
@@ -607,6 +607,7 @@ header{
     overflow: scroll;
     width: 100%;
     margin-top: 10%;
+    padding: 8%;
     
 }
 
@@ -640,7 +641,6 @@ header{
     float:left;
     width: 33%;
     box-sizing: border-box;
-    background: orange;
     display: block;
 }
 
@@ -674,7 +674,7 @@ header{
     float:left;
 }
 
-.fan-crumb{
+.fan-crumb, .discover-crumb{
 /*    background-image:url('/images/crumb-circle-rollover-u419-r-fr.png');*/
     background-repeat:no-repeat;
     background-size:contain;
@@ -702,16 +702,128 @@ header{
 }*/
 
 
-.uploaded-tracks > a{
-    width:100%;
-    float: left;
-    clear: left;
-    color: #00ffff;
-    text-decoration: none;
-    
-}
 /*end of artist dashboard*/
 
+/*Discover page*/
+
+.discover-left {
+    background: none repeat scroll 0 0 blue;
+    box-sizing: border-box;
+    height: 500px;
+    width: 20%;
+    position: fixed;
+    overflow: scroll;
+    border-top: 2px solid #00ffff;
+    max-width: 160px;
+}
+
+.discover-scroll{
+    background: pink;
+    height: 2000px;
+    width: 100%;
+}
+
+.genre-item{
+    
+}
+
+.genre-item > a{
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.discover-right {
+    background: none repeat scroll 0 0 red;
+    box-sizing: border-box;
+    float: right;
+    height: 500px;
+    width: 75%;
+}
+
+.artist-mini-picture{
+    border-radius: 100%;
+    height: 0;
+    box-sizing: border-box;
+    width: 12%;
+    padding-bottom: 12%;
+    overflow: hidden;
+    float: left;
+}
+
+.artist-mini-picture > img{
+    width:100%;
+}
+
+.discover-artist-name{
+    float: left;
+    height: 50px;
+    width: 40%;
+    background:violet;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.discover-listens{
+    float: left;
+    height: 50px;
+    width: 26%;
+    background:orange;
+    box-sizing: border-box;
+}
+
+.discover-single-crumb{
+    float: left;
+    height: 50px;
+    width: 6%;
+    background:yellow;
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+
+.discover-crumb{
+    width: 90%;
+    padding-bottom: 90%;
+    float:none;
+    
+        
+}
+
+.discover-three-crumb{
+    float: left; 
+    height: 50px;
+    width: 11%;
+    background:green;
+    box-sizing: border-box;
+}
+
+
+
+/*end of discover page*/
+
+
+/*mp3 player style*/
+
+.uploaded-tracks{
+    margin-top: 10%;
+    width:100%;
+    float:left;
+    box-sizing: border-box;
+    padding: 8%;
+}
+.uploaded-track{
+    width: 100%;
+    height: 100px;
+    float: left;
+    clear: left;
+    box-sizing: border-box;
+}
+
+.uploaded-track a{
+    color: #00ffff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/*end of mp3 style*/
 
 
 /*Media Queries*/

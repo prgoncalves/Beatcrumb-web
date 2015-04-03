@@ -21,7 +21,7 @@
 	<?php
 		echo css('main').css($css);
 		echo css('common').css($css);
-                echo css('jquery.mobile-1.4.5.min').css($css);
+                
 
 		if (!empty($is_blog)):
 			echo $CI->fuel_blog->header();
