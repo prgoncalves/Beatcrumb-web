@@ -1,7 +1,20 @@
 <?php
 class Tracks extends CI_Controller{
+	private function logStuff($user = null,$action=null,$message=null,$data=null){
+		$this->load->model('audit_model','audit');
+		$log = array(
+			'user'=>$user,
+			'date'=>date('Y-m-d H:i:s'),
+			'ip'=>$_SERVER['REMOTE_ADDR'],
+			'action'=>$action,
+			'message'=>$message,
+			'data'=>json_encode($data)		
+		);
+		$this->audit->log($log);
+	}
 	public function index($uuid = null,$filename = null,$user=null){
 		if (!empty($uuid) && !empty($filename)){
+			$this->logStuff(null,'GetTrack','For Artist Only!',"Artist is $uuid,Filename is $filename");
 			// get artist
 			$this->load->model('artist_model','artist');
 			// check db for track
