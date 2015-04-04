@@ -34,6 +34,10 @@
     
 		<div class="messages js-messages"></div>
    		<div class="alerts js-alerts"></div>
-    </div>
+        
+        </div>
+        <div class="copyright-container">
+            <p><span id="u148-2">Beatcrumb Inc 2014</span></p>
+        </div>
   </div>
 </script>
