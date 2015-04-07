@@ -40,26 +40,31 @@ class Api extends CI_Controller{
 	}
 
 	function r($model,$function){
-		$data = $_REQUEST;
-		$this->logStuff('',$model.'->'.$function,'API CALL',$data);
-		// var_dump($data);
-		$modelName = $model . '_model';
-		$this->load->model($modelName,$model);
-		if (isset($this->$model)){
-			$result = $this->doTheMethodCall($model, $function, $data);
+		$uuid = $this->session->userdata('uuid');
+		if (!empty($uuid) || ($function == 'login')){
+			$data = $_REQUEST;
+			$this->logStuff('',$model.'->'.$function,'API CALL',$data);
+			// var_dump($data);
+			$modelName = $model . '_model';
+			$this->load->model($modelName,$model);
+			if (isset($this->$model)){
+				$result = $this->doTheMethodCall($model, $function, $data);
+			} else {
+				$result = null;
+			}
+			//		echo(json_encode($result));
+			if (isset($result)){
+				$this->_respond('OK', 'API Call worked',$result);
+			} else {
+				$this->_respond('ERR', 'API Call worked but no data');
+			}
 		} else {
-			$result = null;
-		}
-//		echo(json_encode($result));
-		if (isset($result)){
-			$this->_respond('OK', 'API Call worked',$result);
-		} else {
-			$this->_respond('ERR', 'API Call worked but no data');
+			$this->_respond('ERR', 'NOT Logged IN');
 		}
 	}
 	
 	function index(){
-		$this->logStuff('','API INDEX PAGE','WARNING');
+		$this->logStuff('','API INDEX PAGE','WARNING',json_encode($this->session->userdata()));
 		echo "<h1>Hello, what are you doing here?</h1>";
 		echo "<p>You really should not be here looking at this... Please go away!</p>";
 	}
@@ -95,23 +100,28 @@ class Api extends CI_Controller{
 		if (is_array($data)  && isset($data['id'])){
 			$id = $data['id'];
 		}
-		$modelName = $model . '_model';
-		$this->load->model($modelName,$model);
-		if (isset($this->$model)){
-			$method = $this->_getRestMethod($verb,$id);
-			$this->logStuff('',$model.'->'.$method,'REST CALL',$data);
-			if ($verb === 'POST' || $verb === 'PUT'){
-				$result = $this->$model->$method($data);
+		$method = $this->_getRestMethod($verb,$id);
+		$uuid = $this->session->userdata('uuid');
+		if (!empty($uuid) || ($method == 'create')){
+			$modelName = $model . '_model';
+			$this->load->model($modelName,$model);
+			if (isset($this->$model)){
+				$this->logStuff('',$model.'->'.$method,'REST CALL',$data);
+				if ($verb === 'POST' || $verb === 'PUT'){
+					$result = $this->$model->$method($data);
+				} else {
+					$result = $this->$model->$method($id);
+				}
 			} else {
-				$result = $this->$model->$method($id);
+				$result =  null;
+			}
+			if (isset($result)){
+				$this->_respond('OK', 'API Call worked',$result);
+			} else {
+				$this->_respond('ERR', 'API Call failed');
 			}
 		} else {
-			$result =  null;
-		}
-		if (isset($result)){
-			$this->_respond('OK', 'API Call worked',$result);
-		} else {
-			$this->_respond('ERR', 'API Call failed');
+			$this->_respond('ERR', 'NOT Logged IN');
 		}
 	}
 

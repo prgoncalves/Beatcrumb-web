@@ -10,19 +10,23 @@ class user_model extends base_model{
 		// check if fan
 		$fan = $this->db->get_where('fan',array('username'=>$username,'password'=>$password))->result();
 		if (isset($fan[0])){
-			return array(
+			$session = array(
 				'type'=>'fan',
 				'uuid'=>$fan[0]->uuid
 			);
+			$this->session->set_userdata($session);
+			return $session; 
 		}
 		// check if artist
 		$artist = $this->db->get_where('artist',array('username'=>$username,'password'=>$password))->result();
 		if (isset($artist[0])){
-			return array(
-				'type'=>'artist',
-				'uuid'=>$artist[0]->uuid,
-				'artist_name'=>$artist[0]->artist_name
+			$session = array(
+					'type'=>'artist',
+					'uuid'=>$artist[0]->uuid,
+					'artist_name'=>$artist[0]->artist_name
 			);
+			$this->session->set_userdata($session);
+			return $session;
 		}
 		return null;
 	}
