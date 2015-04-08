@@ -12,9 +12,10 @@ class Tracks extends CI_Controller{
 		);
 		$this->audit->log($log);
 	}
-	public function index($uuid = null,$filename = null,$user=null){
+	public function index($filename = null,$user=null){
+		$uuid = $this->session->userdata('uuid');
 		if (!empty($uuid) && !empty($filename)){
-			$this->logStuff(null,'GetTrack','For Artist Only!',"Artist is $uuid,Filename is $filename");
+			$this->logStuff($uuid,'GetTrack','For Artist Only!',"Artist is $uuid,Filename is $filename");
 			// get artist
 			$this->load->model('artist_model','artist');
 			// check db for track
