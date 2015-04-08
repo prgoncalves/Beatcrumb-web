@@ -45,6 +45,11 @@ app.appRouter = new AppRouter;
 
 app.appRouter.on('route:logout', function(id){
 	localStorage.removeItem('Beat_User');
+	// need to call server to drop session
+	$.ajax({
+		url : '/api/r/user/logout'
+	}).done(function(data){
+	});
 	app.user = undefined;
 	app.appRouter.navigate('/login',true);
 });

@@ -60,8 +60,11 @@ ArtistDashboardView = Backbone.View.extend({
 			    	if (Result.Status == 'OK'){
 			    		app.message('File upload worked');
 						that.getTracks();		
-			    	} else {
+			    	} else if (Result.Status == 'ERR'){
 			    		app.alert('File upload failed.');
+			    	} else if (Result.Status == 'LOG'){
+			    		app.alert('You have been logged out');
+						app.appRouter.navigate('/login',true);			    		
 			    	}
 			    },
 			    error: function(data){

@@ -41,7 +41,7 @@ class Api extends CI_Controller{
 
 	function r($model,$function){
 		$uuid = $this->session->userdata('uuid');
-		if (!empty($uuid) || ($function == 'login')){
+		if (!empty($uuid) || ($function == 'login' || $function == 'forgottenPassword')){
 			$data = $_REQUEST;
 			$data['uuid'] = $uuid;
 			$this->logStuff($uuid,$model.'->'.$function,'API CALL',$data);

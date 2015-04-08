@@ -33,6 +33,9 @@ class user_model extends base_model{
 		}
 		return null;
 	}
+	public function logout($uuid){
+		$this->session->sess_destroy();
+	}
 	private function createPassword(){
 		$alphabet = "BEATCRUMBPROFORMANCEabcdef!ghi-+jklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
 		$password = array(); 
