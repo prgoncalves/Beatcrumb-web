@@ -43,6 +43,7 @@ class Api extends CI_Controller{
 		$uuid = $this->session->userdata('uuid');
 		if (!empty($uuid) || ($function == 'login')){
 			$data = $_REQUEST;
+			$data['uuid'] = $uuid;
 			$this->logStuff($uuid,$model.'->'.$function,'API CALL',$data);
 			// var_dump($data);
 			$modelName = $model . '_model';
@@ -103,6 +104,7 @@ class Api extends CI_Controller{
 		$method = $this->_getRestMethod($verb,$id);
 		$uuid = $this->session->userdata('uuid');
 		if (!empty($uuid) || ($method == 'create' && ($model == 'fan' || $model == 'artist'))){
+			$data['uuid'] = $uuid;
 			$modelName = $model . '_model';
 			$this->load->model($modelName,$model);
 			if (isset($this->$model)){

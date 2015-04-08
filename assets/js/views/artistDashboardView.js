@@ -47,7 +47,6 @@ ArtistDashboardView = Backbone.View.extend({
 		var track = $('input[name="fileInput"]')[0].files[0]; 
 		var data = new FormData();
 		data.append('track', track);
-		data.append('uuid',app.user.uuid);
 		data.append('genre',$('.upload-form select[name="genre"]').val() );
 		$.ajax({
 			    url: 'api/r/artist/upload',
@@ -71,11 +70,7 @@ ArtistDashboardView = Backbone.View.extend({
 		 });
 	},
 	getTracks : function(){
-		data = {
-				uuid : app.user.uuid	
-		};
 		app.artistTrackCollection.fetch({
-			data : data,
 			success:function(){
 				app.artistDashboard.tracks = app.artistTrackCollection.models;
 				app.artistDashboard.render();		

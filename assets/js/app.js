@@ -131,12 +131,8 @@ app.appRouter.on('route:dashboard',function(){
 				app.artistDashboard = new ArtistDashboardView()
 			}
 			app.showPageHeader();
-			data = {
-					uuid : app.user.uuid	
-			};
 			$.when(deferGenre).done(function(){
 				app.artistTrackCollection.fetch({
-					data : data,
 					success:function(){
 						app.artistDashboard.tracks = app.artistTrackCollection.models;
 						app.artistDashboard.render();		
