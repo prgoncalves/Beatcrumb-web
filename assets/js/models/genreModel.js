@@ -1,7 +1,10 @@
 var app = app || {};
 Genre = Backbone.Model.extend({
 	parse : function (resp){
-		resp = resp.Result;
-		return resp;
+		if (resp.Status == 'LOG'){
+			app.appRouter.navigate('/login',true);			
+		} else {
+			return resp;			
+		}
 	},
 });
