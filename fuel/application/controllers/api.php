@@ -43,7 +43,7 @@ class Api extends CI_Controller{
 		$uuid = $this->session->userdata('uuid');
 		if (!empty($uuid) || ($function == 'login')){
 			$data = $_REQUEST;
-			$this->logStuff('',$model.'->'.$function,'API CALL',$data);
+			$this->logStuff($uuid,$model.'->'.$function,'API CALL',$data);
 			// var_dump($data);
 			$modelName = $model . '_model';
 			$this->load->model($modelName,$model);
@@ -59,7 +59,7 @@ class Api extends CI_Controller{
 				$this->_respond('ERR', 'API Call worked but no data');
 			}
 		} else {
-			$this->_respond('ERR', 'NOT Logged IN');
+			$this->_respond('LOG', 'NOT Logged IN');
 		}
 	}
 	
@@ -102,11 +102,11 @@ class Api extends CI_Controller{
 		}
 		$method = $this->_getRestMethod($verb,$id);
 		$uuid = $this->session->userdata('uuid');
-		if (!empty($uuid) || ($method == 'create')){
+		if (!empty($uuid) || ($method == 'create' && ($model == 'fan' || $model == 'artist'))){
 			$modelName = $model . '_model';
 			$this->load->model($modelName,$model);
 			if (isset($this->$model)){
-				$this->logStuff('',$model.'->'.$method,'REST CALL',$data);
+				$this->logStuff($uuid,$model.'->'.$method,'REST CALL',$data);
 				if ($verb === 'POST' || $verb === 'PUT'){
 					$result = $this->$model->$method($data);
 				} else {
@@ -121,7 +121,7 @@ class Api extends CI_Controller{
 				$this->_respond('ERR', 'API Call failed');
 			}
 		} else {
-			$this->_respond('ERR', 'NOT Logged IN');
+			$this->_respond('LOG', 'NOT Logged IN');
 		}
 	}
 
