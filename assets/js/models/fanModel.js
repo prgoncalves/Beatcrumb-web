@@ -6,10 +6,10 @@ Fan = Backbone.Model.extend({
 		});
         },
 	parse : function (resp){
-		resp = resp.Result;
 		if (resp.Status == 'LOG'){
 			app.appRouter.navigate('/login',true);			
 		} else {
+			resp = resp.Result;
 			return resp;			
 		}
 	},
