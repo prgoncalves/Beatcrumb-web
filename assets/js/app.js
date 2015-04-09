@@ -40,7 +40,6 @@ app.showPageHeader = function(){
 	}
 	app.pageHeader.render();	
 }
-
 app.appRouter = new AppRouter;
 
 app.appRouter.on('route:logout', function(id){
@@ -168,4 +167,9 @@ app.message = function(message){
 	$('.js-messages').show().delay(20000).hide(0);
 }
 
+app.logout = function(){
+	localStorage.removeItem('Beat_User');
+	app.user = undefined;
+	app.appRouter.navigate('/login',true);	
+}
 Backbone.history.start();
