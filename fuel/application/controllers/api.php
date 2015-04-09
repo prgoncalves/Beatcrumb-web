@@ -103,8 +103,12 @@ class Api extends CI_Controller{
 		}
 		$method = $this->_getRestMethod($verb,$id);
 		$uuid = $this->session->userdata('uuid');
-		if (!empty($uuid) || ($method == 'create' && ($model == 'fan' || $model == 'artist'))){
+		if (is_array($data)){
 			$data['uuid'] = $uuid;
+		} else if (is_object($data)){
+			$data->uuid = $uuid;
+		}
+		if (!empty($uuid) || ($method == 'create' && ($model == 'fan' || $model == 'artist'))){
 			$modelName = $model . '_model';
 			$this->load->model($modelName,$model);
 			if (isset($this->$model)){
