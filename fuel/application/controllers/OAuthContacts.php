@@ -2,10 +2,14 @@
 class OAuthContacts extends CI_Controller{
 	private $client_id='970479616026-84836s24nbai4h7n2ddpr6rt23gshbde.apps.googleusercontent.com';
 	private $client_secret='R0DA9qGzXlHvB_zOSdYAFDB-';
-	private $redirect_uri='http://beta.fitzos.com/oauth2callback';
-	private $link = 'https://accounts.google.com/o/oauth2/auth?client_id=your_client_id_goes_here&redirect_uri=your_redirest_urls_goes_here&scope=https://www.google.com/m8/feeds/&response_type=code';
+	private $redirect_uri='https://beta.fitzos.com/oauth2callback';
+	private $link = 'https://accounts.google.com/o/oauth2/auth?client_id=';
 	public function index(){
 		
+	}
+	public function __construct(){
+		parent::__construct();
+		$this->link = $this->link . $this->client_id . '&redirect_uri='.$this->redirect_uri .'&scope=https://www.google.com/m8/feeds/&response_type=code';
 	}
 	private function getAccessToken($auth_code){
 		$fields=array(
@@ -67,5 +71,9 @@ class OAuthContacts extends CI_Controller{
 		$contents = curl_exec($curl);
 		curl_close($curl);
 		return $contents;		
+	}
+	public function test(){
+		echo('<h1>Test</h1>');
+		echo("<a href='$this->link'>Click me</a>");
 	}
 }
