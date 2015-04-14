@@ -4,6 +4,7 @@ class OAuthContacts extends CI_Controller{
 	private $client_secret='R0DA9qGzXlHvB_zOSdYAFDB-';
 	private $redirect_uri='https://beta.fitzos.com/oauth2callback';
 	private $link = 'https://accounts.google.com/o/oauth2/auth?client_id=';
+	private $maxResults = 200;
 	public function index(){
 		
 	}
@@ -39,7 +40,7 @@ class OAuthContacts extends CI_Controller{
 		$auth_code = $_GET["code"];
 		$response =  $this->getAccessToken($auth_code);
 		$accesstoken = $response->access_token;
-		$url = 'https://www.google.com/m8/feeds/contacts/default/full?oauth_token='.$accesstoken;
+		$url = 'https://www.google.com/m8/feeds/contacts/default/full?max-results='.$this->max_results.'oauth_token='.$accesstoken;
 		$xmlresponse =  $this->getUrlContents($url);
 		if((strlen(stristr($xmlresponse,'Authorization required'))>0) && (strlen(stristr($xmlresponse,'Error '))>0)) //At times you get Authorization error from Google.
 		{
