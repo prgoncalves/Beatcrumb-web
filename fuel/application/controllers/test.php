@@ -25,4 +25,9 @@ class Test extends CI_Controller{
 			echo("<br>");
 		}
 	}
+	public function getContacts(){
+		$this->load->model('contacts_model','contacts');
+		$result = $this->contacts->getContactsForUUID();
+		var_dump($result);
+	}
 }

@@ -52,7 +52,8 @@ class OAuthContacts extends CI_Controller{
 		$xml->registerXPathNamespace('gd', 'http://schemas.google.com/g/2005');
 		$result = $xml->xpath('//gd:email');
 		foreach ($result as $title) {
-			echo $title->attributes()->address . "<br>";
+			var_dump($title->attributes());
+//			echo $title->attributes()->address . "<br>";
 		}		
 	}
 	private function getUrlContents($url){
