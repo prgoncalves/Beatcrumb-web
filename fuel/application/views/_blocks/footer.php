@@ -14,11 +14,13 @@
 		<script src="/assets/js/models/artistTrackModel.js"></script>
 		<script src="/assets/js/models/userModel.js"></script>
 		<script src="/assets/js/models/genreModel.js"></script>
+		<script src="/assets/js/models/contactModel.js"></script>
 		
 		<script src="/assets/js/collections/artistCollection.js"></script>		
 		<script src="/assets/js/collections/artistTracksCollection.js"></script>		
 		<script src="/assets/js/collections/fanCollection.js"></script>	
 		<script src="/assets/js/collections/genreCollection.js"></script>	
+		<script src="/assets/js/collections/contactsCollection.js"></script>	
 		
 		<script src="/assets/js/views/loginView.js"></script>
 		<script src="/assets/js/views/landingView.js"></script>
