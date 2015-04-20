@@ -6,6 +6,7 @@ ContactsCollection = Backbone.Collection.extend({
 });
 app.contactsCollection = new ContactsCollection();
 app.contactsCollection.on('reset',function(){
+	app.contacts = app.contactsCollection.pop();
 	deferContacts.resolve('loaded');
 });
 app.contactsCollection.fetch({reset : true});

@@ -38,82 +38,22 @@
                 <h4 class="release">release</h4>
                 <div class="fans-scroll">
                     <div class="scroll-inner">
-                    
+						<%_.each(contacts,function(value) { %>
                         <div class="fan-block">
                             <div class="fan-info">
                                 <div class="fan-mini-picture">
-                                    <img src="/images/noelleartist-u388-fr.png"/>
+                                    <img src="<%=value.image%><"/>
                                 </div>
-                                <h5 class="fan-name">Alice</h5>
-                                <div class="fan-crumb">
-                                   
-                                </div>
-                                
-                        
-                            </div>
-                        </div>
-                
-                        <div class="fan-block">
-                            <div class="fan-info">
-                                <div class="fan-mini-picture">
-                                    <img src="/images/noelleartist-u388-fr.png"/>
-                                </div>
-                                <h5 class="fan-name">Alice</h5>
+                                <h5 class="fan-name"><%=value.name%><%=value.email%> </h5>
                                 <div class="fan-crumb">
                                 </div>
                             </div>
                         </div>
-                
-                        <div class="fan-block">
-                            <div class="fan-info">
-                                <div class="fan-mini-picture">
-                                    <img src="/images/noelleartist-u388-fr.png"/>
-                                </div>
-                                <h5 class="fan-name">Alice</h5>
-                                <div class="fan-crumb">
-                                </div>
-                            </div>
-                        </div>
-                    
-                    
-                        <div class="fan-block">
-                            <div class="fan-info">
-                                <div class="fan-mini-picture">
-                                    <img src="/images/noelleartist-u388-fr.png"/>
-                                </div>
-                                <h5 class="fan-name">Alice</h5>
-                                <div class="fan-crumb">
-                                </div>
-                            </div>
-                        </div>
-                    
-                    
-                    <div class="fan-block">
-                            <div class="fan-info">
-                                <div class="fan-mini-picture">
-                                    <img src="/images/noelleartist-u388-fr.png"/>
-                                </div>
-                                <h5 class="fan-name">Alice</h5>
-                                <div class="fan-crumb">
-                                </div>
-                            </div>
-                        </div>
-                    
-                    
-                    <div class="fan-block">
-                            <div class="fan-info">
-                                <div class="fan-mini-picture">
-                                    <img src="/images/noelleartist-u388-fr.png"/>
-                                </div>
-                                <h5 class="fan-name">Alice</h5>
-                                <div class="fan-crumb">
-                                </div>
-                            </div>
-                        </div>
-                    
+						<% }); %>					                    
+
                     </div>
                 </div>
-    
+   
             </div>
         
             
