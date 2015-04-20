@@ -135,7 +135,7 @@ app.appRouter.on('route:dashboard',function(){
 				app.artistDashboard = new ArtistDashboardView()
 			}
 			app.showPageHeader();
-			$.when(deferGenre).done(function(){
+			$.when(deferGenre,deferContacts).done(function(){
 				app.artistTrackCollection.fetch({
 					success:function(){
 						app.artistDashboard.tracks = app.artistTrackCollection.models;
