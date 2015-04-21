@@ -40,37 +40,41 @@ class OAuthContacts extends CI_Controller{
 		echo('Callback here');
 		// capture the user..
 		$uuid = $this->session->userdata('uuid');
-		$this->load->model('contacts_model','contacts');
-		$auth_code = $_GET["code"];
-		$response =  $this->getAccessToken($auth_code);
-		$accesstoken = $response->access_token;
-		$url = 'https://www.google.com/m8/feeds/contacts/default/full?max-results='.$this->maxResults.'&alt=json&v=3.0&oauth_token='.$accesstoken;
-		$xmlresponse =  $this->getUrlContents($url);
-		if((strlen(stristr($xmlresponse,'Authorization'))>0) && (strlen(stristr($xmlresponse,'Error '))>0)) //At times you get Authorization error from Google.
-		{
-			echo "<h2>OOPS !! Something went wrong. Please try reloading the page.</h2>";
-			exit();
-		}
-		echo "<h3>Email Addresses:</h3>";
-		$temp = json_decode($xmlresponse,true);
-		foreach($temp['feed']['entry'] as $cnt) {
-			$name = null;
-			$email = null;
-			if (isset($cnt['title']['$t']) && !empty($cnt['title']['$t'])){
-				$name = $cnt['title']['$t'];
-			} 
-			if (isset($cnt['gd$email']['0']['address']) && !empty($cnt['gd$email']['0']['address'])){
-				$email = $cnt['gd$email']['0']['address'];
+		if (!empty($uuid)){
+			$this->load->model('contacts_model','contacts');
+			$auth_code = $_GET["code"];
+			$response =  $this->getAccessToken($auth_code);
+			$accesstoken = $response->access_token;
+			$url = 'https://www.google.com/m8/feeds/contacts/default/full?max-results='.$this->maxResults.'&alt=json&v=3.0&oauth_token='.$accesstoken;
+			$xmlresponse =  $this->getUrlContents($url);
+			if((strlen(stristr($xmlresponse,'Authorization'))>0) && (strlen(stristr($xmlresponse,'Error '))>0)) //At times you get Authorization error from Google.
+			{
+				echo "<h2>OOPS !! Something went wrong. Please try reloading the page.</h2>";
+				exit();
 			}
-			if (isset($name) && isset($email)){
-				echo("Adding $name - $email <br>");
-				$this->contacts->create(array(
-						'name'=>$name,
-						'email'=>$email,
-						'uuid'=>$uuid,
-						'image'=>''
-				));
+			echo "<h3>Email Addresses:</h3>";
+			$temp = json_decode($xmlresponse,true);
+			foreach($temp['feed']['entry'] as $cnt) {
+				$name = null;
+				$email = null;
+				if (isset($cnt['title']['$t']) && !empty($cnt['title']['$t'])){
+					$name = $cnt['title']['$t'];
+				}
+				if (isset($cnt['gd$email']['0']['address']) && !empty($cnt['gd$email']['0']['address'])){
+					$email = $cnt['gd$email']['0']['address'];
+				}
+				if (isset($name) && isset($email)){
+					echo("Adding $name - $email <br>");
+					$this->contacts->create(array(
+							'name'=>$name,
+							'email'=>$email,
+							'uuid'=>$uuid,
+							'image'=>''
+					));
+				}
 			}
+		} else {
+			echo("Access forbidden!");
 		}
 	}
 	private function getUrlContents($url){

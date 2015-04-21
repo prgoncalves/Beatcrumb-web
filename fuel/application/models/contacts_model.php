@@ -9,9 +9,13 @@ class Contacts_model extends Base_module_model {
 	}
 	public function getContactsForUUID(){
 		$uuid = $this->session->userdata('uuid');
-		$this->db->where('uuid',$uuid);
-		$data = $this->db->get('contacts')->result();
-		return $data;
+		if (!empty($uuid)){
+			$this->db->where('uuid',$uuid);
+			$data = $this->db->get('contacts')->result();
+			return $data;
+		} else {
+			return null;
+		}
 	} 
 	public function create($data = array()){
 		if (!empty($data)){
