@@ -53,21 +53,25 @@ class OAuthContacts extends CI_Controller{
 		}
 		echo "<h3>Email Addresses:</h3>";
 		$temp = json_decode($xmlresponse,true);
-		print_r($temp);die;
-		$xml =  new SimpleXMLElement($xmlresponse);
-		echo($xmlresponse);
-		$xml->registerXPathNamespace('gd', 'http://schemas.google.com/g/2005');
-		$result = $xml->xpath('//gd:email');
-		foreach ($result as $title) {
-			var_dump($title->attributes());
-//			echo $title->attributes()->address . "<br>";
-			$this->contacts->create(array(
-				'name'=>'',
-				'email'=>$title->attributes()->address,
-				'uuid'=>$uuid,
-				'image'=>''
-			));
-		}		
+		foreach($temp['feed']['entry'] as $cnt) {
+			$name = null;
+			$email = null;
+			if (isset($cnt['title']['$t']) && !empty($cnt['title']['$t'])){
+				$name = $cnt['title']['$t'];
+			} 
+			if (isset($cnt['gd$email']['0']['address']) && !empty($cnt['gd$email']['0']['address'])){
+				$email = $cnt['gd$email']['0']['address'];
+			}
+			if (isset($name) && isset($email)){
+				echo("Adding $name - $email <br>");
+				$this->contacts->create(array(
+						'name'=>$name,
+						'email'=>$email,
+						'uuid'=>$uuid,
+						'image'=>''
+				));
+			}
+		}
 	}
 	private function getUrlContents($url){
 		$curl = curl_init();
