@@ -10,7 +10,7 @@ class OAuthContacts extends CI_Controller{
 	}
 	public function __construct(){
 		parent::__construct();
-		$this->link = $this->link . $this->client_id . '&redirect_uri='.$this->redirect_uri .'&approval_prompt=force&scope=https://www.google.com/m8/feeds/&response_type=code';
+		$this->link = $this->link . $this->client_id . '&redirect_uri='.$this->redirect_uri .'&scope=https://www.google.com/m8/feeds/&response_type=code';
 	}
 	private function getAccessToken($auth_code){
 		$fields=array(
@@ -44,14 +44,16 @@ class OAuthContacts extends CI_Controller{
 		$auth_code = $_GET["code"];
 		$response =  $this->getAccessToken($auth_code);
 		$accesstoken = $response->access_token;
-		$url = 'https://www.google.com/m8/feeds/contacts/default/full?max-results='.$this->maxResults.'oauth_token='.$accesstoken;
+		$url = 'https://www.google.com/m8/feeds/contacts/default/full?max-results='.$this->maxResults.'&alt=json&v=3.0&oauth_token='.$accesstoken;
 		$xmlresponse =  $this->getUrlContents($url);
-		if((strlen(stristr($xmlresponse,'Authorization required'))>0) && (strlen(stristr($xmlresponse,'Error '))>0)) //At times you get Authorization error from Google.
+		if((strlen(stristr($xmlresponse,'Authorization'))>0) && (strlen(stristr($xmlresponse,'Error '))>0)) //At times you get Authorization error from Google.
 		{
 			echo "<h2>OOPS !! Something went wrong. Please try reloading the page.</h2>";
 			exit();
 		}
 		echo "<h3>Email Addresses:</h3>";
+		$temp = json_decode($xmlresponse,true);
+		print_r($temp);die;
 		$xml =  new SimpleXMLElement($xmlresponse);
 		echo($xmlresponse);
 		$xml->registerXPathNamespace('gd', 'http://schemas.google.com/g/2005');
