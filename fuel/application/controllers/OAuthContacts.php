@@ -43,7 +43,7 @@ class OAuthContacts extends CI_Controller{
 		$auth_code = $_GET["code"];
 		$response =  $this->getAccessToken($auth_code);
 		$accesstoken = $response->access_token;
-		$url = 'https://www.google.com/m8/feeds/contacts/default/full?max-results='.$this->max_results.'oauth_token='.$accesstoken;
+		$url = 'https://www.google.com/m8/feeds/contacts/default/full?max-results='.$this->$maxResults.'oauth_token='.$accesstoken;
 		$xmlresponse =  $this->getUrlContents($url);
 		if((strlen(stristr($xmlresponse,'Authorization required'))>0) && (strlen(stristr($xmlresponse,'Error '))>0)) //At times you get Authorization error from Google.
 		{
