@@ -53,6 +53,7 @@ class OAuthContacts extends CI_Controller{
 		}
 		echo "<h3>Email Addresses:</h3>";
 		$xml =  new SimpleXMLElement($xmlresponse);
+		echo($xmlresponse);
 		$xml->registerXPathNamespace('gd', 'http://schemas.google.com/g/2005');
 		$result = $xml->xpath('//gd:email');
 		foreach ($result as $title) {
