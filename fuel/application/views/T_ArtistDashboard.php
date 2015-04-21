@@ -44,7 +44,7 @@
                                 <div class="fan-mini-picture">
                                     <img src="<%=value.image%><"/>
                                 </div>
-                                <h5 class="fan-name"><%=value.name%><%=value.email%> </h5>
+                                <h5 class="fan-name"><%=value.name%></h5>
                                 <div class="fan-crumb">
                                 </div>
                             </div>
