@@ -37,6 +37,9 @@ class OAuthContacts extends CI_Controller{
 		return json_decode($result);
 	}
 	public function callback(){
+		// capture the user..
+		$uuid = $this->session->userdata('uuid');
+		$this->load->model('contacts_model','contacts');
 		$auth_code = $_GET["code"];
 		$response =  $this->getAccessToken($auth_code);
 		$accesstoken = $response->access_token;
@@ -54,6 +57,12 @@ class OAuthContacts extends CI_Controller{
 		foreach ($result as $title) {
 			var_dump($title->attributes());
 //			echo $title->attributes()->address . "<br>";
+			$this->contacts->create(array(
+				'name'=>'',
+				'email'=>$title->attributes()->address,
+				'uuid'=>$uuid,
+				'image'=>''
+			));
 		}		
 	}
 	private function getUrlContents($url){
