@@ -10,7 +10,7 @@ class OAuthContacts extends CI_Controller{
 	}
 	public function __construct(){
 		parent::__construct();
-		$this->link = $this->link . $this->client_id . '&redirect_uri='.$this->redirect_uri .'&scope=https://www.google.com/m8/feeds/&response_type=code';
+		$this->link = $this->link . $this->client_id . '&redirect_uri='.$this->redirect_uri .'&approval_prompt=force&scope=https://www.google.com/m8/feeds/&response_type=code';
 	}
 	private function getAccessToken($auth_code){
 		$fields=array(
@@ -37,6 +37,7 @@ class OAuthContacts extends CI_Controller{
 		return json_decode($result);
 	}
 	public function callback(){
+		echo('Callback here');
 		// capture the user..
 		$uuid = $this->session->userdata('uuid');
 		$this->load->model('contacts_model','contacts');
