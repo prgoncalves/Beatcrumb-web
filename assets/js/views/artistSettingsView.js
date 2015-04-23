@@ -3,8 +3,11 @@ var app = app || {};
 ArtistSettingsView = Backbone.View.extend({
 	el : '#app',
 	render : function(){
-		console.log('Rendering!');
-		this.$el.html($('#artistSettings').html());
+		var data = {
+			contacts : app.contacts.attributes
+		};
+		var content = _.template($('#artistSettings').html(),data);
+		this.$el.html(content);
 		$('.header-page-active').html('settings');
 	},
 	events : {

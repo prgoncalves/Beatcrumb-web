@@ -86,7 +86,7 @@ app.appRouter.on('route:artistSetup',function(action){
 	if (!app.artistSetup){
 		app.artistSetup = new ArtistSetupView()
 	}
-	app.artistSetup.render();
+	app.artistSetup.render();		
 });
 app.appRouter.on('route:artistSettings',function(action){
 	if (app.user){
@@ -94,7 +94,9 @@ app.appRouter.on('route:artistSettings',function(action){
 			app.artistSettings = new ArtistSettingsView()
 		}
 		app.showPageHeader();
-		app.artistSettings.render();		
+		$.when(deferGenre,deferContacts).done(function(){
+			app.artistSettings.render();		
+		});
 	} else {
 		app.showLandingPage();
 	}
