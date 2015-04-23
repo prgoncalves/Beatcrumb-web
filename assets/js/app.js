@@ -105,7 +105,9 @@ app.appRouter.on('route:discover',function(action){
 			app.discover = new DiscoverView()
 		}
 		app.showPageHeader();
-		app.discover.render();		
+		$.when(deferGenre).done(function(){
+			app.discover.render();					
+		});
 	} else {
 		app.showLandingPage();
 	}

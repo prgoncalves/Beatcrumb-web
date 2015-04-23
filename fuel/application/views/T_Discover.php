@@ -3,14 +3,9 @@
     <div class="main-container">
         <div class="discover-left">
             <div class="discover-scroll">
-                <div class="genre-item"><a href="">Blues</a></div>
-                <div class="genre-item"><a href="">Blues</a></div>
-                <div class="genre-item"><a href="">Blues</a></div>
-                <div class="genre-item"><a href="">Blues</a></div>
-                <div class="genre-item"><a href="">Blues</a></div>
-                <div class="genre-item"><a href="">Blues</a></div>
-                <div class="genre-item"><a href="">Blues</a></div>
-                <div class="genre-item"><a href="">Blues</a></div>
+				<% _.each(genres, function(value) { %>
+					<div class="genre-item" data-id="<%=value.id%>"><%=value.name%></div>
+				<% }); %>											
             </div>
         </div>
         <div class="discover-right">
