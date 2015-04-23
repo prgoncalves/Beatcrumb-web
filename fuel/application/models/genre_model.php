@@ -8,7 +8,9 @@ class Genre_model extends Base_module_model {
 		parent::__construct('genre');
 	}
 	function getTracksForGenre($id){
+		$this->db->select('artist_name,uuid,tracks.id,plays,shares,filename');
 		$this->db->where('genre',$id);
+		$this->db->join('artist','tracks.artist_id = artist.id');
 		$data = $this->db->get('tracks')->result();
 		return $data;
 	}

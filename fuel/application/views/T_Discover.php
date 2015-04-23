@@ -21,13 +21,15 @@
   </div>
 </script>
 <script id="discover-tracks" type="text/template">
-		<div class="artist-mini-picture">
-		    <img src="/images/noelleartist-u388-fr.png"/>
-		</div>
-		<h2 class="discover-artist-name">Noelle</h2>
-		<div class="discover-listens"></div>
-		<div class="discover-single-crumb">
-		    <div class="discover-crumb active-crumb"></div>
-		</div>
-		<div class="discover-three-crumb"></div>
+		<% _.each(tracks, function(value) { %>
+			<div class="artist-mini-picture">
+		    	<img src="/images/noelleartist-u388-fr.png"/>
+			</div>
+			<h2 class="discover-artist-name"><%=value.artist_name%></h2>
+			<div class="discover-listens"><%=value.filename%></div>
+			<div class="discover-single-crumb">
+			    <div class="discover-crumb active-crumb"></div>
+			</div>
+			<div class="discover-three-crumb"></div>
+		<% }); %>											
 </script>

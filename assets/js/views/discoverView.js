@@ -15,12 +15,24 @@ DiscoverView = Backbone.View.extend({
 	},
 	findGenre : function(e){
 		console.log($(e.target).data('id'));
-		this.showTracks();
+		$(e.target).addClass('selected');
+		var that = this;
+    	data = {id:$(e.target).data('id')};    			
+    	$.ajax({
+    		data : data,
+    		dataType : "json",
+    		url : '/api/r/genre/getTracksForGenre'
+    	}).success(function(data){
+    		that.showTracks(data.Result);
+    	}).error(function(){
+			app.alert('Unable to get tracks for genre');    		
+    	});
 	},
-	showTracks : function(){
+	showTracks : function(tracks){
 		if (!app.discoverTracks){
 			app.discoverTracks = new DiscoverTracks();
 		}
+		app.discoverTracks.tracks = tracks;
 		app.discoverTracks.render();					
 	}
 });
