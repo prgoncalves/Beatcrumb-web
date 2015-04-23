@@ -26,7 +26,8 @@
 		    	<img src="/images/noelleartist-u388-fr.png"/>
 			</div>
 			<h2 class="discover-artist-name"><%=value.artist_name%></h2>
-			<div class="discover-listens"><%=value.filename%></div>
+			<div class="discover-track-name"><%=value.filename%></div>
+			<div class="discover-listens"><%=value.plays%></div>
 			<div class="discover-single-crumb">
 			    <div class="discover-crumb active-crumb"></div>
 			</div>
