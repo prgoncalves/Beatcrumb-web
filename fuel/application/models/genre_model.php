@@ -7,5 +7,10 @@ class Genre_model extends Base_module_model {
 	{
 		parent::__construct('genre');
 	}
+	function getTracksForGenre($id){
+		$this->db->where('genre',$id);
+		$data = $this->db->get('tracks')->result();
+		return $data;
+	}
 }
 
