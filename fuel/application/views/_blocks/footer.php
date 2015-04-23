@@ -9,33 +9,33 @@
 <!--                <script src="/assets/js/jquery.mobile-1.4.5.min.js"></script>		-->
 		
 		
-		<script src="/assets/js/models/artistModel.js"></script>
-		<script src="/assets/js/models/fanModel.js"></script>
-		<script src="/assets/js/models/artistTrackModel.js"></script>
-		<script src="/assets/js/models/userModel.js"></script>
-		<script src="/assets/js/models/genreModel.js"></script>
-		<script src="/assets/js/models/contactModel.js"></script>
+		<script src="/assets/js/models/artistModel.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/models/fanModel.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/models/artistTrackModel.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/models/userModel.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/models/genreModel.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/models/contactModel.js?v=<?php echo VERSION;?>"></script>
 		
-		<script src="/assets/js/collections/artistCollection.js"></script>		
-		<script src="/assets/js/collections/artistTracksCollection.js"></script>		
-		<script src="/assets/js/collections/fanCollection.js"></script>	
-		<script src="/assets/js/collections/genreCollection.js"></script>	
-		<script src="/assets/js/collections/contactsCollection.js"></script>	
+		<script src="/assets/js/collections/artistCollection.js?v=<?php echo VERSION;?>"></script>		
+		<script src="/assets/js/collections/artistTracksCollection.js?v=<?php echo VERSION;?>"></script>		
+		<script src="/assets/js/collections/fanCollection.js?v=<?php echo VERSION;?>"></script>	
+		<script src="/assets/js/collections/genreCollection.js?v=<?php echo VERSION;?>"></script>	
+		<script src="/assets/js/collections/contactsCollection.js?v=<?php echo VERSION;?>"></script>	
 		
-		<script src="/assets/js/views/loginView.js"></script>
-		<script src="/assets/js/views/landingView.js"></script>
-		<script src="/assets/js/views/artistSetupView.js"></script>
-		<script src="/assets/js/views/fanSetupView.js"></script>
-		<script src="/assets/js/views/activationView.js"></script>
-		<script src="/assets/js/views/fanDashboardView.js"></script>
-		<script src="/assets/js/views/artistDashboardView.js"></script>
-		<script src="/assets/js/views/forgottenPasswordView.js"></script>
-		<script src="/assets/js/views/artistSettingsView.js"></script>
-		<script src="/assets/js/views/discoverTracksView.js"></script>
-		<script src="/assets/js/views/discoverView.js"></script>
-		<script src="/assets/js/views/favouritesView.js"></script>
-		<script src="/assets/js/views/pageHeader.js"></script>
-		<script src="/assets/js/app.js"></script>
+		<script src="/assets/js/views/loginView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/landingView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/artistSetupView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/fanSetupView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/activationView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/fanDashboardView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/artistDashboardView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/forgottenPasswordView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/artistSettingsView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/discoverTracksView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/discoverView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/favouritesView.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/pageHeader.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/app.js?v=<?php echo VERSION;?>"></script>
 		<script>
 		soundManager.setup({
 		  url: '/assets/swf/',
