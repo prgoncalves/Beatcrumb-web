@@ -10,7 +10,22 @@ PageHeader = Backbone.View.extend({
 		'click .header-discover' : 'discover'
 	},
 	doSearch : function(){
-		app.alert('Search not yet implemented!');
+    	data = {
+                criteria:$('.js-Search').val(),    			
+            };
+        	$.ajax({
+        		data : data,
+        		dataType : "json",
+        		url : '/api/r/search/search'
+        	}).success(function(data){
+    			if (data.Status == 'OK'){
+    				app.message('Results ');
+    			} else {
+    				app.alert('Unable to find any results');
+    			}				    		
+        	}).error(function(){
+    			app.alert('Unable to find any results');    		
+        	});
 	},
 	discover : function(){
 		app.appRouter.navigate('/discover',true);
