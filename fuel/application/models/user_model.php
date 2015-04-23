@@ -83,4 +83,23 @@ class user_model extends base_model{
 			return false;
 		}
 	}
+	public function settings($data){
+		$uuid = $data['uuid'];
+		$settings = null;
+		if (isset($uuid) && !empty($uuid)){
+			// check if fan or artist
+			$artist = $this->db->get_where('artist',array('uuid'=>$uuid))->result();
+			$fan = $this->db->get_where('fan',array('uuid'=>$uuid))->result();
+			if (isset($artist[0])){
+				$this->db->select('artist_name,email');
+				$this->db->where('uuid',$uuid);
+				$settings=$this->db->get('artist')->result();
+			} else if(isset($fan[0])){
+				$this->db->select('email');
+				$this->db->where('uuid',$uuid);
+				$settings=$this->db->get('fan')->result();
+			}
+		}
+		return $settings[0];
+	}
 }

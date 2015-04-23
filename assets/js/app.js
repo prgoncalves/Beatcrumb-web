@@ -94,7 +94,7 @@ app.appRouter.on('route:artistSettings',function(action){
 			app.artistSettings = new ArtistSettingsView()
 		}
 		app.showPageHeader();
-		$.when(deferGenre,deferContacts).done(function(){
+		$.when(deferSettings,deferContacts).done(function(){
 			app.artistSettings.render();		
 		});
 	} else {
