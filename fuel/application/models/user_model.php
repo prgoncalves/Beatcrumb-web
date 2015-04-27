@@ -85,16 +85,32 @@ class user_model extends base_model{
 	}
 	public function settings($data){
 		$uuid = $data['uuid'];
+		$request = $_SERVER['REQUEST_METHOD'];
+		if ($request == 'POST'){
+			$put = file_get_contents("php://input");
+			$put = json_decode($put);
+		}
 		$settings = null;
 		if (isset($uuid) && !empty($uuid)){
 			// check if fan or artist
 			$artist = $this->db->get_where('artist',array('uuid'=>$uuid))->result();
 			$fan = $this->db->get_where('fan',array('uuid'=>$uuid))->result();
+			// check if posting
 			if (isset($artist[0])){
+				if (isset($put)){
+					// update artist and email
+					$this->db->update('artist',array('artist_name'=>$put->artist_name,'email'=>$put->email));
+					$this->db->where('uuid',$uuid);
+				}
 				$this->db->select('artist_name,email');
 				$this->db->where('uuid',$uuid);
 				$settings=$this->db->get('artist')->result();
 			} else if(isset($fan[0])){
+				if (isset($put)){
+					// update  email
+					$this->db->update('fan',array('email'=>$put->email));
+					$this->db->where('uuid',$uuid);
+				}
 				$this->db->select('email');
 				$this->db->where('uuid',$uuid);
 				$settings=$this->db->get('fan')->result();
