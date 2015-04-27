@@ -6,10 +6,13 @@
             	<div class="fan-block">
                 	<div class="fan-info">
                     	<div class="fan-mini-picture">
-                        	<img src="<%=value.image%><"/>
+                        	<img src="<%=value.image%>"/>
                         </div>
                         <h5 class="fan-name"><%=value.name%>-<%=value.email%></h5>
+						<button class='edit'>Edit</button>
+						<button class='delete'>Delete</button>
                     </div>
+					<button class='add'>Add contact</button>
                 </div>
 			<% }); %>	
 		</div>
