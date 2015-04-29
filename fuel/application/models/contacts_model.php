@@ -20,6 +20,9 @@ class Contacts_model extends Base_module_model {
 	public function create($data = array()){
 		if (!empty($data)){
 			$this->db->insert('contacts',$data);
+			return true;
+		} else {
+			return null;
 		}
 	}
 }

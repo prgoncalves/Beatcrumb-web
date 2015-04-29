@@ -13,5 +13,13 @@ ContactView = Backbone.View.extend({
 	saveContact : function(ev){
 		ev.preventDefault();
 		console.log('Save me save me');
+		var newContact = new Contact();
+		newContact.set({
+			'email':$('.add-contact input[name="email"]').val(),
+			'name': $('.add-contact input[name="name"]').val()
+		});
+		newContact.url = 'api/rest/contacts';
+		newContact.save();
+		app.appRouter.navigate('/artistSettings',true);
 	}
 });
