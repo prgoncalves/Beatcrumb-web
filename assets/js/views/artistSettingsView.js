@@ -12,7 +12,21 @@ ArtistSettingsView = Backbone.View.extend({
 		$('.header-page-active').html('settings');
 	},
 	events : {
-		'click .js-saveProfile' : 'saveProfile'
+		'click .js-saveProfile'    : 'saveProfile',
+		'click .js-add-contact'    : 'addContact',
+		'click .js-delete-contact' : 'deleteContact',
+		'click .js-edit-contact'   : 'editContact'
+	},
+	addContact : function(ev){
+		console.log('add');
+	},
+	deleteContact : function (ev){
+		console.log('delete');
+		
+	},
+	editContact : function(ev){
+		console.log('edit');
+		
 	},
 	saveProfile : function(ev){
 		ev.preventDefault();

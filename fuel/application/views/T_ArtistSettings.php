@@ -9,10 +9,10 @@
                         	<img src="<%=value.image%>"/>
                         </div>
                         <h5 class="fan-name"><%=value.name%>-<%=value.email%></h5>
-						<button class='edit'>Edit</button>
-						<button class='delete'>Delete</button>
+						<button class='js-edit-contact'>Edit</button>
+						<button class='js-delete-contact'>Delete</button>
                     </div>
-					<button class='add'>Add contact</button>
+					<button class='js-add-contact'>Add contact</button>
                 </div>
 			<% }); %>	
 		</div>
