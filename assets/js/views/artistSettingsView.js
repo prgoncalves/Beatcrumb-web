@@ -19,6 +19,10 @@ ArtistSettingsView = Backbone.View.extend({
 	},
 	addContact : function(ev){
 		console.log('add');
+		if (!app.addContact){
+			app.addContact = new ContactView();
+		}
+		app.addContact.render();	
 	},
 	deleteContact : function (ev){
 		console.log('delete');

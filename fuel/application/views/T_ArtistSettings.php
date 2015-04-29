@@ -1,5 +1,7 @@
 <script id="artistSettings" type="text/template">
   <div class="landing-page-wrapper">
+	<div class="messages js-messages"></div>
+   	<div class="alerts js-alerts"></div>
     <div class="main-container">
 		<div class="settings-contacts">
 			<%_.each(contacts,function(value) { %>
@@ -25,8 +27,7 @@
 				<button class='js-saveProfile'>Save</button>
 			</form>
 		</div>
-		<div class="messages js-messages"></div>
-   		<div class="alerts js-alerts"></div>
+		<div id="form"></div>
 		<p><a href="#logout">Logout</a></p>
     </div>
   </div>

@@ -14,5 +14,7 @@ $this->load->view('T_ArtistSettings');
 $this->load->view('T_PageHeader');
 $this->load->view('T_Discover');
 $this->load->view('T_Favourites');
+$this->load->view('T_AddContact');
+
 
 ?>
