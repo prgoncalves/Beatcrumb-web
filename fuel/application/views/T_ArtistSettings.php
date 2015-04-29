@@ -14,9 +14,9 @@
 						<button class='js-edit-contact'>Edit</button>
 						<button class='js-delete-contact'>Delete</button>
                     </div>
-					<button class='js-add-contact'>Add contact</button>
                 </div>
 			<% }); %>	
+			<button class='js-add-contact'>Add contact</button>
 		</div>
 		<div class="settings-profile">
 			<form class='change-profile'>
