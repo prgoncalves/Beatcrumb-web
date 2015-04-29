@@ -20,7 +20,8 @@ class Contacts_model extends Base_module_model {
 	public function create($data = array()){
 		if (!empty($data)){
 			$this->db->insert('contacts',$data);
-			return true;
+			$id =  $this->db->insert_id();
+			return $this->findOneById($id);
 		} else {
 			return null;
 		}
