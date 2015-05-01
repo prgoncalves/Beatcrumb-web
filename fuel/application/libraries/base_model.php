@@ -6,8 +6,12 @@ class base_model extends CI_Model{
 		parent::__construct();
 	}
 	public function delete($id){
-		$this->db->where($this->keyField,$id)->delete($this->tableName);
-		return $this->db->affected_rows();
+		if ($id){
+			$this->db->where($this->keyField,$id)->delete($this->tableName);
+			return $this->db->affected_rows();
+		} else {
+			return null;
+		}
 	}
 	public function update($data){
 		$keyfield = $this->keyField;

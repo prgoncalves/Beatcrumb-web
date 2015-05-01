@@ -1,11 +1,13 @@
 <?php
 require_once(FUEL_PATH.'models/base_module_model.php');
 
-class Contacts_model extends Base_module_model {
+class Contacts_model extends base_model {
 
 	public function __construct()
 	{
-		parent::__construct('contacts');
+		parent::__construct();
+		$this->tableName = 'contacts';
+		$this->keyField = 'id';
 	}
 	public function getContactsForUUID(){
 		$uuid = $this->session->userdata('uuid');

@@ -26,8 +26,23 @@ ArtistSettingsView = Backbone.View.extend({
 		app.addContact.render();	
 	},
 	deleteContact : function (ev){
-		console.log('delete');
-		
+		var that = this;
+		var sure = confirm('Are you sure you wish to delete this user?');
+		if (sure){
+			var id = $(ev.target).data('id');
+			$.ajax({
+				url : 'api/r/contacts/delete?id='+id,
+				success:function(){
+					app.contactsCollection.fetch({
+						reset : true,
+						success : function(){
+							app.message('Contact Deleted');
+							that.render();										
+						}
+					});
+				}
+			});
+		}
 	},
 	editContact : function(ev){
 		var id = $(ev.target).data('id');
