@@ -63,7 +63,6 @@ class OAuthContacts extends CI_Controller{
 					$email = $cnt['gd$email']['0']['address'];
 				}
 				if (isset($name) && isset($email)){
-					echo("Adding $name - $email <br>");
 					$this->contacts->create(array(
 							'name'=>$name,
 							'email'=>$email,
@@ -72,6 +71,7 @@ class OAuthContacts extends CI_Controller{
 					));
 				}
 			}
+			redirect('/');
 		} else {
 			echo("Access forbidden!");
 		}
