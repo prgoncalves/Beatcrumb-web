@@ -143,7 +143,16 @@ app.appRouter.on('route:dashboard',function(){
 				app.artistTrackCollection.fetch({
 					success:function(){
 						app.artistDashboard.tracks = app.artistTrackCollection.models;
-						app.artistDashboard.render();		
+						app.contactsCollection.fetch({
+							reset : true,
+							success: function(){
+								app.artistDashboard.render();										
+							},
+							error : function(){
+								app.artistDashboard.render();
+								app.alert('Unable to load contacts');								
+							}
+						});
 					},
 					error:function(){
 						app.artistDashboard.render();
