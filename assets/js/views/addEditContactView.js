@@ -3,7 +3,11 @@ var app = app || {};
 ContactView = Backbone.View.extend({
 	el : '#form',
 	render : function (){
-		var data = [];
+		if (this.model){
+			var data = this.model
+		} else {
+			var data = [];			
+		}
 		var content = _.template($('#addContact').html(),data);
 		this.$el.html(content);
 	},

@@ -29,8 +29,16 @@ ArtistSettingsView = Backbone.View.extend({
 		
 	},
 	editContact : function(ev){
-		console.log('edit');
-		
+		var id = $(ev.target).data('id');
+		var contacts = app.contacts.attributes;
+		var result = $.grep(Object.keys(contacts), function(e){
+			return contacts[e].id == id;
+		 });
+		if (!app.addContact){
+			app.addContact = new ContactView();
+		}
+		app.addContact.model = contacts[result];
+		app.addContact.render();			
 	},
 	saveProfile : function(ev){
 		ev.preventDefault();

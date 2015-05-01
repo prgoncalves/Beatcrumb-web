@@ -21,7 +21,7 @@ class Contacts_model extends Base_module_model {
 		if (!empty($data)){
 			$this->db->insert('contacts',$data);
 			$id =  $this->db->insert_id();
-			return $this->findOneById($id);
+			return $id;
 		} else {
 			return null;
 		}

@@ -11,8 +11,8 @@
                         	<img src="<%=value.image%>"/>
                         </div>
                         <h5 class="fan-name"><%=value.name%>-<%=value.email%></h5>
-						<button class='js-edit-contact'>Edit</button>
-						<button class='js-delete-contact'>Delete</button>
+						<button class='js-edit-contact' data-id="<%=value.id%>">Edit</button>
+						<button class='js-delete-contact' data-id="<%=value.id%>">Delete</button>
                     </div>
                 </div>
 			<% }); %>	
