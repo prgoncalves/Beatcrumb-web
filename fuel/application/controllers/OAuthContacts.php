@@ -37,7 +37,6 @@ class OAuthContacts extends CI_Controller{
 		return json_decode($result);
 	}
 	public function callback(){
-		echo('Callback here');
 		// capture the user..
 		$uuid = $this->session->userdata('uuid');
 		if (!empty($uuid)){
