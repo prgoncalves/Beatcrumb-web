@@ -100,8 +100,8 @@ class user_model extends base_model{
 			if (isset($artist[0])){
 				if (isset($put)){
 					// update artist and email
-					$this->db->update('artist',array('artist_name'=>$put->artist_name,'email'=>$put->email));
 					$this->db->where('uuid',$uuid);
+					$this->db->update('artist',array('artist_name'=>$put->artist_name,'email'=>$put->email));
 				}
 				$this->db->select('artist_name,email');
 				$this->db->where('uuid',$uuid);
@@ -109,8 +109,8 @@ class user_model extends base_model{
 			} else if(isset($fan[0])){
 				if (isset($put)){
 					// update  email
-					$this->db->update('fan',array('email'=>$put->email));
 					$this->db->where('uuid',$uuid);
+					$this->db->update('fan',array('email'=>$put->email));
 				}
 				$this->db->select('email');
 				$this->db->where('uuid',$uuid);
