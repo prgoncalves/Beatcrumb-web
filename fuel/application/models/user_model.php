@@ -23,12 +23,13 @@ class user_model extends base_model{
 			$session = array(
 					'type'=>'artist',
 					'uuid'=>$artist[0]->uuid,
-					'artist_name'=>$artist[0]->artist_name
+					'artist_name'=>$artist[0]->artist_name,
 			);
 			$this->session->set_userdata($session);
 			return array(
 				'type'=>'artist',
-				'artist_name'=>$artist[0]->artist_name
+				'artist_name'=>$artist[0]->artist_name,
+				'email'=>$artist[0]->email
 			);
 		}
 		return null;

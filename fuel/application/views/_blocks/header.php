@@ -9,7 +9,7 @@
 			if (!empty($is_blog)) :
 				echo $CI->fuel_blog->page_title($page_title, ' : ', 'right');
 			else:
-				echo fuel_var('page_title', '');
+				echo VERSION;
 			endif;
 		?>
 	</title>
