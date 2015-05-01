@@ -24,6 +24,12 @@ ContactView = Backbone.View.extend({
 		});
 		newContact.url = 'api/rest/contacts';
 		newContact.save();
-		app.appRouter.navigate('/artistSettings',true);
+		app.contactsCollection.fetch({reset : true});
+		if (this.parentView){
+			this.parentView.render();
+			app.message('Contact saved!');
+		} else {
+			app.appRouter.navigate('/artistSettings',true);			
+		}
 	}
 });

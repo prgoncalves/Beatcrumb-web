@@ -22,6 +22,7 @@ ArtistSettingsView = Backbone.View.extend({
 		if (!app.addContact){
 			app.addContact = new ContactView();
 		}
+		app.addContact.parentView = this;
 		app.addContact.render();	
 	},
 	deleteContact : function (ev){
@@ -38,6 +39,7 @@ ArtistSettingsView = Backbone.View.extend({
 			app.addContact = new ContactView();
 		}
 		app.addContact.model = contacts[result];
+		app.addContact.parentView = this;
 		app.addContact.render();			
 	},
 	saveProfile : function(ev){
