@@ -319,26 +319,30 @@ a.fan-signup:hover{
 
 #submit-btn{
     width: 30%;
-    margin-left:34%;
-    float: left;
+    display: block;
+    margin: 0 auto;
     background: #1A8AF2;
     color: #fff;
     border: none;
     font-size: .8em;
     padding:2%;
     line-height: 8px;
+    clear: both;
+    float: none;
 }
 
 #login-btn{
     width: 30%;
-    margin-left:34%;
-    float: left;
+    display: block;
+    margin: 0 auto;
     background: #1A8AF2;
     color: #fff;
     border: none;
     font-size: .8em;
     padding:2%;
     line-height: 8px;
+    clear: both;
+    float: none;
 }
 
 
@@ -668,6 +672,7 @@ header{
     padding-bottom: 20%;
     overflow: hidden;
     float: left;
+    border:1px solid #ffffff;
 }
 
 .fan-mini-picture img{
@@ -840,6 +845,144 @@ header{
 /*end of mp3 style*/
 
 
+/*Contacts Styling*/
+
+.settings-contacts{
+    width: 95%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+form.add-contact{
+    background: #ffffff;
+    color: #000000;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+button.js-edit-contact{
+    background: #1A8AF2;
+    color: #fff;
+    border: none;
+    font-size: .8em;
+    padding:2%;
+    line-height: 8px;
+    float: right;
+    width: 65px;
+    margin-top: 15px;
+}
+
+button.js-delete-contact{
+    background: #1A8AF2;
+    color: #fff;
+    border: none;
+    font-size: .8em;
+    padding:2%;
+    line-height: 8px;
+    float: right;
+    margin-left: 5%;
+    width: 65px;
+    margin-top: 15px;
+}
+
+.settings-contacts .fan-info{
+    border-bottom: 2px solid #ffffff;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    float:none;
+    max-width: 700px;
+    
+}
+
+.settings-contacts .fan-mini-picture{
+    width: 10%;
+    padding-bottom:10%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+button.js-add-contact{
+    width: 30%;
+    background: #1A8AF2;
+    color: #fff;
+    border: none;
+    font-size: .8em;
+    padding:2%;
+    line-height: 8px;
+    margin-top: 2%;
+    margin-left: 8.3%;
+}
+
+.settings-contacts a{
+    color: #ffffff;
+}
+
+.settings-profile{
+    margin: 0 auto;
+    max-width: 700px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    color: #000000;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+
+.settings-profile label{
+    color: #000;
+    float:left;
+    clear:left;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.settings-profile input{
+    float:right;
+    margin-right: 5%;
+    width: 55%;
+}
+
+.settings-profile select{
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    box-shadow: none;
+    color: #757575;
+    float: right;
+    margin-right: 5%;
+    width: 56%;
+    height: 20px;
+}
+
+button.js-saveProfile, .js-saveContact{
+    width: 30%;
+    background: #1A8AF2;
+    color: #fff;
+    border: none;
+    font-size: .8em;
+    padding:2%;
+    line-height: 8px;
+    display: block;
+    clear: both;
+    margin:0 auto;
+    margin-top: 2%;
+    
+}
+
+
+.settings-profile h2{
+    font-size: 1.6em;
+    margin-left: 5%;
+}
+/*End of Contacts Styling*/
+
+
 /*Media Queries*/
 
 
@@ -875,6 +1018,19 @@ header{
     .scroll-container{
         width: 100%;
         display: none;
+    }
+    
+    button.js-delete-contact{
+        clear: left;
+        width:49%;
+        margin-bottom: 10px;
+        margin-left: 2%;
+    }
+    
+    button.js-edit-contact{
+        clear: left;
+        width:49%;
+        margin-bottom: 10px;
     }
 }
 
@@ -913,7 +1069,6 @@ header{
         margin: 0;
     }
     
-   
 }
 
 @media screen and (max-width: 600px){
@@ -954,9 +1109,8 @@ header{
         margin-top: 0px;
     }
     
-    #submit-btn{
+    #submit-btn, #login-btn{
         width: 50%;
-        margin-left: 25%;
         line-height: 15px;
     }
     
@@ -968,9 +1122,43 @@ header{
         font-size: 0.6em;
     }
     
-
     
-   
+    .settings-contacts .fan-mini-picture{
+        width:20%;
+        padding-bottom:20%;
+        margin: 0 auto;
+        float: none;
+    }
+    
+    .settings-contacts .fan-name{
+        width:100%;
+        text-align: center;
+    }
+    
+    .settings-contacts .fan-info{
+        margin-bottom: 5%;
+    }
+
+    .settings-profile label{
+        margin-left: 5%;
+        width: 95%;
+    }
+
+    .settings-profile input{
+        box-sizing: border-box;
+        float: none;
+        margin-bottom: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0;
+        width: 90%;
+    }
+
+
+    button.js-saveProfile, .js-saveContact{
+        width: 50%;
+        line-height: 15px;
+    }
 }
 
 .alerts{
