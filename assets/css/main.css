@@ -716,7 +716,6 @@ header{
 /*Discover page*/
 
 .discover-left {
-    background: none repeat scroll 0 0 blue;
     box-sizing: border-box;
     height: 500px;
     width: 20%;
@@ -728,13 +727,13 @@ header{
 }
 
 .discover-scroll{
-    background: pink;
     height: 2000px;
     width: 100%;
 }
 
 .genre-item{
     padding: 5px;
+    cursor: pointer;
 }
 
 .genre-item > a{
@@ -890,7 +889,7 @@ button.js-delete-contact{
 }
 
 .settings-contacts .fan-info{
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #00ffff;
     display: table;
     margin: 0 auto;
     margin-bottom: 1%;
@@ -907,19 +906,23 @@ button.js-delete-contact{
 }
 
 button.js-add-contact{
-    width: 30%;
+    width: 150px;
     background: #1A8AF2;
     color: #fff;
     border: none;
     font-size: .8em;
     padding:2%;
     line-height: 8px;
+    margin: 0 auto;
     margin-top: 2%;
-    margin-left: 8.3%;
+    display: block;
 }
 
 .settings-contacts a{
-    color: #ffffff;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  margin-top: 2%;
 }
 
 .settings-profile{
@@ -978,7 +981,7 @@ button.js-saveProfile, .js-saveContact{
 
 .settings-profile h2{
     font-size: 1.6em;
-    margin-left: 5%;
+    margin:0 0 2% 5%;
 }
 /*End of Contacts Styling*/
 
