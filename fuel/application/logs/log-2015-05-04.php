@@ -5640,3 +5640,2990 @@ DEBUG - 2015-05-04 11:34:02 --> Config file loaded: /Users/jamesrawding/projects
 DEBUG - 2015-05-04 11:34:02 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
 DEBUG - 2015-05-04 11:34:02 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
 ERROR - 2015-05-04 11:34:02 --> 404 Page Not Found --> %3C
+DEBUG - 2015-05-04 19:34:44 --> Config Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:34:44 --> URI Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Router Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Output Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Security Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Input Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:34:44 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:34:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:34:44 --> Language Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Language Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Config Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:34:44 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:34:44 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:34:44 --> Session Class Initialized
+DEBUG - 2015-05-04 11:34:44 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:34:44 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:34:44 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:34:44 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:34:44 --> Session routines successfully run
+DEBUG - 2015-05-04 11:34:44 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:34:44 --> Model Class Initialized
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:34:44 --> Model Class Initialized
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:34:44 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:34:44 --> Model Class Initialized
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:34:44 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:34:44 --> Final output sent to browser
+DEBUG - 2015-05-04 11:34:44 --> Total execution time: 0.0579
+DEBUG - 2015-05-04 19:39:10 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:39:10 --> URI Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Router Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> No URI present. Default controller set.
+DEBUG - 2015-05-04 19:39:10 --> Output Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Security Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Input Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:39:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:39:10 --> Language Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Language Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:10 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:39:10 --> Session Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:39:10 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:39:10 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> Session routines successfully run
+DEBUG - 2015-05-04 11:39:10 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_language.php
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: cookie_helper
+DEBUG - 2015-05-04 11:39:10 --> User Agent Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pages.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_auth.php
+DEBUG - 2015-05-04 11:39:10 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/validator.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pages_model.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:39:10 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pagevars.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_sitevars.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_sitevariables_model.php
+DEBUG - 2015-05-04 11:39:10 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pagevariables_model.php
+DEBUG - 2015-05-04 11:39:10 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_navigation.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/menu.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_navigation_model.php
+DEBUG - 2015-05-04 11:39:10 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:39:10 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/asset.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_layouts.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/form_builder.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form_builder.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form.php
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: file_helper
+DEBUG - 2015-05-04 11:39:10 --> Helper loaded: directory_helper
+DEBUG - 2015-05-04 11:39:10 --> File already loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_modules.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSetup.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanSetup.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Login.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_LandingPage.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Activation.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistDashboard.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanDashboard.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ForgottenPassword.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSettings.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_PageHeader.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Discover.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Favourites.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_AddContact.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/templates.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/home.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/header.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/footer.php
+DEBUG - 2015-05-04 11:39:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_layouts/main.php
+DEBUG - 2015-05-04 11:39:10 --> Final output sent to browser
+DEBUG - 2015-05-04 11:39:10 --> Total execution time: 0.1091
+DEBUG - 2015-05-04 19:39:11 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:39:11 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> URI Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:39:11 --> URI Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Router Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:39:11 --> Router Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Output Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> URI Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Security Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Output Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Router Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Input Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Security Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Output Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:39:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:39:11 --> Language Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Security Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Input Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Input Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Language Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:39:11 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:39:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:39:11 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:39:11 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Language Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Language Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 19:39:11 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Language Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Language Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 19:39:11 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 19:39:11 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:11 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:39:11 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:39:11 --> Session Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Session Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Session Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:39:11 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+ERROR - 2015-05-04 11:39:11 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+ERROR - 2015-05-04 11:39:11 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:39:11 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Session routines successfully run
+DEBUG - 2015-05-04 11:39:11 --> Session routines successfully run
+DEBUG - 2015-05-04 11:39:11 --> Session routines successfully run
+DEBUG - 2015-05-04 11:39:11 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:39:11 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:39:11 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:39:11 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:39:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:39:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:39:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/user_model.php
+DEBUG - 2015-05-04 11:39:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:12 --> Final output sent to browser
+DEBUG - 2015-05-04 11:39:12 --> Total execution time: 1.0025
+DEBUG - 2015-05-04 11:39:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:39:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/contacts_model.php
+DEBUG - 2015-05-04 11:39:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:39:12 --> Final output sent to browser
+DEBUG - 2015-05-04 11:39:12 --> Total execution time: 1.0067
+DEBUG - 2015-05-04 11:39:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:12 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:39:12 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:39:12 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:39:12 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:39:12 --> Final output sent to browser
+DEBUG - 2015-05-04 11:39:12 --> Total execution time: 1.0146
+DEBUG - 2015-05-04 19:39:13 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:39:13 --> URI Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Router Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Output Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Security Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Input Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:39:13 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:39:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:39:13 --> Language Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Language Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Config Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:39:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:39:13 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:39:13 --> Session Class Initialized
+DEBUG - 2015-05-04 11:39:13 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:39:13 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:39:13 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:39:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:39:13 --> Session garbage collection performed.
+DEBUG - 2015-05-04 11:39:13 --> Session routines successfully run
+DEBUG - 2015-05-04 11:39:13 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:39:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:39:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:39:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:39:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:39:13 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:39:13 --> Final output sent to browser
+DEBUG - 2015-05-04 11:39:13 --> Total execution time: 0.0660
+DEBUG - 2015-05-04 19:40:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:40:18 --> URI Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Router Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Output Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Security Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Input Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:40:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:40:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:40:18 --> Session Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:40:18 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:40:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Session routines successfully run
+DEBUG - 2015-05-04 11:40:18 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/artist_model.php
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Final output sent to browser
+DEBUG - 2015-05-04 11:40:18 --> Total execution time: 0.0545
+DEBUG - 2015-05-04 19:40:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:40:18 --> URI Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Router Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Output Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Security Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Input Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:40:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:40:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:40:18 --> Session Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:40:18 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:40:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Session routines successfully run
+DEBUG - 2015-05-04 11:40:18 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/contacts_model.php
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Final output sent to browser
+DEBUG - 2015-05-04 11:40:18 --> Total execution time: 0.0478
+DEBUG - 2015-05-04 19:40:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:40:18 --> URI Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Router Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Output Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Security Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Input Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:40:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:40:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:40:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:40:18 --> Session Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:40:18 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:40:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> Session routines successfully run
+DEBUG - 2015-05-04 11:40:18 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_language.php
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: cookie_helper
+DEBUG - 2015-05-04 11:40:18 --> User Agent Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pages.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_auth.php
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/validator.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pages_model.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:40:18 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pagevars.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_sitevars.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_sitevariables_model.php
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pagevariables_model.php
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_navigation.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/menu.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_navigation_model.php
+DEBUG - 2015-05-04 11:40:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:40:18 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/asset.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
+DEBUG - 2015-05-04 11:40:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
+ERROR - 2015-05-04 11:40:18 --> 404 Page Not Found --> %3C
+DEBUG - 2015-05-04 19:41:07 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:41:07 --> URI Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Router Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Output Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Security Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Input Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:07 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:41:07 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:07 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:41:07 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:41:07 --> Session Class Initialized
+DEBUG - 2015-05-04 11:41:07 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:41:07 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:41:07 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:41:07 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:41:07 --> Session routines successfully run
+DEBUG - 2015-05-04 11:41:07 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:41:07 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:41:07 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:41:07 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:41:07 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:41:07 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:41:07 --> Final output sent to browser
+DEBUG - 2015-05-04 11:41:07 --> Total execution time: 0.0632
+DEBUG - 2015-05-04 19:41:08 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:41:08 --> URI Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Router Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Output Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Security Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Input Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:08 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:41:08 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:08 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:41:08 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:41:08 --> Session Class Initialized
+DEBUG - 2015-05-04 11:41:08 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:41:08 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:41:08 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:41:08 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:41:08 --> Session routines successfully run
+DEBUG - 2015-05-04 11:41:08 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:41:08 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:41:08 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:41:08 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:41:08 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:41:08 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:41:08 --> Final output sent to browser
+DEBUG - 2015-05-04 11:41:08 --> Total execution time: 0.0510
+DEBUG - 2015-05-04 19:41:10 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:41:10 --> URI Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Router Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Output Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Security Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Input Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:10 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:41:10 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:10 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:41:10 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:41:10 --> Session Class Initialized
+DEBUG - 2015-05-04 11:41:10 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:41:10 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:41:10 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:41:10 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:41:10 --> Session routines successfully run
+DEBUG - 2015-05-04 11:41:10 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:41:10 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:41:10 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:41:10 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:41:10 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:41:10 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:41:10 --> Final output sent to browser
+DEBUG - 2015-05-04 11:41:10 --> Total execution time: 0.0572
+DEBUG - 2015-05-04 19:41:12 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:41:12 --> URI Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Router Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> No URI present. Default controller set.
+DEBUG - 2015-05-04 19:41:12 --> Output Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Security Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Input Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:41:12 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:12 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:41:12 --> Session Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:41:12 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:41:12 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> Session routines successfully run
+DEBUG - 2015-05-04 11:41:12 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_language.php
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: cookie_helper
+DEBUG - 2015-05-04 11:41:12 --> User Agent Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pages.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_auth.php
+DEBUG - 2015-05-04 11:41:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/validator.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pages_model.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:41:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pagevars.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_sitevars.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_sitevariables_model.php
+DEBUG - 2015-05-04 11:41:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pagevariables_model.php
+DEBUG - 2015-05-04 11:41:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_navigation.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/menu.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_navigation_model.php
+DEBUG - 2015-05-04 11:41:12 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:41:12 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/asset.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_layouts.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/form_builder.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form_builder.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form.php
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: file_helper
+DEBUG - 2015-05-04 11:41:12 --> Helper loaded: directory_helper
+DEBUG - 2015-05-04 11:41:12 --> File already loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_modules.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSetup.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanSetup.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Login.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_LandingPage.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Activation.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistDashboard.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanDashboard.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ForgottenPassword.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSettings.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_PageHeader.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Discover.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Favourites.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_AddContact.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/templates.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/home.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/header.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/footer.php
+DEBUG - 2015-05-04 11:41:12 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_layouts/main.php
+DEBUG - 2015-05-04 11:41:12 --> Final output sent to browser
+DEBUG - 2015-05-04 11:41:12 --> Total execution time: 0.1084
+DEBUG - 2015-05-04 19:41:13 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:41:13 --> URI Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:41:13 --> Router Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> URI Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Output Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Router Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Security Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Output Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Input Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Security Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Input Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:41:13 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:41:13 --> Session Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:41:13 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:41:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Session routines successfully run
+DEBUG - 2015-05-04 11:41:13 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:41:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/contacts_model.php
+DEBUG - 2015-05-04 11:41:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Final output sent to browser
+DEBUG - 2015-05-04 11:41:13 --> Total execution time: 0.1892
+DEBUG - 2015-05-04 19:41:13 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:41:13 --> URI Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:41:13 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Router Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Output Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Security Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Input Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:13 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:41:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 19:41:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Language Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 19:41:13 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:13 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:41:13 --> Session Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:41:13 --> Session Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:41:13 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:41:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:41:13 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:41:13 --> Session routines successfully run
+DEBUG - 2015-05-04 11:41:13 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Session routines successfully run
+DEBUG - 2015-05-04 11:41:13 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:41:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:41:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:41:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/user_model.php
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:41:13 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:41:13 --> Final output sent to browser
+DEBUG - 2015-05-04 11:41:13 --> Total execution time: 0.6018
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:41:13 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:41:13 --> Final output sent to browser
+DEBUG - 2015-05-04 11:41:13 --> Total execution time: 0.6081
+DEBUG - 2015-05-04 19:41:14 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:41:14 --> URI Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Router Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Output Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Security Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Input Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:14 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:41:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:41:14 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Language Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Config Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:41:14 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:41:14 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:41:14 --> Session Class Initialized
+DEBUG - 2015-05-04 11:41:14 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:41:14 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:41:14 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:41:14 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:41:14 --> Session routines successfully run
+DEBUG - 2015-05-04 11:41:14 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:41:14 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:41:14 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:41:14 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:41:14 --> Model Class Initialized
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:41:14 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:41:14 --> Final output sent to browser
+DEBUG - 2015-05-04 11:41:14 --> Total execution time: 0.0514
+DEBUG - 2015-05-04 19:42:39 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:42:39 --> URI Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Router Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> No URI present. Default controller set.
+DEBUG - 2015-05-04 19:42:39 --> Output Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Security Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Input Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:42:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:42:39 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:42:39 --> Session Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:42:39 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:42:39 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> Session routines successfully run
+DEBUG - 2015-05-04 11:42:39 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_language.php
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: cookie_helper
+DEBUG - 2015-05-04 11:42:39 --> User Agent Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pages.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_auth.php
+DEBUG - 2015-05-04 11:42:39 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/validator.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pages_model.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:42:39 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pagevars.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_sitevars.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_sitevariables_model.php
+DEBUG - 2015-05-04 11:42:39 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pagevariables_model.php
+DEBUG - 2015-05-04 11:42:39 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_navigation.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/menu.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_navigation_model.php
+DEBUG - 2015-05-04 11:42:39 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:42:39 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/asset.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_layouts.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/form_builder.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form_builder.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form.php
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: file_helper
+DEBUG - 2015-05-04 11:42:39 --> Helper loaded: directory_helper
+DEBUG - 2015-05-04 11:42:39 --> File already loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_modules.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSetup.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanSetup.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Login.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_LandingPage.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Activation.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistDashboard.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanDashboard.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ForgottenPassword.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSettings.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_PageHeader.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Discover.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Favourites.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_AddContact.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/templates.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/home.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/header.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/footer.php
+DEBUG - 2015-05-04 11:42:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_layouts/main.php
+DEBUG - 2015-05-04 11:42:39 --> Final output sent to browser
+DEBUG - 2015-05-04 11:42:39 --> Total execution time: 0.1046
+DEBUG - 2015-05-04 19:42:39 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:42:39 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:42:39 --> URI Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:42:40 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:42:40 --> URI Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> URI Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Router Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Router Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Router Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Output Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Security Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Output Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Output Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Input Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Security Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Security Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:42:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:42:40 --> Input Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Input Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:42:40 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:42:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:42:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:42:40 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:40 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:42:40 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 19:42:40 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:42:40 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:42:40 --> Session Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:42:40 --> Session Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:42:40 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Session Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:42:40 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:42:40 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:42:40 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:42:40 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:42:40 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:42:40 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Session routines successfully run
+DEBUG - 2015-05-04 11:42:40 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Session routines successfully run
+DEBUG - 2015-05-04 11:42:40 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Session routines successfully run
+DEBUG - 2015-05-04 11:42:40 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:42:40 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:42:40 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:42:40 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:42:40 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/user_model.php
+DEBUG - 2015-05-04 11:42:40 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Final output sent to browser
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/contacts_model.php
+DEBUG - 2015-05-04 11:42:40 --> Total execution time: 0.8090
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:42:40 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Final output sent to browser
+DEBUG - 2015-05-04 11:42:40 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:42:40 --> Total execution time: 0.8567
+DEBUG - 2015-05-04 11:42:40 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:42:40 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:42:40 --> Final output sent to browser
+DEBUG - 2015-05-04 11:42:40 --> Total execution time: 0.8650
+DEBUG - 2015-05-04 19:42:42 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:42:42 --> URI Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Router Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Output Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Security Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Input Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:42:42 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:42:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:42:42 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Language Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Config Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:42:42 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:42:42 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:42:42 --> Session Class Initialized
+DEBUG - 2015-05-04 11:42:42 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:42:42 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:42:42 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:42:42 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:42:42 --> Session routines successfully run
+DEBUG - 2015-05-04 11:42:42 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:42:42 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:42:42 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:42:42 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:42:42 --> Model Class Initialized
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:42:42 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:42:42 --> Final output sent to browser
+DEBUG - 2015-05-04 11:42:42 --> Total execution time: 0.0525
+DEBUG - 2015-05-04 19:43:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:18 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> No URI present. Default controller set.
+DEBUG - 2015-05-04 19:43:18 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:18 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:43:18 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:43:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:18 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_language.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: cookie_helper
+DEBUG - 2015-05-04 11:43:18 --> User Agent Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pages.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_auth.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/validator.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pages_model.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pagevars.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_sitevars.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_sitevariables_model.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pagevariables_model.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_navigation.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/menu.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_navigation_model.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:43:18 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/asset.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_layouts.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/form_builder.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form_builder.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: file_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: directory_helper
+DEBUG - 2015-05-04 11:43:18 --> File already loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_modules.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSetup.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanSetup.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Login.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_LandingPage.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Activation.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistDashboard.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanDashboard.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ForgottenPassword.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSettings.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_PageHeader.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Discover.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Favourites.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_AddContact.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/templates.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/home.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/header.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/footer.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_layouts/main.php
+DEBUG - 2015-05-04 11:43:18 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:18 --> Total execution time: 0.0994
+DEBUG - 2015-05-04 19:43:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:18 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:18 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:18 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:43:18 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 19:43:18 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:43:18 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:18 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:43:18 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+ERROR - 2015-05-04 11:43:18 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:43:18 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:18 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:18 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:43:18 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:43:18 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:18 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/contacts_model.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:43:18 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Total execution time: 0.2796
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:43:18 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/user_model.php
+DEBUG - 2015-05-04 11:43:18 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:43:18 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:43:18 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:18 --> Total execution time: 0.2814
+DEBUG - 2015-05-04 11:43:18 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:18 --> Total execution time: 0.2859
+DEBUG - 2015-05-04 19:43:20 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:20 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:20 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:20 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:20 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:20 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:20 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:20 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:20 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:43:20 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:43:20 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:20 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:20 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:43:20 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:43:20 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:43:20 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:43:20 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:43:20 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:43:20 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:20 --> Total execution time: 0.0750
+DEBUG - 2015-05-04 19:43:55 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:55 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> No URI present. Default controller set.
+DEBUG - 2015-05-04 19:43:55 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:55 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:55 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:43:55 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:43:55 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:55 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_language.php
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: cookie_helper
+DEBUG - 2015-05-04 11:43:55 --> User Agent Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pages.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_auth.php
+DEBUG - 2015-05-04 11:43:55 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/validator.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pages_model.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:43:55 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pagevars.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_sitevars.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_sitevariables_model.php
+DEBUG - 2015-05-04 11:43:55 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pagevariables_model.php
+DEBUG - 2015-05-04 11:43:55 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_navigation.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/menu.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_navigation_model.php
+DEBUG - 2015-05-04 11:43:55 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:43:55 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/asset.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_layouts.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/form_builder.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form_builder.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form.php
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: file_helper
+DEBUG - 2015-05-04 11:43:55 --> Helper loaded: directory_helper
+DEBUG - 2015-05-04 11:43:55 --> File already loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_modules.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSetup.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanSetup.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Login.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_LandingPage.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Activation.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistDashboard.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanDashboard.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ForgottenPassword.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSettings.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_PageHeader.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Discover.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Favourites.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_AddContact.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/templates.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/home.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/header.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/footer.php
+DEBUG - 2015-05-04 11:43:55 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_layouts/main.php
+DEBUG - 2015-05-04 11:43:55 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:55 --> Total execution time: 0.0976
+DEBUG - 2015-05-04 19:43:55 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:55 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:55 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:56 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:56 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:56 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:56 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:56 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:56 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 19:43:56 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 19:43:56 --> Language Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 19:43:56 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:56 --> Config Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 19:43:56 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 19:43:56 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:43:56 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:56 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:56 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:43:56 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:43:56 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:56 --> Controller Class Initialized
+ERROR - 2015-05-04 11:43:56 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:43:56 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:56 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:43:56 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:43:56 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:43:56 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/user_model.php
+DEBUG - 2015-05-04 11:43:56 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:43:56 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:56 --> Total execution time: 0.3291
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:43:56 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:56 --> Total execution time: 0.3346
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:56 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:43:56 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:43:56 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:56 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:56 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:43:56 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:56 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/contacts_model.php
+DEBUG - 2015-05-04 11:43:56 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:56 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:56 --> Total execution time: 0.3758
+DEBUG - 2015-05-04 19:43:57 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:43:57 --> URI Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Router Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Output Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Security Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Input Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:57 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:43:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:43:57 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Language Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Config Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:43:57 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:43:57 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:43:57 --> Session Class Initialized
+DEBUG - 2015-05-04 11:43:57 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:43:57 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:43:57 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:43:57 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:43:57 --> Session garbage collection performed.
+DEBUG - 2015-05-04 11:43:57 --> Session routines successfully run
+DEBUG - 2015-05-04 11:43:57 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:43:57 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:43:57 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:43:57 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:43:57 --> Model Class Initialized
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:43:57 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:43:57 --> Final output sent to browser
+DEBUG - 2015-05-04 11:43:57 --> Total execution time: 0.0499
+DEBUG - 2015-05-04 19:44:23 --> Config Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:44:23 --> URI Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Router Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> No URI present. Default controller set.
+DEBUG - 2015-05-04 19:44:23 --> Output Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Security Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Input Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:44:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:44:23 --> Language Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Language Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Config Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:44:23 --> Session Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:44:23 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:44:23 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Session routines successfully run
+DEBUG - 2015-05-04 11:44:23 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_language.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: cookie_helper
+DEBUG - 2015-05-04 11:44:23 --> User Agent Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pages.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_auth.php
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/validator.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pages_model.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pagevars.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_sitevars.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_sitevariables_model.php
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pagevariables_model.php
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_navigation.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/menu.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_navigation_model.php
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:44:23 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/asset.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_layouts.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/form_builder.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form_builder.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: file_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: directory_helper
+DEBUG - 2015-05-04 11:44:23 --> File already loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_modules.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSetup.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanSetup.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Login.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_LandingPage.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Activation.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistDashboard.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanDashboard.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ForgottenPassword.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSettings.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_PageHeader.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Discover.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Favourites.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_AddContact.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/templates.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/home.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/header.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/footer.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_layouts/main.php
+DEBUG - 2015-05-04 11:44:23 --> Final output sent to browser
+DEBUG - 2015-05-04 11:44:23 --> Total execution time: 0.0991
+DEBUG - 2015-05-04 19:44:23 --> Config Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:44:23 --> URI Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Config Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:44:23 --> Router Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> URI Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Config Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Output Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Router Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Security Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Output Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Input Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:44:23 --> Security Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:44:23 --> URI Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:44:23 --> Input Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Language Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:44:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:44:23 --> Language Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Router Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Output Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Security Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Language Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Config Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Input Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Language Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 19:44:23 --> Config Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 19:44:23 --> Language Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Language Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 19:44:23 --> Config Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:23 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:44:23 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:44:23 --> Session Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:44:23 --> Session Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:44:23 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:44:23 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:44:23 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:44:23 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Session Class Initialized
+ERROR - 2015-05-04 11:44:23 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:44:23 --> Session routines successfully run
+DEBUG - 2015-05-04 11:44:23 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Session routines successfully run
+ERROR - 2015-05-04 11:44:23 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:44:23 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:44:23 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Session routines successfully run
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:44:23 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:44:23 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Final output sent to browser
+DEBUG - 2015-05-04 11:44:23 --> Total execution time: 0.4452
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/contacts_model.php
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Final output sent to browser
+DEBUG - 2015-05-04 11:44:23 --> Total execution time: 0.4445
+DEBUG - 2015-05-04 11:44:23 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/user_model.php
+DEBUG - 2015-05-04 11:44:23 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:23 --> Final output sent to browser
+DEBUG - 2015-05-04 11:44:23 --> Total execution time: 0.4441
+DEBUG - 2015-05-04 19:44:25 --> Config Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:44:25 --> URI Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Router Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Output Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Security Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Input Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:44:25 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:44:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:44:25 --> Language Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Language Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Config Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:44:25 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:44:25 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:44:25 --> Session Class Initialized
+DEBUG - 2015-05-04 11:44:25 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:44:25 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:44:25 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:44:25 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:44:25 --> Session routines successfully run
+DEBUG - 2015-05-04 11:44:25 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:44:25 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:44:25 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:44:25 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:44:25 --> Model Class Initialized
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:44:25 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:44:25 --> Final output sent to browser
+DEBUG - 2015-05-04 11:44:25 --> Total execution time: 0.0551
+DEBUG - 2015-05-04 19:45:36 --> Config Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:45:36 --> URI Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Router Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> No URI present. Default controller set.
+DEBUG - 2015-05-04 19:45:36 --> Output Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Security Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Input Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:45:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:45:36 --> Language Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Language Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Config Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:45:36 --> Session Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:45:36 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:45:36 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Session routines successfully run
+DEBUG - 2015-05-04 11:45:36 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_language.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: cookie_helper
+DEBUG - 2015-05-04 11:45:36 --> User Agent Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pages.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_auth.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/validator.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pages_model.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pagevars.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_sitevars.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_sitevariables_model.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pagevariables_model.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_navigation.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/menu.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_navigation_model.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:45:36 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/asset.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_layouts.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/form_builder.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form_builder.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: file_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: directory_helper
+DEBUG - 2015-05-04 11:45:36 --> File already loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_modules.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSetup.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanSetup.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Login.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_LandingPage.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Activation.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistDashboard.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanDashboard.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ForgottenPassword.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSettings.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_PageHeader.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Discover.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Favourites.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_AddContact.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/templates.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/home.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/header.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/footer.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_layouts/main.php
+DEBUG - 2015-05-04 11:45:36 --> Final output sent to browser
+DEBUG - 2015-05-04 11:45:36 --> Total execution time: 0.1062
+DEBUG - 2015-05-04 19:45:36 --> Config Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:45:36 --> URI Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Config Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Router Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Config Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Output Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Security Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:45:36 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:45:36 --> URI Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Input Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> URI Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:45:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:45:36 --> Language Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Router Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Router Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Output Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Output Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Security Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Security Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Input Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Language Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Input Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:45:36 --> Config Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:45:36 --> Language Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 11:45:36 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 19:45:36 --> Language Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Language Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Config Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 19:45:36 --> Language Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Config Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:36 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:45:36 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:45:36 --> Session Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:45:36 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:45:36 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Session Class Initialized
+ERROR - 2015-05-04 11:45:36 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:45:36 --> Session Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Session routines successfully run
+DEBUG - 2015-05-04 11:45:36 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:45:36 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:45:36 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:45:36 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:45:36 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Session routines successfully run
+DEBUG - 2015-05-04 11:45:36 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Session routines successfully run
+DEBUG - 2015-05-04 11:45:36 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/user_model.php
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:45:36 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:45:36 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/contacts_model.php
+DEBUG - 2015-05-04 11:45:36 --> Final output sent to browser
+DEBUG - 2015-05-04 11:45:36 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:36 --> Final output sent to browser
+DEBUG - 2015-05-04 11:45:36 --> Total execution time: 0.3340
+DEBUG - 2015-05-04 11:45:36 --> Total execution time: 0.3379
+DEBUG - 2015-05-04 11:45:36 --> Final output sent to browser
+DEBUG - 2015-05-04 11:45:36 --> Total execution time: 0.3844
+DEBUG - 2015-05-04 19:45:39 --> Config Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:45:39 --> URI Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Router Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Output Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Security Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Input Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:45:39 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:45:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:45:39 --> Language Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Language Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Config Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:45:39 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:45:39 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:45:39 --> Session Class Initialized
+DEBUG - 2015-05-04 11:45:39 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:45:39 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:45:39 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:45:39 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:45:39 --> Session routines successfully run
+DEBUG - 2015-05-04 11:45:39 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:45:39 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:45:39 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:45:39 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:45:39 --> Model Class Initialized
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:45:39 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:45:39 --> Final output sent to browser
+DEBUG - 2015-05-04 11:45:39 --> Total execution time: 0.0628
+DEBUG - 2015-05-04 19:47:00 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:47:00 --> URI Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Router Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> No URI present. Default controller set.
+DEBUG - 2015-05-04 19:47:00 --> Output Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Security Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Input Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:47:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:47:00 --> Language Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Language Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:00 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:47:00 --> Session Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:47:00 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:47:00 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> Session garbage collection performed.
+DEBUG - 2015-05-04 11:47:00 --> Session routines successfully run
+DEBUG - 2015-05-04 11:47:00 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_language.php
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: cookie_helper
+DEBUG - 2015-05-04 11:47:00 --> User Agent Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pages.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_auth.php
+DEBUG - 2015-05-04 11:47:00 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/validator.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pages_model.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:47:00 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_pagevars.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_sitevars.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_sitevariables_model.php
+DEBUG - 2015-05-04 11:47:00 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_pagevariables_model.php
+DEBUG - 2015-05-04 11:47:00 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_navigation.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/menu.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/models/fuel_navigation_model.php
+DEBUG - 2015-05-04 11:47:00 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/markdown_helper.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/format_helper.php
+DEBUG - 2015-05-04 11:47:00 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/asset.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_cache.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/cache.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_layouts.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/form_builder.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form_builder.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/form.php
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: file_helper
+DEBUG - 2015-05-04 11:47:00 --> Helper loaded: directory_helper
+DEBUG - 2015-05-04 11:47:00 --> File already loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_modules.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSetup.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanSetup.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Login.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_LandingPage.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Activation.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistDashboard.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_FanDashboard.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ForgottenPassword.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_ArtistSettings.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_PageHeader.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Discover.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_Favourites.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/T_AddContact.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/templates.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/home.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/header.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_blocks/footer.php
+DEBUG - 2015-05-04 11:47:00 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/views/_layouts/main.php
+DEBUG - 2015-05-04 11:47:00 --> Final output sent to browser
+DEBUG - 2015-05-04 11:47:00 --> Total execution time: 0.1345
+DEBUG - 2015-05-04 19:47:01 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:47:01 --> URI Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:47:01 --> Router Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> URI Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:47:01 --> Router Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Output Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> URI Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Security Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Output Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Input Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Router Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Security Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:47:01 --> Input Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Output Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:47:01 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:47:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:47:01 --> Language Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Language Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Security Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Input Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:47:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:47:01 --> Language Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Language Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Language Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:47:01 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 19:47:01 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Language Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 19:47:01 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:01 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:47:01 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:47:01 --> Session Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Session Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:47:01 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Session Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:47:01 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+ERROR - 2015-05-04 11:47:01 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:47:01 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:47:01 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:47:01 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Session routines successfully run
+DEBUG - 2015-05-04 11:47:01 --> Session routines successfully run
+DEBUG - 2015-05-04 11:47:01 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Session routines successfully run
+DEBUG - 2015-05-04 11:47:01 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:47:01 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:47:01 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:47:01 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/user_model.php
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:47:01 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/contacts_model.php
+DEBUG - 2015-05-04 11:47:01 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Final output sent to browser
+DEBUG - 2015-05-04 11:47:01 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:47:01 --> Total execution time: 0.2399
+DEBUG - 2015-05-04 11:47:01 --> Final output sent to browser
+DEBUG - 2015-05-04 11:47:01 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:01 --> Total execution time: 0.2385
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:47:01 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:47:01 --> Final output sent to browser
+DEBUG - 2015-05-04 11:47:01 --> Total execution time: 0.2477
+DEBUG - 2015-05-04 19:47:03 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Hooks Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Utf8 Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> UTF-8 Support Enabled
+DEBUG - 2015-05-04 19:47:03 --> URI Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Router Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Output Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Security Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Input Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:47:03 --> XSS Filtering completed
+DEBUG - 2015-05-04 19:47:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-05-04 19:47:03 --> Language Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Language Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Config Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Loader Class Initialized
+DEBUG - 2015-05-04 19:47:03 --> Loader Class Initialized
+DEBUG - 2015-05-04 11:47:03 --> Config file loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/config/MY_config.php
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: my_helper
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: url_helper
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: string_helper
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: language_helper
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: date_helper
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: html_helper
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/asset_helper.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/fuel_helper.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/utility_helper.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/helpers/validator_helper.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application//config/asset.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/asset.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/config/fuel.php
+DEBUG - 2015-05-04 11:47:03 --> Session Class Initialized
+DEBUG - 2015-05-04 11:47:03 --> Encrypt Class Initialized
+DEBUG - 2015-05-04 11:47:03 --> Database Driver Class Initialized
+ERROR - 2015-05-04 11:47:03 --> Severity: 8192  --> mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/jamesrawding/projects/Beatcrumb-web/fuel/codeigniter/database/drivers/mysql/mysql_driver.php 73
+DEBUG - 2015-05-04 11:47:03 --> Database Driver Class Initialized
+DEBUG - 2015-05-04 11:47:03 --> Session routines successfully run
+DEBUG - 2015-05-04 11:47:03 --> Controller Class Initialized
+DEBUG - 2015-05-04 11:47:03 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: security_helper
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: inflector_helper
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/model_lang.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/audit_model.php
+DEBUG - 2015-05-04 11:47:03 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/libraries/fuel_redirects.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/models/genre_model.php
+DEBUG - 2015-05-04 11:47:03 --> File loaded: /Users/jamesrawding/projects/Beatcrumb-web/fuel/application/../modules/fuel/language/english/fuel_lang.php
+DEBUG - 2015-05-04 11:47:03 --> Model Class Initialized
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: typography_helper
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: text_helper
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: markdown_helper
+DEBUG - 2015-05-04 11:47:03 --> Helper loaded: format_helper
+DEBUG - 2015-05-04 11:47:03 --> Final output sent to browser
+DEBUG - 2015-05-04 11:47:03 --> Total execution time: 0.0505

@@ -31,6 +31,10 @@
 			<div class="discover-single-crumb">
 			    <div class="discover-crumb active-crumb"></div>
 			</div>
-			<div class="discover-three-crumb"></div>
+			<div class="discover-three-crumb">
+                            <div class="three-crumb-one"></div>
+                            <div class="three-crumb-two"></div>
+                            <div class="three-crumb-three"></div>
+                        </div>
 		<% }); %>											
 </script>

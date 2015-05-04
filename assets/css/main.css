@@ -803,8 +803,33 @@ header{
     width: 11%;
     background:green;
     box-sizing: border-box;
+    position: relative;
+    max-width: 50px;
 }
 
+.three-crumb-one, .three-crumb-two,.three-crumb-three{
+    position: absolute;
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
+    border: 3px solid red;
+    border-radius: 100%;
+}
+
+.three-crumb-one{
+    left: 0;
+    top: 30%;
+}
+
+.three-crumb-two{
+    right: 0;
+    top: 0;
+}
+
+.three-crumb-three{
+    right: 0;
+    bottom: 0;
+}
 
 
 /*end of discover page*/
