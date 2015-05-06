@@ -15,7 +15,7 @@ ArtistSettingsView = Backbone.View.extend({
 		'click .js-saveProfile'    : 'saveProfile',
 		'click .js-add-contact'    : 'addContact',
 		'click .js-delete-contact' : 'deleteContact',
-		'click .js-edit-contact'   : 'editContact'
+		'click .js-edit-contact'   : 'editContact',
 	},
 	addContact : function(ev){
 		console.log('add');
@@ -59,20 +59,33 @@ ArtistSettingsView = Backbone.View.extend({
 	},
 	saveProfile : function(ev){
 		ev.preventDefault();
-		var update = new Setting(app.settings.attributes);
-		update.set({
-			email : $('.change-profile input[name="email"]').val(),
-			artist_name : $('.change-profile input[name="artist_name"]').val() 
-		});
-		update.url = app.settingsCollection.url;
-		update.save(update.attributes,{
-			success : function(data){
-				app.message('Profile updated');
-			},
-			error   : function(){
-				app.alert('Unable to update profile!');
-			}
-		});
+		var image = $('input[name="fileInput"]')[0].files[0];
+		var frmData = new FormData();
+		frmData.append('image',image);
+		frmData.append('email',$('.change-profile input[name="email"]').val());
+		frmData.append('artist_name',$('.change-profile input[name="artist_name"]').val());
+		$.ajax({
+		    url: 'api/r/user/settings',
+		    data: frmData,
+		    cache: false,
+		    dataType : 'json',
+		    contentType: false,
+		    processData: false,
+		    type: 'POST',
+		    success: function(Result){
+		    	if (Result.Status == 'OK'){
+					app.message('Profile updated');
+		    	} else if (Result.Status == 'ERR'){
+		    		app.alert('Profile update failed.');
+		    	} else if (Result.Status == 'LOG'){
+					app.appRouter.navigate('/login',true);			    		
+		    		app.alert('You have been logged out');
+		    	}
+		    },
+		    error: function(data){
+		      app.alert('File upload failed');
+		    }
+	 });
 		return false;
 	}
 });

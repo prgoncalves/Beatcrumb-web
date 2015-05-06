@@ -86,32 +86,43 @@ class user_model extends base_model{
 	}
 	public function settings($data){
 		$uuid = $data['uuid'];
-		$request = $_SERVER['REQUEST_METHOD'];
-		if ($request == 'POST'){
-			$put = file_get_contents("php://input");
-			$put = json_decode($put);
-		}
 		$settings = null;
 		if (isset($uuid) && !empty($uuid)){
 			// check if fan or artist
 			$artist = $this->db->get_where('artist',array('uuid'=>$uuid))->result();
 			$fan = $this->db->get_where('fan',array('uuid'=>$uuid))->result();
-			// check if posting
-			if (isset($artist[0])){
-				if (isset($put)){
-					// update artist and email
-					$this->db->where('uuid',$uuid);
-					$this->db->update('artist',array('artist_name'=>$put->artist_name,'email'=>$put->email));
+			// check if we have an image file
+			$file = $_FILES['image'];
+			if (isset($file)){
+				$destination = ASSETS_FOLDER.'artists/'.$artist[0]->id;
+				if (file_exists($destination)){
+					if (!is_dir($destination)){
+						$worked = false;
+					} else {
+						$worked = true;
+					}
+				} else {
+					// create it
+					$worked = mkdir($destination,0755,true);
 				}
+				if ($worked){
+					$worked = move_uploaded_file($file['tmp_name'], $destination . '/'. $file['name']);
+					// update the database.
+					$data['image'] = $file['name'];					
+				}
+			}
+			// check if posting
+			if (isset($artist[0]) && isset($data['artist_name'])){
+				// update artist and email
+				$this->db->where('uuid',$uuid);
+				$this->db->update('artist',array('artist_name'=>$data['artist_name'],'email'=>$data['email'],'image'=>$data['image']));
 				$this->db->select('artist_name,email');
 				$this->db->where('uuid',$uuid);
 				$settings=$this->db->get('artist')->result();
-			} else if(isset($fan[0])){
-				if (isset($put)){
-					// update  email
-					$this->db->where('uuid',$uuid);
-					$this->db->update('fan',array('email'=>$put->email));
-				}
+			} else if(isset($fan[0]) && isset($data['email'])){
+				// update  email
+				$this->db->where('uuid',$uuid);
+				$this->db->update('fan',array('email'=>$data['email'],'image'=>$data['image']));
 				$this->db->select('email');
 				$this->db->where('uuid',$uuid);
 				$settings=$this->db->get('fan')->result();

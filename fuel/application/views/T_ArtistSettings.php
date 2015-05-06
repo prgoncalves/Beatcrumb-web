@@ -32,10 +32,13 @@ $link = $link . $client_id . '&redirect_uri='.$redirect_uri .'&scope=https://www
 		</div>
 		<div class="settings-profile">
 			<form class='change-profile'>
+				<h2>Change profile settings!</h2>
 				<label>Email Address</labeL>
 				<input type='text' name='email' value="<%=settings.email%>"/>
 				<label>Artist Name</label>
 				<input type='text' name='artist_name' value="<%=settings.artist_name%>"/>
+				<label>Upload Profile Image</label>
+  				<input id="fileInput" value="Upload" type="file" name="fileInput">
 				<button class='js-saveProfile'>Save</button>
 			</form>
 		</div>
