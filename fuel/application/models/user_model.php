@@ -29,7 +29,8 @@ class user_model extends base_model{
 			return array(
 				'type'=>'artist',
 				'artist_name'=>$artist[0]->artist_name,
-				'email'=>$artist[0]->email
+				'email'=>$artist[0]->email,
+				'image'=>$artist[0]->image,
 			);
 		}
 		return null;
@@ -91,10 +92,24 @@ class user_model extends base_model{
 			// check if fan or artist
 			$artist = $this->db->get_where('artist',array('uuid'=>$uuid))->result();
 			$fan = $this->db->get_where('fan',array('uuid'=>$uuid))->result();
+			if (isset($artist[0])){
+				$this->db->select('artist_name,email');
+				$this->db->where('uuid',$uuid);
+				$settings=$this->db->get('artist')->result();
+				$partFolder = 'profiles/'.$artist[0]->id;
+			}
+			if (isset($fan[0])){
+				$this->db->select('email');
+				$this->db->where('uuid',$uuid);
+				$settings=$this->db->get('fan')->result();
+				$partFolder = 'fan/'.$fan[0]->id;
+			}
 			// check if we have an image file
-			$file = $_FILES['image'];
+			if (isset($_FILES['image'])){
+				$file = $_FILES['image'];
+			}
 			if (isset($file)){
-				$destination = ASSETS_FOLDER.'artists/'.$artist[0]->id;
+				$destination = ASSETS_FOLDER.$partFolder;
 				if (file_exists($destination)){
 					if (!is_dir($destination)){
 						$worked = false;
@@ -108,7 +123,7 @@ class user_model extends base_model{
 				if ($worked){
 					$worked = move_uploaded_file($file['tmp_name'], $destination . '/'. $file['name']);
 					// update the database.
-					$data['image'] = $file['name'];					
+					$data['image'] = $partFolder.'/'.$file['name'];					
 				}
 			}
 			// check if posting

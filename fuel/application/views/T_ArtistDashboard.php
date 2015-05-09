@@ -9,7 +9,7 @@
             <div class="artist-profile-left">
                 <div class="artist-name"><h1 class="artist-header"><%=app.user.artist_name%></h1></div>
                 <div class="artist-picture">
-                    <img src="/images/noelleartist-u388-fr.png"/>
+                    <img src="/assets/<%=app.user.image%>"/>
                 </div>
 				
             </div>
