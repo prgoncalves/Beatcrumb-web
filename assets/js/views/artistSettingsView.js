@@ -75,6 +75,7 @@ ArtistSettingsView = Backbone.View.extend({
 		    success: function(Result){
 		    	if (Result.Status == 'OK'){
 					app.message('Profile updated');
+					app.user.user = Result.Result;
 		    	} else if (Result.Status == 'ERR'){
 		    		app.alert('Profile update failed.');
 		    	} else if (Result.Status == 'LOG'){
