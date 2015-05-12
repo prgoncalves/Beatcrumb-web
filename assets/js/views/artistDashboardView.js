@@ -31,7 +31,8 @@ ArtistDashboardView = Backbone.View.extend({
 		if (contacts.length > 0){
 			var data = {
 					track : this.trackId,
-					contacts : contacts
+					contacts : contacts,
+					message : 'Enjoy this new track'
 				}
 			console.log(data);
 			$.ajax({

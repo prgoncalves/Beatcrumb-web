@@ -37,4 +37,13 @@ class Fan_model extends base_model{
 // 		echo($this->db->last_query());
 		return $result->id;
 	}
+	public function createForShare($data){
+		$bytes = openssl_random_pseudo_bytes(100);
+		$hex = bin2hex($bytes);
+		$data->uuid      = $hex;
+		$data->activated = 'No';
+		unset($data->name);
+		$result = parent::create($data);
+		return $result;		
+	}
 }
