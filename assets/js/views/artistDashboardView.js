@@ -33,7 +33,18 @@ ArtistDashboardView = Backbone.View.extend({
 					track : this.trackId,
 					contacts : contacts
 				}
-				console.log(data);			
+			console.log(data);
+			$.ajax({
+			    url: 'api/r/tracks/share',
+			    data: data,
+			    dataType : 'json',
+			    success: function(Result){
+			    	app.message('Worked');
+			    },
+			    error: function(data){
+			    	app.alert('Shared failed');
+			    }
+		 });
 		}
 	},
 	
