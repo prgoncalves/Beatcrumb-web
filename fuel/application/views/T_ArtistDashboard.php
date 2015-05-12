@@ -26,7 +26,7 @@
 				</div>
 				<div class="uploaded-tracks">
 					<% _.each(tracks, function(value) { %>
-						<div class="uploaded-track"><a href="tracks/index/<%=value.filename%>" class="js-shareMe"><%=value.filename%></a> <div class="fan-crumb">
+						<div class="uploaded-track" data-id="<%=value.id%>"><a href="tracks/index/<%=value.filename%>" class="js-shareMe"><%=value.filename%></a> <div class="fan-crumb">
                                    
                                 </div></div>
 					<% }); %>					
@@ -35,12 +35,12 @@
             </div>
     
             <div class="scroll-container">
-                <h4 class="release">release</h4>
+                <h4 class="release js-doRelease">release</h4>
                 <div class="fans-scroll">
                     <div class="scroll-inner">
 						<%_.each(contacts,function(value) { %>
                         <div class="fan-block">
-                            <div class="fan-info">
+                            <div class="fan-info js-ReleaseToMe" data-id="<%=value.id%>">
                                 <div class="fan-mini-picture">
                                     <img src="<%=value.image%><"/>
                                 </div>

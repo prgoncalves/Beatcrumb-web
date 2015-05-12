@@ -18,17 +18,43 @@ ArtistDashboardView = Backbone.View.extend({
 		'click .js-saveFile'   : 'fileUpload',
 		'click .js-upload'	   : 'showUpload',
 		'click .js-shareMe'    : 'shareMP3',
+		'click .js-ReleaseToMe': 'shareWith',
+		'click .js-doRelease'  : 'doShare'
 	},
 
+	doShare : function(){
+		var contacts = [];
+		$('.ShareWithMe').each(function(){
+//			console.log($(this));
+			contacts.push($(this).data('id'));
+		});
+		if (contacts.length > 0){
+			var data = {
+					track : this.trackId,
+					contacts : contacts
+				}
+				console.log(data);			
+		}
+	},
+	
 	shareMP3 : function (e){
 		e.preventDefault();
 		var container = $(e.target).parent();
 		var crumb = $(container).children('.fan-crumb');
+		this.trackId = $(container).data('id');
 		$('.fan-crumb').removeClass('active-crumb');
 		$(crumb.addClass('active-crumb'));
 		$(e.target).addClass('ShareMe');
 	},
 	
+	shareWith : function(e){
+		e.preventDefault();
+		var container = $(e.target).closest('.fan-info');
+		console.log(container);
+		var crumb = $(container).children('.fan-crumb');
+		$(crumb.addClass('active-crumb'));
+		$(container).addClass('ShareWithMe');
+	},
 //	playMP3 : function (e){
 //		e.preventDefault();
 //        var container = $(e.target).parent();
