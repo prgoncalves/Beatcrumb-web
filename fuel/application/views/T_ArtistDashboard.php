@@ -26,7 +26,7 @@
 				</div>
 				<div class="uploaded-tracks">
 					<% _.each(tracks, function(value) { %>
-						<div class="uploaded-track"><a href="tracks/index/<%=value.filename%>" class="js-playMe"><%=value.filename%></a> <div class="fan-crumb">
+						<div class="uploaded-track"><a href="tracks/index/<%=value.filename%>" class="js-shareMe"><%=value.filename%></a> <div class="fan-crumb">
                                    
                                 </div></div>
 					<% }); %>					

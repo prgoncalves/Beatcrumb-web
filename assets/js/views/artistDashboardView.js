@@ -17,24 +17,33 @@ ArtistDashboardView = Backbone.View.extend({
 		'change #fileInput'	   : 'fileSelected',
 		'click .js-saveFile'   : 'fileUpload',
 		'click .js-upload'	   : 'showUpload',
-		'click .js-playMe'     : 'playMP3',
+		'click .js-shareMe'    : 'shareMP3',
+	},
+
+	shareMP3 : function (e){
+		e.preventDefault();
+		var container = $(e.target).parent();
+		var crumb = $(container).children('.fan-crumb');
+		$('.fan-crumb').removeClass('active-crumb');
+		$(crumb.addClass('active-crumb'));
+		$(e.target).addClass('ShareMe');
 	},
 	
-	playMP3 : function (e){
-		e.preventDefault();
-        var container = $(e.target).parent();
-        var crumb = $(container).children('.fan-crumb');
-        $('.fan-crumb').removeClass('active-crumb');
-        $(crumb.addClass('active-crumb'));
-		var track = $(e.target).attr("href");
-		var mySoundObject = soundManager.createSound({
-			 url: track,
-			 autoPlay: true,
-                         
-			 whileloading: function() { console.log(this.id + ' is loading'); }
-		});
-		return false;
-	},
+//	playMP3 : function (e){
+//		e.preventDefault();
+//        var container = $(e.target).parent();
+//        var crumb = $(container).children('.fan-crumb');
+//        $('.fan-crumb').removeClass('active-crumb');
+//        $(crumb.addClass('active-crumb'));
+//		var track = $(e.target).attr("href");
+//		var mySoundObject = soundManager.createSound({
+//			 url: track,
+//			 autoPlay: true,
+//                         
+//			 whileloading: function() { console.log(this.id + ' is loading'); }
+//		});
+//		return false;
+//	},
 	/*
 	 * File has been selected
 	 */
