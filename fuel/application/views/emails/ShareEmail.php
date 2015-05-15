@@ -14,12 +14,12 @@
 						  </tr>
 						  <tr>
 						   <td style="padding: 20px 0 20px 0;">
-						   	Dear <?php echo $data->name; ?>  
+						   	Dear <?=isset($data->name)?$data->name;'Beatcrumber' ?>  
 						   </td>
 						  </tr>
 						  <tr>
 						   <td>
-							<p><?php isset($artist->artist_name) ? $artist->artist_name : $artist->username ; ?> is sharing a beatcrumb with you. <a href="http://beta.fitzos.com/activation/contacts/<?php echo $data->contact_uuid;?>">Join beatcrumb now to hear the latest and greatest independent music.</a></p>
+							<p><?=isset($artist->artist_name) ? $artist->artist_name : $artist->username ?> is sharing a beatcrumb with you. <a href="http://beta.fitzos.com/activation/contacts/<?php echo $data->contact_uuid;?>">Join beatcrumb now to hear the latest and greatest independent music.</a></p>
 							<p>Regards</p>
 							</td>
 						  </tr>
