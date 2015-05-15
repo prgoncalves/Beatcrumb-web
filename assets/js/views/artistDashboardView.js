@@ -40,6 +40,15 @@ ArtistDashboardView = Backbone.View.extend({
 			    data: data,
 			    dataType : 'json',
 			    success: function(Result){
+			    	switch(Result.Status){
+			    		case 'OK'  : app.message('Worked');break;
+			    		case 'ERR' : app.alert('Share Failed');break;
+			    		case 'LOG' : app.appRouter.navigate('/login',true);
+			    	}
+			    	
+			    	if (Result.Status == 'ERR'){
+				    	app.alert('Shared failed');			    		
+			    	}
 			    	app.message('Worked');
 			    },
 			    error: function(data){
