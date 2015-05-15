@@ -14,7 +14,7 @@
 						  </tr>
 						  <tr>
 						   <td style="padding: 20px 0 20px 0;">
-						   	Dear <?=isset($data->name)?$data->name;'Beatcrumber' ?>  
+						   	Dear <?php if (isset($data->name)) { echo $data->name; } else { echo 'Beatcrumber'; } ?>  
 						   </td>
 						  </tr>
 						  <tr>
