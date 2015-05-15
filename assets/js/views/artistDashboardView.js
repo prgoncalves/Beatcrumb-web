@@ -23,6 +23,7 @@ ArtistDashboardView = Backbone.View.extend({
 	},
 
 	doShare : function(){
+// TODO: Get a message to send to the share
 		var contacts = [];
 		$('.ShareWithMe').each(function(){
 //			console.log($(this));

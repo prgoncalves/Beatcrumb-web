@@ -40,10 +40,12 @@ class Fan_model extends base_model{
 	public function createForShare($data){
 		$bytes = openssl_random_pseudo_bytes(100);
 		$hex = bin2hex($bytes);
-		$data->uuid      = $hex;
-		$data->activated = 'No';
-		unset($data->name);
-		$result = parent::create($data);
+		$update = array(
+			'email'=>$data->email,
+			'uuid'=>$hex,
+			'activated'=>'No'				
+		);
+		$result = parent::create($update);
 		return $result;		
 	}
 }

@@ -16,17 +16,47 @@ class Tracks_model extends base_model{
 		));
 		return $this->db->insert_id();
 	}
-	private function sendShareEmail($data){
-		// TODO: Send correct email for sharing
-		// TODO: Build link for password activation
+	private function sendShareEmail($data,$postData = null){
+		// get the artist details sending the crumb
+		$result = $this->db->get_where('artist',array('uuid'=>$postData['uuid']))->result();
+		$artist = $result[0];
 		$this->load->library('email');
-		$message = $this->load->view('emails/BlankEmailTemplate',array('data'=>$data,'message'=>'Sharing message'),TRUE);
+		$message = $this->load->view('emails/ShareEmail',array('data'=>$data,'postData'=>$postData,'artist'=>$artist),TRUE);
 		$this->email->initialize(array('mailtype'=>'html'));
 		$this->email->from('membership@beatcrumb.com');
 		$this->email->to($data->email);
 		$this->email->subject("Beatcrumb invite!");
 		$this->email->message($message);
-//		$this->email->send();
+		$this->email->send();
+	}
+	private function shareWithMember($contact,$contactdata,$data){
+		if (isset($contactdata[0]->contact_uuid) && !empty($contactdata[0]->contact_uuid)){
+			// if contact attached to a user then add to inbox
+			$this->addTrackToInbox($contactdata[0]->contact_uuid,$data['track'],$data['message']);
+		} else {
+			// if nbo uuid on contact then add uuid to contact
+			$this->addUUIDToContact($contact,$contactdata[0]->uuid);
+			$contactdata[0]->contact_uuid = $contactdata[0]->uuid;
+		}
+		// check if activated
+		if ($contactdata[0]->activated == 'No'){
+			// if not email
+			$this->sendShareEmail($contactdata[0],$data);
+		}
+		// add track to inbox
+		$this->addTrackToInbox($contactdata[0]->uuid,$data['track'],$data['message']);
+	}
+	private function shareWithNonMember($contact,$contactdata,$data){
+		// create account
+		$this->load->model('fan_model','fan');
+		$fan = $this->fan->createForShare($contactdata[0]);
+		// add uuid to contact
+		$this->addUUIDToContact($contact,$fan->uuid);
+		$contactdata[0]->contact_uuid = $fan->uuid;
+		// add to inbox
+		$this->addTrackToInbox($fan->uuid,$data['track'],$data['message']);
+		// send email with link for activation
+		$this->sendShareEmail($contactdata[0],$data);
 	}
 	public function share($data){
 		$contacts = $data['contacts'];
@@ -38,30 +68,9 @@ class Tracks_model extends base_model{
 			$this->db->join('fan','fan.email = contacts.email','left');
 			$contactdata = $this->db->get('contacts')->result();
 			if (isset($contactdata[0]->uuid)){ // a member
-				if (isset($contactdata[0]->contact_uuid) && !empty($contactdata[0]->contact_uuid)){
-					// if contact attached to a user then add to inbox
-					$this->addTrackToInbox($contactdata[0]->contact_uuid,$data['track'],$data['message']);
-				} else {
-					// if nbo uuid on contact then add uuid to contact
-					$this->addUUIDToContact($contact,$contactdata[0]->uuid);
-				}
-				// check if activated
-				if ($contactdata[0]->activated == 'No'){
-					// if not email
-					$this->sendShareEmail($contactdata[0]);
-				} 
-				// add track to inbox
-				$this->addTrackToInbox($contactdata[0]->uuid,$data['track'],$data['message']);
+				$this->shareWithMember($contact,$contactdata, $data);
 			} else {// not a member
-				// create account
-				$this->load->model('fan_model','fan');
-				$fan = $this->fan->createForShare($contactdata[0]);
-				// add uuid to contact
-				$this->addUUIDToContact($contact,$fan->uuid);
-				// add to inbox
-				$this->addTrackToInbox($fan->uuid,$data['track'],$data['message']);
-				// send email with link for activation
-				$this->sendShareEmail($contactdata[0]);
+				$this->shareWithNonMember($contact, $contactdata, $data);
 			}
 		}
 		return true;
