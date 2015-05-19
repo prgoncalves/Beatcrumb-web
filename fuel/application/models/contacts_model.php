@@ -19,6 +19,15 @@ class Contacts_model extends base_model {
 			return null;
 		}
 	} 
+	public function findOneByUUID($uuid){
+		$this->db->where('contact_uuid',$uuid);
+		$result = $this->db->get('contacts')->result();
+		if (isset($result[0])){
+			return $result[0];
+		} else {
+			return null;
+		}
+	}
 	public function create($data = array()){
 		if (!empty($data)){
 			$this->db->insert('contacts',$data);

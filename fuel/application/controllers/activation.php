@@ -13,7 +13,21 @@ class Activation extends CI_Controller{
 		$updated = $this->fan->activate($uuid);
 		$this->activateCheck($updated);
 	}
-
+	public function contacts($uuid = null){
+		if (isset($uuid)){
+			// get the contact
+			$this->load->model('contacts_model');
+			$contact = $this->contacts_model->findOneByUUID($uuid);
+			// render the page if we have a contact
+			if (isset($contact)){
+				$this->fuel->pages->render('activation_contacts',array('contact'=>$contact));
+			} else {
+				$this->fuel->pages->render('activation_error');
+			}
+		} else {
+			$this->fuel->pages->render('activation_error');
+		}
+	}
 	private function activateCheck($updated){
 		if ($updated > 0){
 			// show activation worked message
