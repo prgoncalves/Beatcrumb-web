@@ -20,6 +20,7 @@ class Contacts_model extends base_model {
 		}
 	} 
 	public function findOneByUUID($uuid){
+		$this->db->select('id,email,contact_uuid');
 		$this->db->where('contact_uuid',$uuid);
 		$result = $this->db->get('contacts')->result();
 		if (isset($result[0])){

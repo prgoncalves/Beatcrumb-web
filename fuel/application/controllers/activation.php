@@ -15,6 +15,11 @@ class Activation extends CI_Controller{
 	}
 	public function contacts($uuid = null){
 		if (isset($uuid)){
+			$session = array(
+				'type'=>'contact',
+				'contact_uuid'=>$uuid
+			);
+			$this->session->set_userdata($session);
 			// get the contact
 			$this->load->model('contacts_model');
 			$contact = $this->contacts_model->findOneByUUID($uuid);
@@ -36,5 +41,9 @@ class Activation extends CI_Controller{
 			// show activation failed message
 			$this->fuel->pages->render('activation_error');
 		}
+	}
+	public function memberAlready(){
+		$contact_uuid = $this->session->userdata('contact_uuid');
+		// get them logged in.. or show the login page.
 	}
 }
