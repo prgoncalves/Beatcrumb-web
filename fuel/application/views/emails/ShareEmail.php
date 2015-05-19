@@ -19,7 +19,7 @@
 						  </tr>
 						  <tr>
 						   <td>
-							<p><?=isset($artist->artist_name) ? $artist->artist_name : $artist->username ?> is sharing a beatcrumb with you. <a href="http://beta.fitzos.com/activation/contacts/<?php echo $data->contact_uuid;?>">Join beatcrumb now to hear the latest and greatest independent music.</a></p>
+							<p><?=isset($artist->artist_name) ? $artist->artist_name : $artist->username ?> is sharing a beatcrumb with you. <a href="http://beta.fitzos.com/activation/contacts/<?php echo $data->contact_uuid;?>#activation">Join beatcrumb now to hear the latest and greatest independent music.</a></p>
 							</td>
 						  </tr>
 						  <tr>

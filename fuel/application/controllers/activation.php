@@ -42,8 +42,7 @@ class Activation extends CI_Controller{
 			$this->fuel->pages->render('activation_error');
 		}
 	}
-	public function memberAlready(){
-		$contact_uuid = $this->session->userdata('contact_uuid');
-		// get them logged in.. or show the login page.
+	public function activator(){
+		var_dump($_POST);die;		
 	}
 }
