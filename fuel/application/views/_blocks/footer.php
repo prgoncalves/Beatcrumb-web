@@ -55,9 +55,6 @@
 		  }
 		});
 		</script>
-		<?php 
-			echo js('main').js($js);
-		?>
 	</footer>
 
 </body>

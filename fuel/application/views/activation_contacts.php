@@ -2,6 +2,8 @@
 <script id="shareActivation" type="text/template">
 <div class="landing-page-wrapper">
 	<div class="landing-logo"></div>
+    <div class="messages js-messages"></div>
+    <div class="alerts js-alerts"></div>
 	<div class="activation">
 		<form class="js-activationForm">
 			<label>Username</label>

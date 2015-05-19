@@ -45,4 +45,7 @@ class Activation extends CI_Controller{
 	public function activator(){
 		var_dump($_POST);die;		
 	}
+	public function memberAlready(){
+		var_dump($_POST);die;
+	}
 }

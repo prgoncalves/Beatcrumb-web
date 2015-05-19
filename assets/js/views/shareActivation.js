@@ -12,7 +12,33 @@ ShareActivationView = Backbone.View.extend({
 	activate : function(event){
 		if (this.validate()){
 			// get the data
-			console.log('Activate');
+			var passwd = $('.js-activationForm input[name="password"]').val();
+			passwd = CryptoJS.MD5(passwd);
+			passwd = passwd.toString(CryptoJS.enc.Hex);			
+			data = {
+				'username' : $('.js-activationForm input[name="username"]').val(),
+				'password' : passwd,
+			};
+			$.ajax({
+			    url: '/activation/activator',
+			    data: data,
+			    dataType : 'json',
+			    success: function(Result){
+			    	switch(Result.Status){
+			    		case 'OK'  : app.message('Worked');break;
+			    		case 'ERR' : app.alert('Failed');break;
+			    		case 'LOG' : app.appRouter.navigate('/login',true);
+			    	}
+			    	
+			    	if (Result.Status == 'ERR'){
+				    	app.alert('Failed');			    		
+			    	}
+			    	app.message('Worked');
+			    },
+			    error: function(data){
+			    	app.alert('Failed');
+			    }
+			});
 			return false;
 		} else {
 			return false;
@@ -21,7 +47,33 @@ ShareActivationView = Backbone.View.extend({
 	already : function(event){
 		if (this.validate()){
 			// get the data
-			console.log('Already');
+			var passwd = $('.js-activationForm input[name="password"]').val();
+			passwd = CryptoJS.MD5(passwd);
+			passwd = passwd.toString(CryptoJS.enc.Hex);			
+			data = {
+				'username' : $('.js-activationForm input[name="username"]').val(),
+				'password' : passwd,
+			};
+			$.ajax({
+			    url: '/activation/memberAlready',
+			    data: data,
+			    dataType : 'json',
+			    success: function(Result){
+			    	switch(Result.Status){
+			    		case 'OK'  : app.message('Worked');break;
+			    		case 'ERR' : app.alert('Failed');break;
+			    		case 'LOG' : app.appRouter.navigate('/login',true);
+			    	}
+			    	
+			    	if (Result.Status == 'ERR'){
+				    	app.alert('Failed');			    		
+			    	}
+			    	app.message('Worked');
+			    },
+			    error: function(data){
+			    	app.alert('Failed');
+			    }
+			});
 			return false;
 		} else {
 			return false;
