@@ -20,10 +20,19 @@
 						  <tr>
 						   <td>
 							<p><?=isset($artist->artist_name) ? $artist->artist_name : $artist->username ?> is sharing a beatcrumb with you. <a href="http://beta.fitzos.com/activation/contacts/<?php echo $data->contact_uuid;?>">Join beatcrumb now to hear the latest and greatest independent music.</a></p>
-							<p>Regards</p>
 							</td>
 						  </tr>
-					</tr>
+						  <tr>
+						  	<td>
+								<p>Beatcrumb is the only artist curated music messaging platform designed for independent musicians to message music directly to their fans in a personal, convenient and engaging way.</p>						  	
+						  	</td>
+						  </tr>
+						  <tr>
+						  	<td>
+								<p>Regards</p>						  	
+						  	</td>
+						  </tr>
+						  </tr>
 				</table>
 			</td>
 		</tr>
