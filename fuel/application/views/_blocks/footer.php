@@ -38,6 +38,7 @@
 		<script src="/assets/js/views/favouritesView.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/views/addEditContactView.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/views/pageHeader.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/shareActivation.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/app.js?v=<?php echo VERSION;?>"></script>
 		<script>
 		soundManager.setup({
@@ -54,6 +55,9 @@
 		  }
 		});
 		</script>
+		<?php 
+			echo js('main').js($js);
+		?>
 	</footer>
 
 </body>

@@ -24,9 +24,11 @@ var AppRouter = Backbone.Router.extend({
 		"artistSettings" : 'artistSettings',
 		"discover"       : 'discover',
 		"favourites"     : 'favourites',
+		"activation"     : 'activation',
 		"*action"        : "defaultAction"
 	}
 });
+
 
 app.showLandingPage = function(){
 	if (!app.landingView){
@@ -41,6 +43,13 @@ app.showPageHeader = function(){
 	app.pageHeader.render();	
 }
 app.appRouter = new AppRouter;
+app.appRouter.on('route:activation',function(){
+	if (!app.shareActivation){
+		app.shareActivation = new ShareActivationView();
+	}
+	app.shareActivation.render();	
+	console.log('Activating baby!');
+});
 
 app.appRouter.on('route:logout', function(id){
 	localStorage.removeItem('Beat_User');

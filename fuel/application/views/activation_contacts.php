@@ -1,7 +1,9 @@
+<div id="app"></div>
+<script id="shareActivation" type="text/template">
 <div class="landing-page-wrapper">
 	<div class="landing-logo"></div>
 	<div class="activation">
-		<form class="js-activationForm">
+		<form action="activate" method="post" class="js-activationForm">
 			<label>Username</label>
 			<input type='text' name='username'/>
 			<label>Password</label>
@@ -11,3 +13,4 @@
 		</form>
 	</div>
 </div>
+</script>
