@@ -43,20 +43,17 @@ class Activation extends CI_Controller{
 		}
 	}
 	public function activator(){
-		// add username and password
 		$data = $_POST;
 		$data['contact_uuid'] = $this->session->userdata('contact_uuid');
 		// activate account
 		$this->load->model('user_model','user');
-		$activated = $this->user->activateContact($data);
-		// redirect to dashboard??	
-		if ($activated){
-			echo true;
-		} else {
-			echo false;
-		}
+		$this->user->activateContact($data);
 	}
 	public function memberAlready(){
-		var_dump($_POST);die;
+		$data = $_POST;
+		$data['contact_uuid'] = $this->session->userdata('contact_uuid');
+		// check account
+		$this->load->model('user_model','user');
+		$this->user->moveContact($data);
 	}
 }

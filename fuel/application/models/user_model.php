@@ -165,4 +165,11 @@ class user_model extends base_model{
 		}
 		echo json_encode($returnData);
 	}
+	public function moveContact($data){
+		// login
+		// if looged in add uuid to contact
+		// move track to member inbox
+		// remove fan attached to contact
+		// return login details
+	}
 }
