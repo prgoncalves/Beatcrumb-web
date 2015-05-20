@@ -25,6 +25,7 @@ var AppRouter = Backbone.Router.extend({
 		"discover"       : 'discover',
 		"favourites"     : 'favourites',
 		"activation"     : 'activation',
+		"beatbox"        : 'beatbox',
 		"*action"        : "defaultAction"
 	}
 });
@@ -123,6 +124,18 @@ app.appRouter.on('route:discover',function(action){
 		app.showLandingPage();
 	}
 });
+app.appRouter.on('route:beatbox',function(action){
+	if (app.user){
+		if (!app.beatbox){
+			app.beatbox = new BeatboxView()
+		}
+		app.showPageHeader();
+		app.beatbox.render();					
+	} else {
+		app.showLandingPage();
+	}
+});
+
 app.appRouter.on('route:favourites',function(action){
 	if (app.user){
 		if (!app.favourites){
