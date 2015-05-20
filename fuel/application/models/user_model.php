@@ -146,8 +146,23 @@ class user_model extends base_model{
 		return $settings[0];
 	}
 	public function activateContact($data){
+// 		var_dump($data);
 		$this->db->where('uuid',$data['contact_uuid']);
 		$this->db->update('fan',array('activated'=>'Yes','username'=>$data['username'],'password'=>$data['password']));
-		return ($this->db->affected_rows() > 0);
+		if ($this->db->affected_rows() > 0){
+			$user = $this->login($data['username'],$data['password']);
+			$returnData = array(
+					'Status'=>'OK',
+					'Message'=>'Activation succesful',
+					'Result'=>$user
+			);
+		} else {
+			$returnData = array(
+					'Status'=>'ERR',
+					'Message'=>'Activation failed',
+					'Result'=>null
+			);
+		}
+		echo json_encode($returnData);
 	}
 }

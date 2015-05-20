@@ -25,14 +25,22 @@ ShareActivationView = Backbone.View.extend({
 			    method: 'post',
 			    dataType : 'json',
 			    success: function(Result){
-			    	if (Result == 1){
-			    		app.message('Worked');
-			    	} else {
-				    	app.alert('Activation Failed');			    					    		
+			    	switch(Result.Status){
+		    			case 'OK'  : 
+		    				app.message('Worked');
+		    				app.user = new User(data.Result);
+		    				if (typeof(Storage) !== 'undefined'){
+		    					localStorage.setItem('Beat_User',JSON.stringify(app.user));
+		    					app.user = JSON.parse(localStorage.getItem('Beat_User'));
+		    				}
+		    				// redirect
+		    				app.appRouter.navigate('/dashboard',true);
+		    				break;
+		    			case 'ERR' : app.alert('Activation Failed please try again later');break;
 			    	}
 			    },
 			    error: function(data){
-			    	app.alert('Failed');
+			    	app.alert('Activation Failed please try again later');
 			    }
 			});
 			return false;
