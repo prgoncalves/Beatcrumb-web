@@ -67,13 +67,7 @@ ShareActivationView = Backbone.View.extend({
 			    	switch(Result.Status){
 			    		case 'OK'  : app.message('Worked');break;
 			    		case 'ERR' : app.alert('Failed');break;
-			    		case 'LOG' : app.appRouter.navigate('/login',true);
 			    	}
-			    	
-			    	if (Result.Status == 'ERR'){
-				    	app.alert('Failed');			    		
-			    	}
-			    	app.message('Worked');
 			    },
 			    error: function(data){
 			    	app.alert('Failed');

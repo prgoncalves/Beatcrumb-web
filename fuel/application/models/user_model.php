@@ -167,9 +167,28 @@ class user_model extends base_model{
 	}
 	public function moveContact($data){
 		// login
+		$user = $this->login($data['username'],$data['password']);
 		// if looged in add uuid to contact
-		// move track to member inbox
-		// remove fan attached to contact
-		// return login details
+		if (isset($user)){
+			$this->db->where('contact_uuid',$data['contact_uuid']);
+			$this->db->update('contact',array('contact_uuid'=>$this->session->userdata('uuid')));	
+			// move tracks to member inbox
+			$this->db->where('uuid',$data['contact_uuid']);
+			$this->db->update('inbox',array('uuid'=>$this->session->userdata('uuid')));
+			// TODO:remove fan attached to contact???
+			// return login details
+			$returnData = array(
+					'Status'=>'OK',
+					'Message'=>'Activation succesful',
+					'Result'=>$user
+			);
+		} else {
+			$returnData = array(
+					'Status'=>'ERR',
+					'Message'=>'Activation failed',
+					'Result'=>null
+			);				
+		}
+		echo json_encode($returnData);
 	}
 }
