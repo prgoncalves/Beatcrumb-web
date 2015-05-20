@@ -15,7 +15,11 @@ class user_model extends base_model{
 				'uuid'=>$fan[0]->uuid
 			);
 			$this->session->set_userdata($session);
-			return array('type'=>'fan'); 
+			return array(
+				'type'=>'fan',
+				'username'=>$fan[0]->username,
+				'image'=>$fan[0]->image
+			); 
 		}
 		// check if artist
 		$artist = $this->db->get_where('artist',array('username'=>$username,'password'=>$password))->result();
