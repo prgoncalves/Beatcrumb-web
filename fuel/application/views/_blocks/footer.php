@@ -16,6 +16,7 @@
 		<script src="/assets/js/models/genreModel.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/models/contactModel.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/models/settingModel.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/models/trackModel.js?v=<?php echo VERSION;?>"></script>
 		
 		<script src="/assets/js/collections/artistCollection.js?v=<?php echo VERSION;?>"></script>		
 		<script src="/assets/js/collections/artistTracksCollection.js?v=<?php echo VERSION;?>"></script>		
@@ -23,6 +24,7 @@
 		<script src="/assets/js/collections/genreCollection.js?v=<?php echo VERSION;?>"></script>	
 		<script src="/assets/js/collections/contactsCollection.js?v=<?php echo VERSION;?>"></script>	
 		<script src="/assets/js/collections/settingsCollection.js?v=<?php echo VERSION;?>"></script>	
+		<script src="/assets/js/collections/beatboxCollection.js?v=<?php echo VERSION;?>"></script>	
 		
 		<script src="/assets/js/views/loginView.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/views/landingView.js?v=<?php echo VERSION;?>"></script>

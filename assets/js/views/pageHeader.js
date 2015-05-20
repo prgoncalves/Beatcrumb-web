@@ -6,8 +6,9 @@ PageHeader = Backbone.View.extend({
 		this.$el.html($('#page-header').html());
 	},
 	events : {
-		'click .search-icon' : 'doSearch',
-		'click .header-discover' : 'discover'
+		'click .search-icon'     : 'doSearch',
+		'click .header-discover' : 'discover',
+		'click .header-beatbox'  : 'beatbox',
 	},
 	doSearch : function(){
     	data = {
@@ -29,5 +30,8 @@ PageHeader = Backbone.View.extend({
 	},
 	discover : function(){
 		app.appRouter.navigate('/discover',true);
+	},
+	beatbox : function(){
+		app.appRouter.navigate('/beatbox',true);
 	}
 });

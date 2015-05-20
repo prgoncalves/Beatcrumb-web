@@ -129,8 +129,10 @@ app.appRouter.on('route:beatbox',function(action){
 		if (!app.beatbox){
 			app.beatbox = new BeatboxView()
 		}
-		app.showPageHeader();
-		app.beatbox.render();					
+		$.when(deferBeatbox).done(function(){
+			app.showPageHeader();
+			app.beatbox.render();								
+		});
 	} else {
 		app.showLandingPage();
 	}

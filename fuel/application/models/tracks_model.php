@@ -79,4 +79,13 @@ class Tracks_model extends base_model{
 		$this->db->where('id',$id);
 		$this->db->update('contacts',array('contact_uuid'=>$UUID));
 	}
+	public function inbox($data){
+		$this->db->where('uuid',$data['uuid']);
+		$this->db->where('available','yes');
+		$available = $this->db->get('inbox')->result();
+		$this->db->where('uuid',$data['uuid']);
+		$this->db->where('available','no');
+		$notAvailable = $this->db->get('inbox')->result();
+		return array('available'=>$available,'notAvailable'=>$notAvailable);		
+	}
 }
