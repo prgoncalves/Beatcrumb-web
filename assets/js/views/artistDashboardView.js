@@ -19,7 +19,8 @@ ArtistDashboardView = Backbone.View.extend({
 		'click .js-upload'	   : 'showUpload',
 		'click .js-shareMe'    : 'shareMP3',
 		'click .js-ReleaseToMe': 'shareWith',
-		'click .js-doRelease'  : 'doShare'
+		'click .js-doRelease'  : 'doShare',
+		'click .js-showRelease': 'showRelease',
 	},
 
 	doShare : function(){
@@ -31,11 +32,10 @@ ArtistDashboardView = Backbone.View.extend({
 		});
 		if (contacts.length > 0){
 			var data = {
-					track : this.trackId,
+					track    : this.trackId,
 					contacts : contacts,
-					message : 'Enjoy this new track'
+					message  : $('#shareMessage').val()
 				}
-			console.log(data);
 			$.ajax({
 			    url: 'api/r/tracks/share',
 			    data: data,
@@ -156,4 +156,7 @@ ArtistDashboardView = Backbone.View.extend({
 	showUpload : function(){
 		$('.upload-form').show();
 	},
+	showRelease : function(){
+		$('.release-form').show();
+	}
 });

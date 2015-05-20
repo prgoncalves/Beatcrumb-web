@@ -1197,7 +1197,7 @@ button.js-saveProfile, .js-saveContact{
 	background-color:green;
 	color:white;
 }
-.uploadSave,.upload-form{
+.uploadSave,.upload-form,.release-form{
 	display:none;
 }
 

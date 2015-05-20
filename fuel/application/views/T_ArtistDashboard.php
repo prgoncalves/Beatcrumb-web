@@ -35,7 +35,12 @@
             </div>
     
             <div class="scroll-container">
-                <h4 class="release js-doRelease">release</h4>
+                <h4 class="release js-showRelease">release</h4>
+				<div class="release-form">
+  					<label>Message</label>
+					<input id="shareMessage" plaecholder="Message to send with share" value="" type="text" name="messageInput">
+					<button class="js-doRelease">Send</button>
+				</div>
                 <div class="fans-scroll">
                     <div class="scroll-inner">
 						<%_.each(contacts,function(value) { %>
