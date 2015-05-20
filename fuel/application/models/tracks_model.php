@@ -37,14 +37,14 @@ class Tracks_model extends base_model{
 			// if nbo uuid on contact then add uuid to contact
 			$this->addUUIDToContact($contact,$contactdata[0]->uuid);
 			$contactdata[0]->contact_uuid = $contactdata[0]->uuid;
+			// add track to inbox
+			$this->addTrackToInbox($contactdata[0]->uuid,$data['track'],$data['message']);
 		}
 		// check if activated
 		if ($contactdata[0]->activated == 'No'){
 			// if not email
 			$this->sendShareEmail($contactdata[0],$data);
 		}
-		// add track to inbox
-		$this->addTrackToInbox($contactdata[0]->uuid,$data['track'],$data['message']);
 	}
 	private function shareWithNonMember($contact,$contactdata,$data){
 		// create account
