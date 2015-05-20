@@ -521,6 +521,13 @@ header{
     line-height: 4em;
     cursor: pointer;
 }
+.header-beatbox{
+    float: left;
+    font-size: 1.2em;
+    margin-left: 20px;
+    line-height: 4em;
+    cursor: pointer;
+}
 
 .header-search{
     position: relative;

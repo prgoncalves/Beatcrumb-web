@@ -13,6 +13,9 @@
     <div class="header-discover">
         discover
     </div>
+    <div class="header-beatbox">
+        beatbox
+    </div>
     <div class="header-search">
         <input name="search" placeholder="Search" class="js-Search"></input>
         <img class="search-icon" src="/assets/images/header-search-icon.png"/>    

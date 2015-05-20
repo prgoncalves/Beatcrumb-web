@@ -186,6 +186,7 @@ app.appRouter.on('route:dashboard',function(){
 			if (!app.fanDashboard){
 				app.fanDashboard = new FanDashboardView()
 			}
+			app.showPageHeader();
 			app.fanDashboard.render();				
 		}		
 	} else {
