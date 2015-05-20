@@ -145,4 +145,9 @@ class user_model extends base_model{
 		}
 		return $settings[0];
 	}
+	public function activateContact($data){
+		$this->db->where('uuid',$data['contact_uuid']);
+		$this->db->update('fan',array('activated'=>'Yes','username'=>$data['username'],'password'=>$data['password']));
+		return ($this->db->affected_rows() > 0);
+	}
 }

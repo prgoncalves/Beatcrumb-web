@@ -22,18 +22,14 @@ ShareActivationView = Backbone.View.extend({
 			$.ajax({
 			    url: '/activation/activator',
 			    data: data,
+			    method: 'post',
 			    dataType : 'json',
 			    success: function(Result){
-			    	switch(Result.Status){
-			    		case 'OK'  : app.message('Worked');break;
-			    		case 'ERR' : app.alert('Failed');break;
-			    		case 'LOG' : app.appRouter.navigate('/login',true);
+			    	if (Result == 1){
+			    		app.message('Worked');
+			    	} else {
+				    	app.alert('Activation Failed');			    					    		
 			    	}
-			    	
-			    	if (Result.Status == 'ERR'){
-				    	app.alert('Failed');			    		
-			    	}
-			    	app.message('Worked');
 			    },
 			    error: function(data){
 			    	app.alert('Failed');
@@ -57,6 +53,7 @@ ShareActivationView = Backbone.View.extend({
 			$.ajax({
 			    url: '/activation/memberAlready',
 			    data: data,
+			    method: 'post',
 			    dataType : 'json',
 			    success: function(Result){
 			    	switch(Result.Status){
