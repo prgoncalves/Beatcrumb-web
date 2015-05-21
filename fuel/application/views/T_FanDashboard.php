@@ -21,6 +21,18 @@
             </div>
     
             <div class="scroll-container">
+				<%_.each(contacts,function(value) { %>
+                	<div class="fan-block">
+                    	<div class="fan-info js-ReleaseToMe" data-id="<%=value.id%>">
+                        	<div class="fan-mini-picture">
+                            	<img src="<%=value.image%><"/>
+                            </div>
+                            <h5 class="fan-name"><%=value.name%></h5>
+                            <div class="fan-crumb">
+                            </div>
+                        </div>
+                    </div>
+				<% }); %>					                    
             </div>
         
             
