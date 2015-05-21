@@ -770,7 +770,7 @@ header{
     width:100%;
 }
 
-.discover-artist-name{
+.discover-artist-name,.beatbox-artist-name{
     float: left;
     height: 50px;
     width: 40%;
@@ -779,7 +779,7 @@ header{
     box-sizing: border-box;
 }
 
-.discover-listens{
+.discover-listens,.beatbox-listens,.beatbox-shares{
     float: left;
     height: 50px;
     width: 26%;
@@ -787,7 +787,7 @@ header{
     box-sizing: border-box;
 }
 
-.discover-single-crumb{
+.discover-single-crumb,.beatbox-single-crumb{
     float: left;
     height: 50px;
     width: 6%;
@@ -796,7 +796,7 @@ header{
     margin-left: 5%;
 }
 
-.discover-crumb{
+.discover-crumb,.beatbox-crumb{
     width: 90%;
     padding-bottom: 90%;
     float:none;
@@ -804,7 +804,7 @@ header{
         
 }
 
-.discover-three-crumb{
+.discover-three-crumb,.beatbox-three-crumb{
     float: left; 
     height: 50px;
     width: 11%;
