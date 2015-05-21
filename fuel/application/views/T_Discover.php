@@ -23,7 +23,7 @@
 <script id="discover-tracks" type="text/template">
 		<% _.each(tracks, function(value) { %>
 			<div class="artist-mini-picture">
-		    	<img src="/images/noelleartist-u388-fr.png"/>
+		    	<img src="assets/<%=value.image%>"/>
 			</div>
 			<h2 class="discover-artist-name"><%=value.artist_name%></h2>
 			<div class="discover-track-name"><%=value.filename%></div>
