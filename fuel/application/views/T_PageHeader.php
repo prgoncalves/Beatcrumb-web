@@ -1,7 +1,7 @@
 <script id="page-header" type="text/template">
 <header>
 <div class="inner-header">
-    <div class="header-logo">
+    <div class="header-logo header-beatbox">
         <a href="#dashboard"><img class="" src ="images/beatcrumblogolarge-u823-fr.png"/></a>
     </div>
     <div class="header-favourite">
@@ -12,9 +12,6 @@
     </div>
     <div class="header-discover">
         discover
-    </div>
-    <div class="header-beatbox">
-        beatbox
     </div>
     <div class="header-search">
         <input name="search" placeholder="Search" class="js-Search"></input>
