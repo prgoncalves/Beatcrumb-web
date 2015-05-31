@@ -24,7 +24,6 @@ ArtistDashboardView = Backbone.View.extend({
 	},
 
 	doShare : function(){
-// TODO: Get a message to send to the share
 		var contacts = [];
 		$('.ShareWithMe').each(function(){
 //			console.log($(this));
@@ -42,7 +41,12 @@ ArtistDashboardView = Backbone.View.extend({
 			    dataType : 'json',
 			    success: function(Result){
 			    	switch(Result.Status){
-			    		case 'OK'  : app.message('Worked');break;
+			    		case 'OK'  : 
+			    			app.message('Your tracks have been shared.');
+			    			$('.release-form').hide();
+			    			$("div").removeClass('ShareMe');
+			    			$("div").removeClass('active-crumb');			    			
+			    			break;
 			    		case 'ERR' : app.alert('Share Failed');break;
 			    		case 'LOG' : app.appRouter.navigate('/login',true);
 			    	}
@@ -50,7 +54,6 @@ ArtistDashboardView = Backbone.View.extend({
 			    	if (Result.Status == 'ERR'){
 				    	app.alert('Shared failed');			    		
 			    	}
-			    	app.message('Worked');
 			    },
 			    error: function(data){
 			    	app.alert('Shared failed');
