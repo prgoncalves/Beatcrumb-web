@@ -2,7 +2,7 @@
 <header>
 <div class="inner-header">
     <div class="header-logo header-beatbox">
-        <a href="#dashboard"><img class="" src ="images/beatcrumblogolarge-u823-fr.png"/></a>
+        <a href="#beatcrumb"><img class="" src ="images/beatcrumblogolarge-u823-fr.png"/></a>
     </div>
     <div class="header-favourite">
         <a href="#favourites"><img class="" src ="images/donation-list-u824-fr.png"/></a>
