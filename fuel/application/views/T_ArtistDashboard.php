@@ -9,7 +9,9 @@
             <div class="artist-profile-left">
                 <div class="artist-name"><h1 class="artist-header"><%=app.user.artist_name%></h1></div>
                 <div class="artist-picture">
-                    <img src="/assets/<%=app.user.image%>"/>
+					<% if (app.user.image){%>
+	                    <img src="/assets/<%=app.user.image%>"/>
+					<%}%>
                 </div>
 				
             </div>
