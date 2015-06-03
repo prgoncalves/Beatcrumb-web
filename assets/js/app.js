@@ -127,7 +127,7 @@ app.appRouter.on('route:discover',function(action){
 app.appRouter.on('route:beatbox',function(action){
 	if (app.user){
 		if (!app.beatbox){
-			app.beatbox = new BeatboxView()
+			app.beatbox = new BeatboxView();
 		}
 		$.when(deferBeatbox).done(function(){
 			app.showPageHeader();
