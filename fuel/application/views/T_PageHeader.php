@@ -10,6 +10,9 @@
     <div class="header-page-active">
         home
     </div>
+    <div class="header-home">
+        home
+    </div>
     <div class="header-discover">
         discover
     </div>

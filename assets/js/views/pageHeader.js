@@ -9,6 +9,7 @@ PageHeader = Backbone.View.extend({
 		'click .search-icon'     : 'doSearch',
 		'click .header-discover' : 'discover',
 		'click .header-beatbox'  : 'beatbox',
+		'click .header-homr'     : 'dashboard',
 	},
 	doSearch : function(){
     	data = {
@@ -27,6 +28,9 @@ PageHeader = Backbone.View.extend({
         	}).error(function(){
     			app.alert('Unable to find any results');    		
         	});
+	},
+	dashboard : function(){
+		app.appRouter.navigate('/dashboard',true);
 	},
 	discover : function(){
 		app.appRouter.navigate('/discover',true);
