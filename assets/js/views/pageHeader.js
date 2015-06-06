@@ -9,7 +9,7 @@ PageHeader = Backbone.View.extend({
 		'click .search-icon'     : 'doSearch',
 		'click .header-discover' : 'discover',
 		'click .header-beatbox'  : 'beatbox',
-		'click .header-homr'     : 'dashboard',
+		'click .header-home'     : 'dashboard',
 	},
 	doSearch : function(){
     	data = {
