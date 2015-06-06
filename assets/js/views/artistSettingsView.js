@@ -18,7 +18,6 @@ ArtistSettingsView = Backbone.View.extend({
 		'click .js-edit-contact'   : 'editContact',
 	},
 	addContact : function(ev){
-		console.log('add');
 		if (!app.addContact){
 			app.addContact = new ContactView();
 		}
