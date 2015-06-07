@@ -49,7 +49,6 @@ app.appRouter.on('route:activation',function(){
 		app.shareActivation = new ShareActivationView();
 	}
 	app.shareActivation.render();	
-	console.log('Activating baby!');
 });
 
 app.appRouter.on('route:logout', function(id){
@@ -104,6 +103,7 @@ app.appRouter.on('route:artistSettings',function(action){
 			app.artistSettings = new ArtistSettingsView()
 		}
 		app.showPageHeader();
+		app.activeHeader('.header-settings');							
 		$.when(deferSettings,deferContacts).done(function(){
 			app.artistSettings.render();		
 		});
@@ -117,6 +117,7 @@ app.appRouter.on('route:discover',function(action){
 			app.discover = new DiscoverView()
 		}
 		app.showPageHeader();
+		app.activeHeader('.header-discover');					
 		$.when(deferGenre).done(function(){
 			app.discover.render();					
 		});
@@ -131,6 +132,7 @@ app.appRouter.on('route:beatbox',function(action){
 		}
 		$.when(deferBeatbox).done(function(){
 			app.showPageHeader();
+			app.activeHeader('.header-beatbox');			
 			app.beatbox.render();								
 		});
 	} else {
@@ -144,6 +146,7 @@ app.appRouter.on('route:favourites',function(action){
 			app.favourites = new FavouritesView()
 		}
 		app.showPageHeader();
+		app.activeHeader('.header-favourite');
 		app.favourites.render();		
 	} else {
 		app.showLandingPage();
@@ -163,6 +166,7 @@ app.appRouter.on('route:dashboard',function(){
 				app.artistDashboard = new ArtistDashboardView()
 			}
 			app.showPageHeader();
+			app.activeHeader('.header-home');
 			$.when(deferGenre,deferContacts).done(function(){
 				app.artistTrackCollection.fetch({
 					success:function(){
@@ -189,6 +193,7 @@ app.appRouter.on('route:dashboard',function(){
 				app.fanDashboard = new FanDashboardView()
 			}
 			app.showPageHeader();
+			app.activeHeader('.header-home');
 			app.fanDashboard.render();				
 		}		
 	} else {
@@ -209,5 +214,11 @@ app.logout = function(){
 	localStorage.removeItem('Beat_User');
 	app.user = undefined;
 	app.appRouter.navigate('/login',true);	
+}
+app.activeHeader = function(activePage){
+	$(".inner-header").each(function(i, val) {
+	    $(this).removeClass("header-page-active");
+	});	
+	$(activePage).addClass('header-page-active');
 }
 Backbone.history.start();

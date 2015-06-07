@@ -505,16 +505,19 @@ header{
 }
 
 .header-page-active{
+    font-size: 1.2em;
+    line-height: 4em;
+    color: #ff0000;
+}
+
+.header-discover{
     float: left;
     font-size: 1.2em;
     margin-left: 20px;
     line-height: 4em;
     cursor: pointer;
-    color: #ff0000;
-    
 }
-
-.header-discover{
+.header-home{
     float: left;
     font-size: 1.2em;
     margin-left: 20px;

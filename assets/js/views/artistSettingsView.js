@@ -9,7 +9,6 @@ ArtistSettingsView = Backbone.View.extend({
 		};
 		var content = _.template($('#artistSettings').html(),data);
 		this.$el.html(content);
-		$('.header-page-active').html('settings');
 	},
 	events : {
 		'click .js-saveProfile'    : 'saveProfile',

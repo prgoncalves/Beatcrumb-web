@@ -8,7 +8,6 @@ BeatboxView = Backbone.View.extend({
 		};
 		var content = _.template($('#beatbox').html(),data);
 		this.$el.html(content);
-		$('.header-page-active').html('beatbox');
 	},
 	events : {
 	},

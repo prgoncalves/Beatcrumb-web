@@ -8,7 +8,6 @@ DiscoverView = Backbone.View.extend({
 		};
 		var content = _.template($('#discover-page').html(),data);
 		this.$el.html(content);
-		$('.header-page-active').html('discover');
 	},
 	events : {
 		'click .genre-item' : 'findGenre'

@@ -10,7 +10,6 @@ ArtistDashboardView = Backbone.View.extend({
 		};
 		var content = _.template($('#artist-dashboard').html(),data);
 		this.$el.html(content);
-		$('.header-page-active').html('home');
 	},
 	events : {
 		'click .addContact'    : 'addContact',
