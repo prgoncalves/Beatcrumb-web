@@ -16,6 +16,7 @@ ContactView = Backbone.View.extend({
 	},
 	saveContact : function(ev){
 		ev.preventDefault();
+		var that = this;
 		var newContact = new Contact();
 		newContact.set({
 			'email':$('.add-contact input[name="email"]').val(),
@@ -23,12 +24,16 @@ ContactView = Backbone.View.extend({
 		});
 		newContact.url = 'api/rest/contacts';
 		newContact.save();
-		app.contactsCollection.fetch({reset : true});
-		if (this.parentView){
-			this.parentView.render();
-			app.message('Contact saved!');
-		} else {
-			app.appRouter.navigate('/artistSettings',true);			
-		}
+		app.contactsCollection.fetch({
+			reset : true, 
+			success:function(){
+				if (that.parentView){
+					that.parentView.render();
+					app.message('Contact saved!');
+				} else {
+					app.appRouter.navigate('/artistSettings',true);			
+				}				
+			}
+		});
 	}
 });
