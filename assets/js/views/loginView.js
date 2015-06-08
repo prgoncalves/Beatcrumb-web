@@ -16,8 +16,13 @@ LoginView = Backbone.View.extend({
 		passwd = passwd.toString(CryptoJS.enc.Hex);
 		// lets do the call
 		$.ajax({
+			method : 'post',
+			data : {
+				'username' : username,
+				'password' : passwd
+			},
 			dataType: "json",
-			url : "/api/r/user/login?username=" + username + "&password=" + passwd 
+			url : "/api/r/user/login" 
 		}).done(function(data){
 			if (data.Status == 'OK'){
 				// populate the model
