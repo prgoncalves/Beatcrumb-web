@@ -3,7 +3,7 @@
     <div class="main-container">
 		<div class="beatbox">
 			<%_.each(app.availableInbox, function(value) { console.log(value);%>
-				<div class="beatbox-track">
+				<div class="beatbox-track" data-track="<%=value.filename%>">
 					<h2 class="beatbox-artist-name"><%=value.artist_name%></h2>
 					<div class="beatbox-track-name"><%=value.filename%></div>
 					<div class="beatbox-listens"><%=value.plays%></div>

@@ -10,19 +10,15 @@ BeatboxView = Backbone.View.extend({
 		this.$el.html(content);
 	},
 	events : {
+		'click .beatbox-track' : 'playMP3'
 	},
 
 	playMP3 : function (e){
 		e.preventDefault();
-        var container = $(e.target).parent();
-        var crumb = $(container).children('.fan-crumb');
-        $('.fan-crumb').removeClass('active-crumb');
-        $(crumb.addClass('active-crumb'));
-		var track = $(e.target).attr("href");
+		var track = $(e.target).data("track");
 		var mySoundObject = soundManager.createSound({
-			 url: track,
+			 url: 'track/index/' + track,
 			 autoPlay: true,
-                         
 			 whileloading: function() { console.log(this.id + ' is loading'); }
 		});
 		return false;
