@@ -9,7 +9,7 @@
 			<label>Email Address</labeL>
 			<input type='text' name='email' value="<%if (typeof email !== 'undefined'){%><%=email%><%}%>"/>
 			<label>Contact Name</label>
-			<input type='text' name='name' value=""/>
+			<input type='text' name='name' value="<%if (typeof name !== 'undefined'){%><%=name%><%}%>"/>
 			<button class='js-saveContact'>Save</button>
 		</form>
 	</div>
