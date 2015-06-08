@@ -53,7 +53,8 @@ ArtistSettingsView = Backbone.View.extend({
 		}
 		app.addContact.model = contacts[result];
 		app.addContact.parentView = this;
-		app.addContact.render();			
+		app.addContact.render();
+		$('#form').appendTo($(ev.target).parent());
 	},
 	saveProfile : function(ev){
 		ev.preventDefault();
