@@ -22,6 +22,9 @@ ContactView = Backbone.View.extend({
 			'email':$('.add-contact input[name="email"]').val(),
 			'name': $('.add-contact input[name="name"]').val()
 		});
+		if ($(ev.target).data('id')){
+			newContact.set({'id':$(ev.target).data('id')});
+		}
 		newContact.url = 'api/rest/contacts';
 		newContact.save();
 		app.contactsCollection.fetch({
