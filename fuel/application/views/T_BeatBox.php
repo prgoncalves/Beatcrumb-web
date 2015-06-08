@@ -2,7 +2,8 @@
   <div class="landing-page-wrapper">
     <div class="main-container">
 		<div class="beatbox">
-			<%_.each(app.availableInbox, function(value) { console.log(value);%>
+			<% if (typeof app.availableInbox != 'undefined' && app.availableInbox.length > 0){
+				_.each(app.availableInbox, function(value) { console.log(value);%>
 				<div class="beatbox-track" data-track="<%=value.filename%>">
 					<h2 class="beatbox-artist-name"><%=value.artist_name%></h2>
 					<div class="beatbox-track-name"><%=value.filename%></div>
@@ -23,7 +24,10 @@
                     	<div class="three-crumb-three"></div>
                 	</div>
 				</div>
-			<% }); %>											
+			<% });
+			} else {%>
+				<h3>You have no tracks shared at the moment</h3>
+			<%}%>											
 		</div>
 	</div>
   </div>
