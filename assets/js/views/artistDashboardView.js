@@ -74,10 +74,17 @@ ArtistDashboardView = Backbone.View.extend({
 	shareWith : function(e){
 		e.preventDefault();
 		var container = $(e.target).closest('.fan-info');
-		console.log(container);
 		var crumb = $(container).children('.fan-crumb');
-		$(crumb.addClass('active-crumb'));
-		$(container).addClass('ShareWithMe');
+		if ($(crumb).hasClass('active-crumb')){
+			$(crumb.removeClass('active-crumb'));
+		} else {
+			$(crumb.addClass('active-crumb'));			
+		}
+		if ($(container).hasClass('ShareWithMe')){
+			$(container).removeClass('ShareWithMe');						
+		} else {
+			$(container).addClass('ShareWithMe');			
+		}
 	},
 //	playMP3 : function (e){
 //		e.preventDefault();
