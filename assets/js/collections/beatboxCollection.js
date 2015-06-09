@@ -10,6 +10,4 @@ app.beatboxCollection.on('reset',function(){
 	app.availableInbox = app.beatboxCollection.models[0].attributes.available;
 	app.notAvailableInbox = app.beatboxCollection.models[0].attributes.notAvailable;	
 });
-
-app.beatboxCollection.fetch({reset : true});
-
+  

@@ -25,12 +25,17 @@ LoginView = Backbone.View.extend({
 			url : "/api/r/user/login" 
 		}).done(function(data){
 			if (data.Status == 'OK'){
+				// reload data
+				app.beatboxCollection.fetch({reset : true});
+				app.genreCollection.fetch({reset : true});
+				app.contactsCollection.fetch({reset : true});
 				// populate the model
 				app.user = new User(data.Result);
 				if (typeof(Storage) !== 'undefined'){
 					localStorage.setItem('Beat_User',JSON.stringify(app.user));
 					app.user = JSON.parse(localStorage.getItem('Beat_User'));
 				}
+				
 				// redirect
 				app.appRouter.navigate('/dashboard',true);
 			} else {
