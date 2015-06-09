@@ -910,6 +910,11 @@ header{
     left:-30%;
 }
 
+
+.beatbox-listens{
+    width: 15%;
+}
+
 .beatbox-listens img{
     float:right;
 }
@@ -920,6 +925,17 @@ header{
 
 .beatbox-single-crumb{
     margin-top: 10px;
+}
+
+.beatbox-message{
+    float:left;
+    padding:5px;
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    margin-top: 20px;
+    display: none;
+    border-radius: 5px;
+    margin-left: 20px;
 }
 
 /*end of beatbox*/
