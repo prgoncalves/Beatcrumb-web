@@ -1095,7 +1095,7 @@ button.js-saveProfile, .js-saveContact{
 /*Media Queries*/
 
 
-@media screen and (max-width:700px){
+/*@media screen and (max-width:700px){
     .header-search{
         width: 80%;
         clear: left;
@@ -1141,9 +1141,9 @@ button.js-saveProfile, .js-saveContact{
         width:49%;
         margin-bottom: 10px;
     }
-}
+}*/
 
-@media screen and (max-width: 630px) {
+/*@media screen and (max-width: 630px) {
     .artist-signup-form label{
         margin-left: 5%;
     }
@@ -1268,7 +1268,7 @@ button.js-saveProfile, .js-saveContact{
         width: 50%;
         line-height: 15px;
     }
-}
+}*/
 
 .alerts{
 	background-color:red;
