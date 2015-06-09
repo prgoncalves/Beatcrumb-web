@@ -601,6 +601,7 @@ header{
     width: 85%;
     margin: 0 auto;
     max-width: 1000px;
+    min-width: 900px;
 }
 
 .artist-profile{
@@ -755,11 +756,11 @@ header{
 }
 
 .discover-right, .favourite-right {
-    background: none repeat scroll 0 0 red;
     box-sizing: border-box;
     float: right;
     height: 500px;
     width: 70%;
+    min-width: 610px;
 }
 
 .artist-mini-picture{
@@ -778,37 +779,54 @@ header{
     position: absolute;
     left:-30%;
 }
+.discover-track-name{
+    float:left;
+    margin-top: 15px;
+    box-sizing: border-box;
+    height: 50px;
+    width:17%;
+    font-size: 1.1em;
+    line-height: 45px;
+}
 
 .discover-artist-name,.beatbox-artist-name{
     float: left;
     height: 50px;
-    width: 40%;
-    background:violet;
+    width: 24%;
     margin-top: 15px;
     box-sizing: border-box;
+    margin-left: 10px;
 }
 
 .discover-listens,.beatbox-listens,.beatbox-shares{
     float: left;
     height: 50px;
     width: 26%;
-    background:orange;
     box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.discover-listens img{
+    float: right;
 }
 
 .discover-single-crumb,.beatbox-single-crumb{
     float: left;
     height: 50px;
     width: 6%;
-    background:yellow;
     box-sizing: border-box;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 15px;
+    
+    
 }
 
 .discover-crumb,.beatbox-crumb{
-    width: 90%;
-    padding-bottom: 90%;
+    width: 70%;
+    padding-bottom: 70%;
     float:none;
+    margin-top: 10px
     
         
 }
@@ -817,10 +835,10 @@ header{
     float: left; 
     height: 50px;
     width: 11%;
-    background:green;
     box-sizing: border-box;
     position: relative;
     max-width: 50px;
+    margin-top: 15px;
 }
 
 .three-crumb-one, .three-crumb-two,.three-crumb-three{

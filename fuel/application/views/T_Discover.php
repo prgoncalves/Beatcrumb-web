@@ -27,7 +27,9 @@
 			</div>
 			<h2 class="discover-artist-name"><%=value.artist_name%></h2>
 			<div class="discover-track-name"><%=value.filename%></div>
-			<div class="discover-listens"><%=value.plays%></div>
+			<div class="discover-listens"><%=value.plays%>
+                            <img class="" src="assets/images/ear.png"/>
+                        </div>
 			<div class="discover-single-crumb">
 			    <div class="discover-crumb active-crumb"></div>
 			</div>
