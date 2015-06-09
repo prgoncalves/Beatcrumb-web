@@ -8,15 +8,16 @@ DiscoverView = Backbone.View.extend({
 		};
 		var content = _.template($('#discover-page').html(),data);
 		this.$el.html(content);
+		// get tracks with no genre
+		this.getTracks(0);
+		return this;
 	},
 	events : {
 		'click .genre-item' : 'findGenre'
 	},
-	findGenre : function(e){
-		console.log($(e.target).data('id'));
-		$(e.target).addClass('selected');
+	getTracks : function(id){
+    	var data = {id:id};    			
 		var that = this;
-    	data = {id:$(e.target).data('id')};    			
     	$.ajax({
     		data : data,
     		dataType : "json",
@@ -25,7 +26,10 @@ DiscoverView = Backbone.View.extend({
     		that.showTracks(data.Result);
     	}).error(function(){
 			app.alert('Unable to get tracks for genre');    		
-    	});
+    	});		
+	},
+	findGenre : function(e){
+		this.getTracks($(e.target).data('id'));
 	},
 	showTracks : function(tracks){
 		if (!app.discoverTracks){
