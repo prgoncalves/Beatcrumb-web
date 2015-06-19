@@ -42,6 +42,7 @@
 		<script src="/assets/js/views/beatboxView.js?v=<?php echo VERSION;?>"></script>		
 		<script src="/assets/js/views/pageHeader.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/views/shareActivation.js?v=<?php echo VERSION;?>"></script>
+		<script src="/assets/js/views/searchResultsView.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/app.js?v=<?php echo VERSION;?>"></script>
 		<script>
 		soundManager.setup({

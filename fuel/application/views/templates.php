@@ -16,6 +16,7 @@ $this->load->view('T_Discover');
 $this->load->view('T_Favourites');
 $this->load->view('T_AddContact');
 $this->load->view('T_BeatBox');
+$this->load->view('T_SearchResults');
 
 
 ?>
