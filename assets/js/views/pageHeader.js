@@ -21,6 +21,13 @@ PageHeader = Backbone.View.extend({
         		url : '/api/r/search/search'
         	}).success(function(data){
     			if (data.Status == 'OK'){
+    				if (!app.searchResults){
+    					app.searchResults = new SearchResults();
+    				}
+    				app.searchResults.tracks = data.Result.tracks;
+    				app.searchResults.artists = data.Result.artists;
+    				app.searchResults.render();
+    				
     				app.message('Results ');
     			} else {
     				app.alert('Unable to find any results');
