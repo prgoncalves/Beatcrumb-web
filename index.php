@@ -10,7 +10,7 @@ date_default_timezone_set('Europe/London');
  */
 define('INSTALL_ROOT', str_replace('\\', '/', realpath(dirname(__FILE__))).'/fuel/');
 define('ASSETS_FOLDER', str_replace('\\', '/', realpath(dirname(__FILE__))).'/assets/');
-define('VERSION','AsymetricAntilope');
+define('VERSION','ArguingArtichoke');
 
 
 /*
