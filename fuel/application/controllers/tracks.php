@@ -31,6 +31,7 @@ class Tracks extends CI_Controller{
 			echo('I would like to help but I really can not');
 		}
 	}
+	
 	private function downloadTrack($artistId,$filename){
 		$pathToFile = ASSETS_FOLDER.'artists/'.$artistId .'/'.$filename;
 		$modules = apache_get_modules();

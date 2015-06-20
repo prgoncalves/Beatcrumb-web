@@ -97,6 +97,8 @@ html{
     height: 300px;
 }
 
+
+
 .rgba-background.clearfix{
     width: 100%;
     position: absolute;
@@ -151,6 +153,21 @@ a.fan-signup:hover{
 
 
 /*End of Login CSS*/
+
+
+/* Search Results */
+.searchBlock{
+    background: #fff;
+    display: table;
+    clear: both;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 90%;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding-bottom: 1em;
+}
+
 
 
 /*forms*/
