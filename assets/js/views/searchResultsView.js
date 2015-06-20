@@ -20,16 +20,14 @@ SearchResults = Backbone.View.extend({
 	var mySoundObject = soundManager.createSound({
 		 id : 'foundTrack',
 		 url: track,
-		 autoPlay: false,
+		 autoPlay: true,
          onload: function(bSuccess){
         	 playable = bSuccess;
+        	if (!playable){
+        		app.alert('You cannot currently play that track!');
+        	}
          }            
 	});
-	if (playable){
-		mySoundObject.play();
-	} else {
-		app.alert('You do not have permission to play that track!');
-	}
 	return false;
 },
 	

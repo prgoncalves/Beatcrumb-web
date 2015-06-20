@@ -51,13 +51,13 @@
 		  // optional: ignore Flash where possible, use 100% HTML5 mode
 		  // preferFlash: false,
 		  onready: function() {
-		    // Ready to use; soundManager.createSound() etc. can now be called.
-			console.log('I am loaded');
 		  },
 		  ontimeout : function (){
-			console.log('Someyhing possibly went wrong!');
-		  }
+		  },
 		});
+		soundmanager.onerror = function(){
+			  app.alert('Unable to play that track!');
+		};
 		</script>
 	</footer>
 
