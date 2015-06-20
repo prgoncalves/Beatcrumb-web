@@ -49,6 +49,7 @@ class Tracks extends CI_Controller{
 				}	else {
 					$trackData->plays = 1;
 				}
+				$this->tracks->updateTrack($trackData);
 				// set so user cannot play without sharing
 				$this->tracks->setTrackUserPlayed($uuid,$track);
 				// if can download file to play

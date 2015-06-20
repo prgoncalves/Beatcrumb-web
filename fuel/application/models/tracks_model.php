@@ -40,6 +40,12 @@ class Tracks_model extends base_model{
 			}
 		}
 	}
+	public function updateTrack($track){
+		if ($this->nonRestCalls){
+			$this->db->where('id',$track->id);
+			$this->db->update('tracks',$track);
+		}
+	}
 	public function setTrackUserPlayed($uuid,$track){
 		if ($this->nonRestCalls){
 			// get existing record
