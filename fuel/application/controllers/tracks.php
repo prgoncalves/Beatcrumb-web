@@ -12,7 +12,7 @@ class Tracks extends CI_Controller{
 		);
 		$this->audit->log($log);
 	}
-	public function index($filename = null,$user=null){
+	public function index($filename = null){
 		$uuid = $this->session->userdata('uuid');
 		if (!empty($uuid) && !empty($filename)){
 			$this->logStuff($uuid,'GetTrack','For Artist Only!',"Artist is $uuid,Filename is $filename");
@@ -24,11 +24,41 @@ class Tracks extends CI_Controller{
 			if (!empty($track[0])){
 				$this->downloadTrack($track[0]->id,$filename);				
 			} else {
-				echo('Track not found!');
+				show_404('track/index','Track not found!');
 			}
 		} else {
 			// render a page and tell them to go away...
-			echo('I would like to help but I really can not');
+			show_404('track/index','Access denial');
+		}
+	}
+	
+	public function play($track,$artist){
+		// get the users uuid
+		$uuid = $this->session->userdata('uuid');
+		if (!empty($uuid) && !empty($track) && !empty($artist)){
+			// check to see if they can play
+			$this->load->model('tracks_model','tracks');
+			$this->tracks->setNonRest();
+			$playable = $this->tracks->canPlayTrack($track,$uuid);
+			if ($playable){
+				// get track to download
+				$trackData = $this->tracks->getTrackDetails($track);
+				// increase play counts
+				if (isset($trackData->plays)){
+					$trackData->plays += 1;
+				}	else {
+					$trackData->plays = 1;
+				}
+				// set so user cannot play without sharing
+				$this->setTrackUserPlayed($uuid,$track);
+				// if can download file to play
+				$this->downloadTrack($trackData->artist_id, $trackData->filename);
+			} else {
+				// send 404 if they cannot
+				show_404('track/play','Track not playable');
+			}
+		} else {
+			show_404('track/play','Not all params to play track');
 		}
 	}
 	

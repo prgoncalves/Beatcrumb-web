@@ -1,9 +1,69 @@
 <?php
 class Tracks_model extends base_model{
+	private $nonRestCalls = false;
 	public function __construct(){
 		$this->tableName = 'tracks';
 		$this->keyField = 'id';
 		parent::__construct();
+	}
+	public function setNonRest(){
+		// allow non rest calls - Cant be called from API
+		$this->nonRestCalls = true;
+	}
+	public function canPlayTrack($track,$uuid){
+		if ($this->nonRestCalls){
+			$this->db->select('playable');
+			$this->db->where('track_id',$track);
+			$this->db->where('uuid',$uuid);
+			$data = $this->db->get('user_played')->result();
+			if (isset($data[0])){
+				if ($data[0]->playable == 'Yes'){
+					return true;
+				} else {
+					return false;
+				}
+			} else {
+				return true;
+			}
+		} else {
+			return false;
+		}
+	}
+	public function getTrackDetails($track){
+		if ($this->nonRestCalls){
+			$this->db->where('id',$track);
+			$result = $this->db->get('tracks')->result();
+			if (isset($result[0])){
+				return $result[0];
+			} else {
+				return null;
+			}
+		}
+	}
+	public function setTrackUserPlayed($uuid,$track){
+		if ($this->nonRestCalls){
+			// get existing record
+			$this->db->where('uuid',$uuid);
+			$this->db->where('track_id',$track);
+			$played = $this->db->get('user_played')->result();
+			// if exists then update
+			if (isset($played[0])){
+				$played[0]->playable = 'No';
+				$played[0]->plays += 1;
+				$this->db->where('uuid',$uuid);
+				$this->db->where('track_id',$track);
+				$this->db->update('user_played',$played[0]); 
+			} else {
+				// if not create
+				$this->db->insert('user_played',array(
+					'uuid'=>$uuid,
+					'track_id'=>$track,
+					'plays'=>1,
+					'shares'=>0,
+					'playable'=>'No'	
+				));
+			}
+		}
 	}
 	private function addTrackToInbox($uuid,$track,$message=''){
 		$this->db->insert('inbox',array(

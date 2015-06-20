@@ -15,13 +15,21 @@ SearchResults = Backbone.View.extend({
 	},
 	playMP3 : function (e){
 	e.preventDefault();
+	var playable = true;
 	var track = $(e.target).attr("href");
 	var mySoundObject = soundManager.createSound({
+		 id : 'foundTrack',
 		 url: track,
-		 autoPlay: true,
-                     
-		 whileloading: function() { console.log(this.id + ' is loading'); }
+		 autoPlay: false,
+         onload: function(bSuccess){
+        	 playable = bSuccess;
+         }            
 	});
+	if (playable){
+		mySoundObject.play();
+	} else {
+		app.alert('You do not have permission to play that track!');
+	}
 	return false;
 },
 	

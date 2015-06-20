@@ -9,7 +9,7 @@
 	      	<% _.each(tracks, function(value) { %>
 	      		<p><%=value.artist_name%></p>
 	      		<p><%=value.filename%></p>
-	      		<a class="fan-crumb playTrack" href="tracks/index/<%=value.filename%>">Play Me</a>
+	      		<a class="fan-crumb playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>">Play Me</a>
 	      	<% }); %>
 	      </div>
 	</div>
