@@ -157,15 +157,13 @@ a.fan-signup:hover{
 
 /* Search Results */
 .searchBlock{
-    background: #fff;
     display: table;
-    clear: both;
-    max-width: 600px;
     margin: 0 auto;
     width: 90%;
-    box-sizing: border-box;
-    margin-top: 100px;
-    padding-bottom: 1em;
+}
+.searchTracks{
+	top:100px;
+	position:absolute;
 }
 
 

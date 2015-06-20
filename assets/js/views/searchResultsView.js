@@ -11,5 +11,18 @@ SearchResults = Backbone.View.extend({
 		this.$el.html(content);
 	},
 	events : {
+		'click .playTrack' : 'playMP3'
 	},
+	playMP3 : function (e){
+	e.preventDefault();
+	var track = $(e.target).attr("href");
+	var mySoundObject = soundManager.createSound({
+		 url: track,
+		 autoPlay: true,
+                     
+		 whileloading: function() { console.log(this.id + ' is loading'); }
+	});
+	return false;
+},
+	
 });
