@@ -23,7 +23,10 @@ SearchResults = Backbone.View.extend({
         	if (!bSuccess){
         		app.alert('You cannot currently play that track!');
         	}
-         }            
+         },
+         onfinish : function(){
+        	 this.destroy();
+         }
 		});
 		mySoundObject.play();
 	return false;

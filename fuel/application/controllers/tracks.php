@@ -33,33 +33,37 @@ class Tracks extends CI_Controller{
 	}
 	
 	public function play($track,$artist){
-		// get the users uuid
-		$uuid = $this->session->userdata('uuid');
-		if (!empty($uuid) && !empty($track) && !empty($artist)){
-			// check to see if they can play
-			$this->load->model('tracks_model','tracks');
-			$this->tracks->setNonRest();
-			$playable = $this->tracks->canPlayTrack($track,$uuid);
-			if ($playable){
-				// get track to download
-				$trackData = $this->tracks->getTrackDetails($track);
-				// increase play counts
-				if (isset($trackData->plays)){
-					$trackData->plays += 1;
-				}	else {
-					$trackData->plays = 1;
+		if(isset($_SERVER['HTTP_RANGE'])) {
+			// get the users uuid
+			$uuid = $this->session->userdata('uuid');
+			if (!empty($uuid) && !empty($track) && !empty($artist)){
+				// check to see if they can play
+				$this->load->model('tracks_model','tracks');
+				$this->tracks->setNonRest();
+				$playable = $this->tracks->canPlayTrack($track,$uuid);
+				if ($playable){
+					// get track to download
+					$trackData = $this->tracks->getTrackDetails($track);
+					// increase play counts
+					if (isset($trackData->plays)){
+						$trackData->plays += 1;
+					}	else {
+						$trackData->plays = 1;
+					}
+					$this->tracks->updateTrack($trackData);
+					// set so user cannot play without sharing
+					$this->tracks->setTrackUserPlayed($uuid,$track);
+					// if can download file to play
+					$this->downloadTrack($trackData->artist_id, $trackData->filename);
+				} else {
+					// send 404 if they cannot
+					show_404('track/play','Track not playable');
 				}
-				$this->tracks->updateTrack($trackData);
-				// set so user cannot play without sharing
-				$this->tracks->setTrackUserPlayed($uuid,$track);
-				// if can download file to play
-				$this->downloadTrack($trackData->artist_id, $trackData->filename);
 			} else {
-				// send 404 if they cannot
-				show_404('track/play','Track not playable');
+				show_404('track/play','Not all params to play track');
 			}
 		} else {
-			show_404('track/play','Not all params to play track');
+			echo('Nah ah');die();
 		}
 	}
 	
