@@ -55,7 +55,7 @@
 		  ontimeout : function (){
 		  },
 		});
-		soundmanager.onerror = function(){
+		soundManager.onerror = function(){
 			  app.alert('Unable to play that track!');
 		};
 		</script>

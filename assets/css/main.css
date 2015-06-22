@@ -1301,6 +1301,8 @@ button.js-saveProfile, .js-saveContact{
 }*/
 
 .alerts{
+	top:90px;
+	position:absolute;
 	background-color:red;
 	color:white;
 }

@@ -14,20 +14,18 @@ SearchResults = Backbone.View.extend({
 		'click .playTrack' : 'playMP3'
 	},
 	playMP3 : function (e){
-	e.preventDefault();
-	var playable = true;
-	var track = $(e.target).attr("href");
-	var mySoundObject = soundManager.createSound({
+		e.preventDefault();
+		var track = $(e.target).attr("href");
+		var mySoundObject = soundManager.createSound({
 		 id : 'foundTrack',
 		 url: track,
-		 autoPlay: true,
          onload: function(bSuccess){
-        	 playable = bSuccess;
-        	if (!playable){
+        	if (!bSuccess){
         		app.alert('You cannot currently play that track!');
         	}
          }            
-	});
+		});
+		mySoundObject.play();
 	return false;
 },
 	
