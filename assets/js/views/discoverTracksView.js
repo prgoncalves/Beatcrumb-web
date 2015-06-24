@@ -10,5 +10,15 @@ DiscoverTracks = Backbone.View.extend({
 		this.$el.html(content);
 	},
 	events : {
+		'click .shareTrack' : 'showShareDialog',
 	},
+	showShareDialog : function(ev){
+		var target = $(ev.target);
+		track = $(target).data('id');
+		console.log(track);
+		// remove active crumb from all
+		$('.discover-crumb').removeClass('active_crumb');
+		$(target).addClass('active-crumb');
+		// show contacts........
+	}
 });

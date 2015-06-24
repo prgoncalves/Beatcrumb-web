@@ -118,7 +118,7 @@ app.appRouter.on('route:discover',function(action){
 		}
 		app.showPageHeader();
 		app.activeHeader('.header-discover');					
-		$.when(deferGenre).done(function(){
+		$.when(deferGenre,deferContacts).done(function(){
 			app.discover.render();					
 		});
 	} else {
