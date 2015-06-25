@@ -37,5 +37,7 @@ DiscoverView = Backbone.View.extend({
 		}
 		app.discoverTracks.tracks = tracks;
 		app.discoverTracks.render();					
+		$('.release-form').hide();
+		$('.fans-scroll').hide();
 	}
 });

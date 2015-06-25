@@ -4,7 +4,8 @@ DiscoverTracks = Backbone.View.extend({
 	el : '#discover-right',
 	render : function(){
 		var data = {
-			tracks : this.tracks
+			tracks : this.tracks,
+			contacts : app.contacts.attributes
 		};
 		var content = _.template($('#discover-tracks').html(),data);
 		this.$el.html(content);
@@ -15,10 +16,11 @@ DiscoverTracks = Backbone.View.extend({
 	showShareDialog : function(ev){
 		var target = $(ev.target);
 		track = $(target).data('id');
-		console.log(track);
 		// remove active crumb from all
 		$('.discover-crumb').removeClass('active_crumb');
 		$(target).addClass('active-crumb');
 		// show contacts........
+		$('.release-form').show();
+		$('.fans-scroll').show();		
 	}
 });
