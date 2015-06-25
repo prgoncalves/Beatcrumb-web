@@ -85,7 +85,17 @@ class Tracks_model extends base_model{
 	private function sendShareEmail($data,$postData = null){
 		// get the artist details sending the crumb
 		$result = $this->db->get_where('artist',array('uuid'=>$postData['uuid']))->result();
-		$artist = $result[0];
+		// if we have result they are an artist..
+		if (isset($result[0])){
+			$artist = $result[0];
+		} else {
+			$result = $this->db->get_where('fan',array('uuid'=>$postData['uuid']))->result();
+			if (isset($result[0])){
+				$artist = $result[0];				
+			} else {
+				return false;
+			}
+		}
 		$this->load->library('email');
 		$message = $this->load->view('emails/ShareEmail',array('data'=>$data,'postData'=>$postData,'artist'=>$artist),TRUE);
 		$this->email->initialize(array('mailtype'=>'html'));
@@ -93,7 +103,7 @@ class Tracks_model extends base_model{
 		$this->email->to($data->email);
 		$this->email->subject("Beatcrumb invite!");
 		$this->email->message($message);
-		$this->email->send();
+		return $this->email->send();
 	}
 	private function shareWithMember($contact,$contactdata,$data){
 		if (isset($contactdata[0]->contact_uuid) && !empty($contactdata[0]->contact_uuid)){

@@ -47,6 +47,7 @@ DiscoverTracks = Backbone.View.extend({
 				    		case 'OK'  : 
 				    			app.message('Your tracks have been shared.');
 				    			$('.release-form').hide();
+				    			$('.fans-scroll').hide();
 				    			$("div").removeClass('ShareMe');
 				    			$("div").removeClass('active-crumb');			    			
 				    			break;
