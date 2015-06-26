@@ -11,9 +11,10 @@ DiscoverTracks = Backbone.View.extend({
 		this.$el.html(content);
 	},
 	events : {
-		'click .shareTrack' : 'showShareDialog',
-		'click .js-doShare' : 'shareTrack',
+		'click .shareTrack'    : 'showShareDialog',
+		'click .js-doShare'    : 'shareTrack',
 		'click .js-ReleaseToMe': 'shareWith',
+		'click .playTrack'     : 'playMP3'
 	},
 	showShareDialog : function(ev){
 		var target = $(ev.target);
@@ -28,7 +29,6 @@ DiscoverTracks = Backbone.View.extend({
 	shareTrack : function(ev){
 		var contacts = [];
 		$('.ShareWithMe').each(function(){
-//			console.log($(this));
 			contacts.push($(this).data('id'));
 		});	
 		if ($('#shareMessage').val().length > 0){
@@ -85,6 +85,24 @@ DiscoverTracks = Backbone.View.extend({
 		} else {
 			$(container).addClass('ShareWithMe');			
 		}
+	},
+	playMP3 : function (e){
+		e.preventDefault();
+		var track = $(e.target).parent().attr("href");
+		var mySoundObject = soundManager.createSound({
+		 id : 'foundTrack',
+		 url: track,
+         onload: function(bSuccess){
+        	if (!bSuccess){
+        		app.alert('You cannot currently play that track!');
+        	}
+         },
+         onfinish : function(){
+        	 this.destroy();
+         }
+		});
+		mySoundObject.play();
+	return false;
 	},
 
 	
