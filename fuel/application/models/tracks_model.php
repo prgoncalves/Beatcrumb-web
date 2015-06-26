@@ -135,6 +135,8 @@ class Tracks_model extends base_model{
 		$this->sendShareEmail($contactdata[0],$data);
 	}
 	public function share($data){
+		// get the users uuid
+		$uuid = $this->session->userdata('uuid');
 		$contacts = $data['contacts'];
 		foreach($contacts as $contact){
 			// get contact record and join it to a fan or artist
@@ -151,7 +153,33 @@ class Tracks_model extends base_model{
 			// update the track with inreased share
 			$this->increaseTrackShareCount($data['track']);
 		}
+		// if we have more than 3 contacts make the track playable
+		if (count($contacts) > 2){
+			$this->setTrackPlayableAfterShare($uuid, $track);
+		}
 		return true;
+	}
+	private function setTrackPlayableAfterShare($uuid,$track){
+			$this->db->where('uuid',$uuid);
+			$this->db->where('track_id',$track);
+			$played = $this->db->get('user_played')->result();
+			if (isset($played[0])){
+				// update record
+				$played[0]->playable = 'Yes';
+				$played[0]->shares += 1;
+				$this->db->where('uuid',$uuid);
+				$this->db->where('track_id',$track);
+				$this->db->update('user_played',$played[0]);
+			} else {
+				// if not create
+				$this->db->insert('user_played',array(
+					'uuid'=>$uuid,
+					'track_id'=>$track,
+					'plays'=>0,
+					'shares'=>1,
+					'playable'=>'Yes'
+				));
+			}
 	}
 	private function increaseTrackPlayCount($id){
 		$this->db->set('plays','plays+1',false);
