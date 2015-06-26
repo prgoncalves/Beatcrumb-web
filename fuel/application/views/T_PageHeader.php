@@ -4,9 +4,11 @@
     <div class="header-logo header-beatbox">
         <img class="" src ="images/beatcrumblogolarge-u823-fr.png"/>
     </div>
-    <div class="header-favourite">
+<!--    
+	<div class="header-favourite">
         <a href="#favourites"><img class="" src ="images/donation-list-u824-fr.png"/></a>
     </div>
+--!>
     <div class="header-home">
         home
     </div>
