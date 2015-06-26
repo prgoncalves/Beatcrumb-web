@@ -58,7 +58,7 @@ class Tracks_model extends base_model{
 				$played[0]->plays += 1;
 				$this->db->where('uuid',$uuid);
 				$this->db->where('track_id',$track);
-				$this->db->update('user_played',$played[0]); 
+				$this->db->update('user_played',$played[0]);
 			} else {
 				// if not create
 				$this->db->insert('user_played',array(
@@ -66,7 +66,7 @@ class Tracks_model extends base_model{
 					'track_id'=>$track,
 					'plays'=>1,
 					'shares'=>0,
-					'playable'=>'No'	
+					'playable'=>'No'
 				));
 			}
 		}
@@ -91,7 +91,7 @@ class Tracks_model extends base_model{
 		} else {
 			$result = $this->db->get_where('fan',array('uuid'=>$postData['uuid']))->result();
 			if (isset($result[0])){
-				$artist = $result[0];				
+				$artist = $result[0];
 			} else {
 				return false;
 			}
@@ -148,8 +148,20 @@ class Tracks_model extends base_model{
 			} else {// not a member
 				$this->shareWithNonMember($contact, $contactdata, $data);
 			}
+			// update the track with inreased share
+			$this->increaseTrackShareCount($data['track']);
 		}
 		return true;
+	}
+	private function increaseTrackPlayCount($id){
+		$this->db->set('plays','plays+1',false);
+		$this->db->where('id',$id);
+		$this->db->update('tracks');
+	}
+	private function increaseTrackShareCount($id){
+		$this->db->set('shares','shares+1',false);
+		$this->db->where('id',$id);
+		$this->db->update('tracks');
 	}
 	private function addUUIDToContact($id,$UUID){
 		$this->db->where('id',$id);
@@ -166,6 +178,6 @@ class Tracks_model extends base_model{
 	public function inbox($data){
 		$available = $this->getInbox($data['uuid'],'yes');
 		$notAvailable = $this->getInbox($data['uuid'],'no');;
-		return array('available'=>$available,'notAvailable'=>$notAvailable);		
+		return array('available'=>$available,'notAvailable'=>$notAvailable);
 	}
 }
