@@ -7,5 +7,11 @@ FanDashboardView = Backbone.View.extend({
 				contacts : app.contacts.attributes
 		};
 		this.$el.html(_.template($('#fan-dashboard').html(),data));
+	},
+	events : {
+		'click .js-UploadPhoto' : 'uploadPhoto' 
+	},
+	uploadPhoto : function(){
+		
 	}
 });

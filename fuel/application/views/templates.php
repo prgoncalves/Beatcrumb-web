@@ -11,6 +11,7 @@ $this->load->view('T_ArtistDashboard');
 $this->load->view('T_FanDashboard');
 $this->load->view('T_ForgottenPassword');
 $this->load->view('T_ArtistSettings');
+$this->load->view('T_FanSettings');
 $this->load->view('T_PageHeader');
 $this->load->view('T_Discover');
 $this->load->view('T_Favourites');

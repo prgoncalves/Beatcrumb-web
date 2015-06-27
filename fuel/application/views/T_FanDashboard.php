@@ -12,14 +12,14 @@
 					<% if (app.user.image){ %>
                     <img src="/assets/<%=app.user.image%>"/>
 					<%} else {%>
-						<button>Upload Photo</button>
+						<button class="js-UploadPhoto">Upload Photo</button>
 					<%}%>
                 </div>
-				
+
             </div>
             <div class="fan-profile-right">
             </div>
-    
+
             <div class="scroll-container">
 				<%_.each(contacts,function(value) { %>
                 	<div class="fan-block">
@@ -32,17 +32,17 @@
                             </div>
                         </div>
                     </div>
-				<% }); %>					                    
+				<% }); %>
             </div>
-        
-            
+
+
         <div class="browser_width colelem" id="u148-5-bw">
             <div class="clearfix" id="u148-5"><!-- content -->
                 <p>&nbsp;</p>
                 <div class="copyright-container">
                     <p><span id="u148-2">Beatcrumb Inc 2014</span></p>
                 </div>
-     
+
             </div>
         </div>
      </div>

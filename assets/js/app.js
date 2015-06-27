@@ -21,7 +21,7 @@ var AppRouter = Backbone.Router.extend({
 		"activation"     : 'activate',
 		"dashboard"      : "dashboard",
 		"forgotPassword" : 'forgotPassword',
-		"artistSettings" : 'artistSettings',
+		"Settings"       : 'settings',
 		"discover"       : 'discover',
 		"favourites"     : 'favourites',
 		"activation"     : 'activation',
@@ -97,16 +97,27 @@ app.appRouter.on('route:artistSetup',function(action){
 	}
 	app.artistSetup.render();		
 });
-app.appRouter.on('route:artistSettings',function(action){
+app.appRouter.on('route:settings',function(action){
 	if (app.user){
-		if (!app.artistSettings){
-			app.artistSettings = new ArtistSettingsView()
+		if (app.user.type == 'artist'){
+			if (!app.artistSettings){
+				app.artistSettings = new ArtistSettingsView()
+			}
+			app.showPageHeader();
+			app.activeHeader('.header-settings');							
+			$.when(deferSettings,deferContacts).done(function(){
+				app.artistSettings.render();		
+			});			
+		} else {
+			if (!app.fanSettings){
+				app.fanSettings = new FanSettingsView()
+			}
+			app.showPageHeader();
+			app.activeHeader('.header-settings');							
+			$.when(deferSettings,deferContacts).done(function(){
+				app.fanSettings.render();		
+			});						
 		}
-		app.showPageHeader();
-		app.activeHeader('.header-settings');							
-		$.when(deferSettings,deferContacts).done(function(){
-			app.artistSettings.render();		
-		});
 	} else {
 		app.showLandingPage();
 	}
