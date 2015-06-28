@@ -25,7 +25,6 @@ SearchResults = Backbone.View.extend({
         	}
          },
          onfinish : function(){
-        	 this.destroy();
          }
 		});
 		mySoundObject.play();

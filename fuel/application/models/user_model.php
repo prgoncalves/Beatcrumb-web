@@ -18,8 +18,9 @@ class user_model extends base_model{
 			return array(
 				'type'=>'fan',
 				'username'=>$fan[0]->username,
-				'image'=>$fan[0]->image
-			); 
+				'image'=>$fan[0]->image,
+				'email'=>$fan[0]->email
+			);
 		}
 		// check if artist
 		$artist = $this->db->get_where('artist',array('username'=>$username,'password'=>$password))->result();
@@ -44,7 +45,7 @@ class user_model extends base_model{
 	}
 	private function createPassword(){
 		$alphabet = "BEATCRUMBPROFORMANCEabcdef!ghi-+jklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
-		$password = array(); 
+		$password = array();
 		$alphaLength = strlen($alphabet) - 1;
 		for ($i = 0; $i < 8; $i++) {
 			$n = rand(0, $alphaLength);
@@ -127,7 +128,7 @@ class user_model extends base_model{
 				if ($worked){
 					$worked = move_uploaded_file($file['tmp_name'], $destination . '/'. $file['name']);
 					// update the database.
-					$data['image'] = $partFolder.'/'.$file['name'];					
+					$data['image'] = $partFolder.'/'.$file['name'];
 				}
 			}
 			// check if posting
@@ -175,7 +176,7 @@ class user_model extends base_model{
 		// if looged in add uuid to contact
 		if (isset($user)){
 			$this->db->where('contact_uuid',$data['contact_uuid']);
-			$this->db->update('contact',array('contact_uuid'=>$this->session->userdata('uuid')));	
+			$this->db->update('contact',array('contact_uuid'=>$this->session->userdata('uuid')));
 			// move tracks to member inbox
 			$this->db->where('uuid',$data['contact_uuid']);
 			$this->db->update('inbox',array('uuid'=>$this->session->userdata('uuid')));
@@ -191,7 +192,7 @@ class user_model extends base_model{
 					'Status'=>'ERR',
 					'Message'=>'Activation failed',
 					'Result'=>null
-			);				
+			);
 		}
 		echo json_encode($returnData);
 	}

@@ -25,7 +25,7 @@ $link = $link . $client_id . '&redirect_uri='.$redirect_uri .'&scope=https://www
                 </div>
 			<% }); %>
 			<button class='js-add-contact'>Add contact</button>
-			<% if (app.user.email.indexOf("gmail") >-1) { %>
+			<% if (app.user.email && app.user.email.indexOf("gmail") >-1) { %>
 				<a href="<?php echo($link);?>">Import GMAIL Contacts</a>
 			<% } %>
 		</div>

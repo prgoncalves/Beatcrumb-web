@@ -205,7 +205,16 @@ app.appRouter.on('route:dashboard',function(){
 			}
 			app.showPageHeader();
 			app.activeHeader('.header-home');
-			app.fanDashboard.render();				
+			app.contactsCollection.fetch({
+				reset : true,
+				success: function(){
+					app.fanDashboard.render();				
+				},
+				error : function(){
+					app.fanDashboard.render();				
+					app.alert('Unable to load contacts');								
+				}
+			});
 		}		
 	} else {
 		app.appRouter.navigate('/login',true);		
