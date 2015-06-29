@@ -34,7 +34,7 @@ ContactView = Backbone.View.extend({
 					that.parentView.render();
 					app.message('Contact saved!');
 				} else {
-					app.appRouter.navigate('/artistSettings',true);			
+					app.appRouter.navigate('/Settings',true);			
 				}				
 			}
 		});
