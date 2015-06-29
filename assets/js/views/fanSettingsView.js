@@ -48,9 +48,11 @@ FanSettingsView = Backbone.View.extend({
 		var result = $.grep(Object.keys(contacts), function(e){
 			return contacts[e].id == id;
 		 });
-		if (!app.addContact){
-			app.addContact = new ContactView();
+		if (app.addContact){
+			app.addContact.remove();
+            app.addContact.off();  
 		}
+		app.addContact = new ContactView();
 		app.addContact.model = contacts[result];
 		app.addContact.parentView = this;
 		app.addContact.render();
