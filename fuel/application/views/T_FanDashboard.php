@@ -8,7 +8,7 @@
 
             <div class="fan-profile-left">
                 <div class="fan-name"><h1 class="fan-header"><%=app.user.username%></h1></div>
-                <div class="fan-picture">
+                <div class="fan-mini-picture">
 					<% if (app.user.image){ %>
                     <img src="/assets/<%=app.user.image%>"/>
 					<%} else {%>
