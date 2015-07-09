@@ -12,6 +12,17 @@ class Tracks_model extends base_model{
 	}
 	public function canPlayTrack($track,$uuid){
 		if ($this->nonRestCalls){
+			// See if the artist and the User is the same
+			$this->db->select('artist.uuid');
+			$this->db->where('tracks.id',$track);
+			$this->db->join('artist','tracks.artist_id=artist.id');
+			$artist = $this->db->get('tracks')->result();
+			if (isset($artist[0])){
+				if ($artist[0]->uuid == $uuid){
+					return true;
+				}
+			}
+			// see if the track is playable for fan
 			$this->db->select('playable');
 			$this->db->where('track_id',$track);
 			$this->db->where('uuid',$uuid);

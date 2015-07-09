@@ -8,7 +8,7 @@ class Tracks extends CI_Controller{
 			'ip'=>$_SERVER['REMOTE_ADDR'],
 			'action'=>$action,
 			'message'=>$message,
-			'data'=>json_encode($data)		
+			'data'=>json_encode($data)
 		);
 		$this->audit->log($log);
 	}
@@ -22,7 +22,7 @@ class Tracks extends CI_Controller{
 			$track = $this->artist->getArtistTrack($uuid,$filename);
 			// see if the file exists
 			if (!empty($track[0])){
-				$this->downloadTrack($track[0]->id,$filename);				
+				$this->downloadTrack($track[0]->id,$filename);
 			} else {
 				show_404('track/index','Track not found!');
 			}
@@ -31,7 +31,7 @@ class Tracks extends CI_Controller{
 			show_404('track/index','Access denial');
 		}
 	}
-	
+
 	public function play($track,$artist){
 		if(isset($_SERVER['HTTP_RANGE'])) {
 			// get the users uuid
@@ -66,7 +66,17 @@ class Tracks extends CI_Controller{
 			echo('Nah ah');die();
 		}
 	}
-	
+	public function testing(){
+		$this->load->library('unit_test');
+		$this->load->model('tracks_model','tracks');
+		$result = $this->tracks->canPlayTrack(1,'dsahdsayui39ehe!yewg7');
+		echo $this->unit->run(false,$result,'Track shouold not be playable unles set to norestcalls!');
+		$this->tracks->setNonRest();
+		$result = $this->tracks->canPlayTrack(1,'d4f82bd4ff5d9e29602cc711ca3ec8a79dc79c3501ad61d0c5864bdb9ab4ebc8dc01cfebac0f704a409162518b802406c4262417e16791d1350d1638c27d2042');
+		echo $this->unit->run(false,$result,'Track shouold not be playable!',print_r($result,true));
+		$result = $this->tracks->canPlayTrack(1,'dsahdsayui39ehe!yewg7');
+		echo $this->unit->run($result,true,'Track should be playable by the artist');
+	}
 	private function downloadTrack($artistId,$filename){
 		$pathToFile = ASSETS_FOLDER.'artists/'.$artistId .'/'.$filename;
 		$modules = apache_get_modules();
