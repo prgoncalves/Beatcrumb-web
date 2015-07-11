@@ -22,6 +22,7 @@
 </script>
 <script id="discover-tracks" type="text/template">
 		<% _.each(tracks, function(value) { %>
+                <div class="discover-block">
 			<div class="artist-mini-picture">
 		    	<img src="assets/<%=value.image%>"/>
 			</div>
@@ -38,6 +39,7 @@
                             <div class="three-crumb-two"></div>
                             <div class="three-crumb-three"></div>
                         </div>
+                </div>
 		<% }); %>
 				<div class="release-form">
   					<label>Message</label>

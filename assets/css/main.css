@@ -701,10 +701,13 @@ header{
     overflow: hidden;
     float: left;
     border:1px solid #ffffff;
+    position: relative;
 }
 
 .fan-mini-picture img{
-    width: 100%;
+    width: 170%;
+    position: absolute;
+    left:-30%;
 }
 
 .fan-name{
@@ -775,6 +778,7 @@ header{
     height: 500px;
     width: 70%;
     min-width: 610px;
+    display: table;
 }
 
 .artist-mini-picture, .beatbox-artist-mini-picture{
@@ -793,6 +797,12 @@ header{
     position: absolute;
     left:-30%;
 }
+
+.discover-block{
+    display: table;
+    width:100%;
+}
+
 .discover-track-name{
     float:left;
     margin-top: 15px;
@@ -820,6 +830,7 @@ header{
     box-sizing: border-box;
     margin-top: 15px;
     color:#00ffff;
+    line-height: 45px;
 }
 
 .discover-listens img{
