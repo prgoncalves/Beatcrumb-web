@@ -9,9 +9,11 @@
 	      </div>
 	      <div class="searchTracks">
 	      	<% _.each(tracks, function(value) { %>
+                <div class="search-result">
 	      		<p><%=value.artist_name%></p>
 	      		<p><%=value.filename%></p>
-	      		<a class="fan-crumb playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>">Play Me</a>
+	      		<a class="fan-crumb playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>"></a>
+                </div>
 	      	<% }); %>
 	      </div>
 	</div>
