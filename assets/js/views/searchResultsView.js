@@ -5,7 +5,8 @@ SearchResults = Backbone.View.extend({
 	render : function(){
 		var data = {
 			tracks : this.tracks,
-			artists : this.artists
+			artists : this.artists,
+			contacts : app.contacts.attributes
 		};
 		var content = _.template($('#search-results').html(),data);
 		this.$el.html(content);
