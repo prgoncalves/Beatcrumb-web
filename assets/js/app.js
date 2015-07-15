@@ -1,5 +1,7 @@
 var app = app || {};
 
+app.currentView = null;
+
 if (localStorage.Beat_User)
 	app.user = JSON.parse(localStorage.Beat_User);
 
@@ -35,6 +37,7 @@ app.showLandingPage = function(){
 	if (!app.landingView){
 		app.landingView = new LandingView();
 	}
+	app.currentView = app.landingView;
 	app.landingView.render();			
 }
 app.showPageHeader = function(){
@@ -66,6 +69,7 @@ app.appRouter.on('route:login',function(){
 	if (!app.loginView){
 		app.loginView = new LoginView();
 	}
+	app.currentView = app.loginView;
 	app.loginView.render();
 });
 
@@ -73,6 +77,7 @@ app.appRouter.on('route:activate',function(){
 	if (!app.activationView){
 		app.activationView = new ActivationView();
 	}
+	app.currentView = app.activationView;
 	app.activationView.render();
 });
 
@@ -89,12 +94,14 @@ app.appRouter.on('route:fanSetup',function(action){
 	if (!app.fanSetup){
 		app.fanSetup = new FanSetupView()
 	}
+	app.currentView = app.fanSetup;
 	app.fanSetup.render();
 });
 app.appRouter.on('route:artistSetup',function(action){
 	if (!app.artistSetup){
 		app.artistSetup = new ArtistSetupView()
 	}
+	app.currentView = app.artistSetup;
 	app.artistSetup.render();		
 });
 app.appRouter.on('route:settings',function(action){
@@ -103,6 +110,7 @@ app.appRouter.on('route:settings',function(action){
 			if (!app.artistSettings){
 				app.artistSettings = new ArtistSettingsView()
 			}
+			app.currentView = app.artistSettings;
 			app.showPageHeader();
 			app.activeHeader('.header-settings');							
 			$.when(deferSettings,deferContacts).done(function(){
@@ -112,6 +120,7 @@ app.appRouter.on('route:settings',function(action){
 			if (!app.fanSettings){
 				app.fanSettings = new FanSettingsView()
 			}
+			app.currentView = app.fanSettings;
 			app.showPageHeader();
 			app.activeHeader('.header-settings');							
 			$.when(deferSettings,deferContacts).done(function(){
@@ -127,6 +136,7 @@ app.appRouter.on('route:discover',function(action){
 		if (!app.discover){
 			app.discover = new DiscoverView()
 		}
+		app.currentView = app.discover;
 		app.showPageHeader();
 		app.activeHeader('.header-discover');					
 		$.when(deferGenre,deferContacts).done(function(){
@@ -141,6 +151,7 @@ app.appRouter.on('route:beatbox',function(action){
 		if (!app.beatbox){
 			app.beatbox = new BeatboxView();
 		}
+		app.currentView = app.beatbox;
 		$.when(deferBeatbox).done(function(){
 			app.showPageHeader();
 			app.activeHeader('.header-beatbox');			
@@ -156,6 +167,7 @@ app.appRouter.on('route:favourites',function(action){
 		if (!app.favourites){
 			app.favourites = new FavouritesView()
 		}
+		app.currentView = app.favourites;
 		app.showPageHeader();
 		app.activeHeader('.header-favourite');
 		app.favourites.render();		
@@ -167,6 +179,7 @@ app.appRouter.on('route:forgotPassword',function(action){
 	if (!app.forgotPassword){
 		app.forgotPassword = new ForgottenPasswordView()
 	}
+	app.currentView = app.forgotPassword;
 	app.forgotPassword.render();
 });
 
@@ -176,6 +189,7 @@ app.appRouter.on('route:dashboard',function(){
 			if (!app.artistDashboard){
 				app.artistDashboard = new ArtistDashboardView()
 			}
+			app.currentView = app.artistDashboard;
 			app.showPageHeader();
 			app.activeHeader('.header-home');
 			$.when(deferGenre,deferContacts).done(function(){
@@ -203,6 +217,7 @@ app.appRouter.on('route:dashboard',function(){
 			if (!app.fanDashboard){
 				app.fanDashboard = new FanDashboardView()
 			}
+			app.currentView = app.fanDashboard;
 			app.showPageHeader();
 			app.activeHeader('.header-home');
 			app.contactsCollection.fetch({
