@@ -25,7 +25,6 @@ ArtistDashboardView = Backbone.View.extend({
 	doShare : function(){
 		var contacts = [];
 		$('.ShareWithMe').each(function(){
-//			console.log($(this));
 			contacts.push($(this).data('id'));
 		});
 		if (contacts.length > 0){

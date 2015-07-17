@@ -32,9 +32,12 @@ DiscoverView = Backbone.View.extend({
 		this.getTracks($(e.target).data('id'));
 	},
 	showTracks : function(tracks){
-		if (!app.discoverTracks){
-			app.discoverTracks = new DiscoverTracks();
+		if (app.discoverTracks){
+			app.discoverTracks.undelegateEvents();
+			app.discoverTracks.unbind();
+			app.discoverTracks = null;
 		}
+		app.discoverTracks = new DiscoverTracks();
 		app.discoverTracks.tracks = tracks;
 		app.discoverTracks.render();					
 		$('.release-form').hide();
