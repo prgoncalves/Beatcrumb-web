@@ -19,7 +19,7 @@ BeatboxView = Backbone.View.extend({
 		var mySoundObject = soundManager.createSound({
 			 url: 'track/index/' + track,
 			 autoPlay: true,
-			 whileloading: function() { console.log(this.id + ' is loading'); }
+			 whileloading: function() {  }
 		});
 		return false;
 	},
