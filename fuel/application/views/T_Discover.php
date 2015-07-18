@@ -64,3 +64,6 @@
                     </div>
                 </div>
 </script>
+<script id="discover-tracks-empty" type="text/template">
+	<h3>There are no tracks for that Genre!</h3>
+</script>
