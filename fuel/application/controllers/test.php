@@ -1,8 +1,9 @@
-<?php 
+<?php
 define('TESTING', true);
 class Test extends CI_Controller{
 	function __construct(){
 		parent::__construct();
+		$this->load->libary('unit_test');
 	}
 	public function test(){
 		echo('Testing');
