@@ -3,7 +3,7 @@
     <div class="main-container">
 		<div class="beatbox">
 			<% if (typeof app.availableInbox != 'undefined' && app.availableInbox.length > 0){
-				_.each(app.availableInbox, function(value) { console.log(value);%>
+				_.each(app.availableInbox, function(value) { %>
 				<div class="beatbox-track" data-track="<%=value.filename%>">
 					<!--<h2 class="beatbox-artist-name"><%=value.artist_name%></h2>-->
                                         <%if (value.image){%>
@@ -29,7 +29,7 @@
 			<% });
 			} else {%>
 				<h3>You have no tracks shared at the moment</h3>
-			<%}%>											
+			<%}%>
 		</div>
 	</div>
   </div>

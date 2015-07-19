@@ -1,4 +1,4 @@
-<?php 
+<?php
 $link = 'https://accounts.google.com/o/oauth2/auth?client_id=';
 $client_id='970479616026-84836s24nbai4h7n2ddpr6rt23gshbde.apps.googleusercontent.com';
 $redirect_uri='https://beta.fitzos.com/oauth2callback';
@@ -6,7 +6,6 @@ $link = $link . $client_id . '&redirect_uri='.$redirect_uri .'&scope=https://www
 
 ?>
 <script id="artistSettings" type="text/template">
-  <%console.log(settings)%>
   <div class="landing-page-wrapper">
 	<div class="messages js-messages"></div>
    	<div class="alerts js-alerts"></div>
@@ -19,15 +18,15 @@ $link = $link . $client_id . '&redirect_uri='.$redirect_uri .'&scope=https://www
                         	<img src="<%=value.image%>"/>
                         </div>
                         <h5 class="fan-name"><%=value.name%>-<%=value.email%></h5>
-						
+
 						<button class='js-delete-contact' data-id="<%=value.id%>">Delete</button>
                                                 <button class='js-edit-contact' data-id="<%=value.id%>">Edit</button>
                     </div>
                 </div>
-			<% }); %>	
+			<% }); %>
 			<button class='js-add-contact'>Add contact</button>
 			<% if (app.user.email.indexOf("gmail") >-1) { %>
-				<a href="<?php echo($link);?>">Import GMAIL Contacts</a>	
+				<a href="<?php echo($link);?>">Import GMAIL Contacts</a>
 			<% } %>
 		</div>
 		<div class="settings-profile">

@@ -7,7 +7,6 @@ DiscoverTracks = Backbone.View.extend({
 			tracks : this.tracks,
 			contacts : app.contacts.attributes
 		};
-		console.log(this.tracks.length);
 		if (this.tracks.length > 0){
 			var content = _.template($('#discover-tracks').html(),data);			
 		} else {
