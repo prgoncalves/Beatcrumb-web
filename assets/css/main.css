@@ -166,10 +166,11 @@ a.fan-signup:hover{
     width: 90%;
     position: relative;
     box-sizing: border-box;
+    max-width: 900px;
 }
 .searchTracks{
-	top:100px;
-	position:absolute;
+/*	top:100px;
+	position:absolute;*/
         width: 100%;
         display: table;
         box-sizing: border-box;
@@ -179,6 +180,7 @@ a.fan-signup:hover{
     float:left;
     width:100%;
     box-sizing: border-box;
+    margin-bottom:20px;
 }
 
 .search-result p{
@@ -189,6 +191,17 @@ a.fan-signup:hover{
 .search-result .fan-crumb{
     width:5%;
     padding-bottom: 5%;
+}
+
+.search-result .discover-crumb{
+    float:left;
+    width:5%;
+    padding-bottom:5%;
+    margin-top:0;
+}
+
+.search-result .discover-three-crumb{
+    margin-top:0px;
 }
 
 
@@ -456,7 +469,7 @@ p.form-login a{
     font-weight: normal;
 }
 
-.artist-header{
+.artist-header, .fan-header{
     color: #00ffff;
     font-size: 1.8em;
     font-weight: normal;
@@ -675,7 +688,7 @@ header{
     
 }
 
-.artist-profile-left{
+.artist-profile-left, .fan-profile-left{
     float: left;
     width: 33%;
     box-sizing: border-box;
@@ -699,7 +712,7 @@ header{
     left:-30%;
 }
 
-.artist-profile-right{
+.artist-profile-right, .fan-profile-right{
     float:left;
     width: 33%;
     box-sizing: border-box;
@@ -716,6 +729,11 @@ header{
     box-sizing: border-box;
     width: 100%;
     float: left;
+}
+
+.fan-name{
+    float:left;
+    margin-left: 5%;
 }
 
 .fan-mini-picture{
@@ -736,8 +754,17 @@ header{
     left:-30%;
 }
 
-.fan-name{
-    float:left;
+
+.fan-profile-left .fan-mini-picture{
+    border-radius: 100%;
+    height: 0;
+    box-sizing: border-box;
+    width: 90%;
+    padding-bottom: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    float:none;
 }
 
 .fan-crumb, .discover-crumb, .beatbox-crumb{
