@@ -18,6 +18,7 @@ class Test extends CI_Controller{
 		$this->getContacts();
 		$this->testForgottenPassword();
 		$this->getTracks();
+		$this->testArtistCreation();
 		echo $this->unit->report();
 	}
 	public function test(){
@@ -38,4 +39,20 @@ class Test extends CI_Controller{
 		$result = $this->contacts->getContactsForUUID();
 		$this->unit->run($result,'is_array','Testing the fetching of contacts!',print_r($result,true));
 	}
+	public function testArtistCreation(){
+		$this->load->model('artist_model','artist');
+		// remove any previous test record
+		$this->artist->deleteArtist('dave_gill@blueyonder.co.uk','Belzebub');
+		$data = new TestObject();
+		$data->username = 'Belzebub';
+		$data->artist_name = 'dhasgdhjgsadjg';
+		$data->email = 'dave_gill@blueyonder.co.uk';
+		$result = $this->artist->create($data);
+		$this->unit->run($result,'is_numeric','Create an artist test');
+		$this->unit->run($result > 0,true,'Artist ID is > 0');
+	}
+}
+
+class TestObject{
+
 }

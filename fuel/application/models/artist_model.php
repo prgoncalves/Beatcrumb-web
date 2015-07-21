@@ -24,7 +24,7 @@ class Artist_model extends base_model{
 			if (isset($artist_exists[0])){
 //				var_dump($artist_exists[0]);
 				return null;
-			}			
+			}
 		}
 		// check if artist name used
 		if (isset($data->artist_name)){
@@ -32,7 +32,7 @@ class Artist_model extends base_model{
 			if (isset($artist_exists[0])){
 				return null;
 			}
-		}		
+		}
 		$result = parent::create($data);
 		$this->load->library('email');
 		$message = $this->load->view('emails/ArtistActivation',array('data'=>$result),TRUE);
@@ -105,5 +105,10 @@ class Artist_model extends base_model{
 		$this->db->join('tracks','artist.id = tracks.artist_id');
 		$result = $this->db->get('artist')->result();
 		return $result;
+	}
+	public function deleteArtist($email,$username){
+		$this->db->where('email',$email);
+		$this->db->where('username',$username);
+		$this->db->delete('artist');
 	}
 }
