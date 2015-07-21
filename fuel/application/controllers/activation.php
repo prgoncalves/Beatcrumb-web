@@ -1,5 +1,5 @@
 <?php
-class Activation extends CI_Controller{
+class Activation extends CI_Controller implements iTestCase{
 	public function __construct(){
 		parent::__construct();
 	}
@@ -55,5 +55,8 @@ class Activation extends CI_Controller{
 		// check account
 		$this->load->model('user_model','user');
 		$this->user->moveContact($data);
+	}
+	public function run_tests(){
+		echo("<br><h2>Running Tests on Activation Controller</h2>");
 	}
 }

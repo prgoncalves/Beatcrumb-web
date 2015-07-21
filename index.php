@@ -25,7 +25,7 @@ define('VERSION','ArguingArtichoke');
 
 if (defined('STDIN'))
 {
-	/* if your FUEL installation exists in a subfolder, then you may want to change SCRIPT_NAME to /subfolder/index.php 
+	/* if your FUEL installation exists in a subfolder, then you may want to change SCRIPT_NAME to /subfolder/index.php
 	 (Needed for using Tester module if running via CLI) */
 	$_SERVER['SCRIPT_NAME'] = 'index.php';
 	$_SERVER['SERVER_NAME'] = 'localhost';
@@ -54,7 +54,7 @@ if (defined('STDIN'))
  * Be sure to switch from 'development' on a production site!
  *
  */
-	
+
 // automatically set environment based on the values set in the environments config
 @include(INSTALL_ROOT.'application/config/environments.php');
 
@@ -103,11 +103,11 @@ if (defined('ENVIRONMENT'))
 {
 	switch (ENVIRONMENT)
 	{
-		case 'development': case 'testing': 
+		case 'development': case 'testing':
 			ini_set('display_errors', 1);
 			error_reporting(E_ALL);
 		break;
-	
+
 		case 'staging': case 'production':
 			error_reporting(0);
 		break;
@@ -193,8 +193,6 @@ if (defined('ENVIRONMENT'))
  */
 	// $assign_to_config['name_of_config_item'] = 'value of config item';
 
-
-
 // --------------------------------------------------------------------
 // END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
 // --------------------------------------------------------------------
@@ -261,6 +259,9 @@ if (defined('ENVIRONMENT'))
 
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
+	$path = BASEPATH.'libraries';
+	set_include_path(get_include_path() . PATH_SEPARATOR . $path);
+	set_include_path(get_include_path() . PATH_SEPARATOR . APPPATH.'/libraries');
 
 /*
  * --------------------------------------------------------------------
