@@ -2,25 +2,6 @@
     <div class="messages js-messages"></div>
     <div class="alerts js-alerts"></div>
 	<div class="searchBlock">
-        <div class="fans-scroll">
-                    <div class="scroll-inner">
-						<%_.each(contacts,function(value) { %>
-                        <div class="fan-block">
-                            <div class="fan-info js-ReleaseToMe" data-id="<%=value.id%>">
-                                <div class="fan-mini-picture">
-                                    <img src="<%=value.image%><"/>
-                                </div>
-                                <h5 class="fan-name"><%=value.name%></h5>
-                                <div class="fan-crumb">
-                                </div>
-                            </div>
-                        </div>
-						<% }); %>
-
-                    </div>
-                </div>
-        
-        
 	      <div class="searchArtists">
 	      	<% _.each(artists, function(value) { %>
 	      		<p><%=value.artist_name%></p>
@@ -31,7 +12,7 @@
                 <div class="search-result">
 	      		<p><%=value.artist_name%></p>
 	      		<p><%=value.filename%></p>
-	      		<a class="fan-crumb playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>"></a>
+	      		<a class=" playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>"><img src="assets/images/ear.png"/></a>
  				<div data-id="<%=value.id%>" class="discover-crumb shareTrack"></div>
 				<div class="discover-three-crumb">
             		<div class="three-crumb-one"></div>
