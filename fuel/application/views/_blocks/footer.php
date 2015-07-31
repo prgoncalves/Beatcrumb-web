@@ -6,7 +6,8 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
 		<script src="//crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
 		<script src="/assets/js/soundmanager2-jsmin.js"></script>
-
+		<script src="/assets/js/iscroll-infinite.js"></script>
+		
 		<script src="/assets/js/models/artistModel.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/models/fanModel.js?v=<?php echo VERSION;?>"></script>
 		<script src="/assets/js/models/artistTrackModel.js?v=<?php echo VERSION;?>"></script>

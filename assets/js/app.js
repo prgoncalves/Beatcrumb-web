@@ -140,7 +140,8 @@ app.appRouter.on('route:discover',function(action){
 		app.showPageHeader();
 		app.activeHeader('.header-discover');					
 		$.when(deferGenre,deferContacts).done(function(){
-			app.discover.render();					
+			app.discover.render();
+			app.discover.initialise();
 		});
 	} else {
 		app.showLandingPage();

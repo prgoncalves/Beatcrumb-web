@@ -15,6 +15,13 @@ DiscoverView = Backbone.View.extend({
 	events : {
 		'click .genre-item' : 'findGenre'
 	},
+	initialise : function(){
+		this.myScroll = new IScroll('.discover-left', {
+		    mouseWheel: true,
+		    click:true,
+		});	
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	},
 	getTracks : function(id){
     	var data = {id:id};    			
 		var that = this;

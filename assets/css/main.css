@@ -819,14 +819,13 @@ header{
     height: 500px;
     width: 20%;
     position: fixed;
-    overflow: scroll;
+    overflow: hidden;
     border-top: 2px solid #00ffff;
     max-width: 160px;
     margin-left: 5%;
 }
 
 .discover-scroll{
-    height: 2000px;
     width: 100%;
 }
 
