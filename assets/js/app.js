@@ -200,16 +200,19 @@ app.appRouter.on('route:dashboard',function(){
 						app.contactsCollection.fetch({
 							reset : true,
 							success: function(){
-								app.artistDashboard.render();										
+								app.artistDashboard.render();
+                                                                app.artistDashboard.initialise();
 							},
 							error : function(){
 								app.artistDashboard.render();
+                                                                app.artistDashboard.initialise();
 								app.alert('Unable to load contacts');								
 							}
 						});
 					},
 					error:function(){
 						app.artistDashboard.render();
+                                                app.artistDashboard.initialise();
 						app.alert('Unable to load artist tracks');
 					}
 				});				
@@ -224,10 +227,12 @@ app.appRouter.on('route:dashboard',function(){
 			app.contactsCollection.fetch({
 				reset : true,
 				success: function(){
-					app.fanDashboard.render();				
+					app.fanDashboard.render();
+                                        app.fanDashboard.initialise();
 				},
 				error : function(){
-					app.fanDashboard.render();				
+					app.fanDashboard.render();
+                                        app.fanDashboard.initialise();
 					app.alert('Unable to load contacts');								
 				}
 			});

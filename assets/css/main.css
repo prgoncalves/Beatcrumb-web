@@ -682,7 +682,7 @@ header{
     box-sizing: border-box;
     float: right;
     height: 300px;
-    overflow: scroll;
+/*    overflow: scroll;*/
     width: 100%;
     margin-top: 10%;
     padding: 8%;
@@ -690,7 +690,7 @@ header{
 }
 
 .scroll-inner{
-    height: auto;
+/*    height: auto;*/
     
 }
 
@@ -817,8 +817,8 @@ header{
 .discover-left {
     box-sizing: border-box;
     height: 500px;
-    width: 20%;
-    position: fixed;
+    width: 200px;
+    position: absolute;
     overflow: hidden;
     border-top: 2px solid #00ffff;
     max-width: 160px;
@@ -875,8 +875,8 @@ header{
 
 .artist-mini-picture > img{
     width:170%;
-    position: absolute;
-    left:-30%;
+/*    position: absolute;*/
+    margin-left:-30%;
 }
 
 .discover-block{

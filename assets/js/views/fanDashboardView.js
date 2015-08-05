@@ -11,6 +11,14 @@ FanDashboardView = Backbone.View.extend({
 	events : {
 		'click .js-UploadPhoto' : 'uploadPhoto' 
 	},
+        
+        initialise : function(){
+		this.myScroll = new IScroll('.fans-scroll', {
+		    mouseWheel: true,
+		    click:true,
+		});	
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	},
 	uploadPhoto : function(){
 		
 	}

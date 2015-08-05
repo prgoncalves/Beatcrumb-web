@@ -21,7 +21,14 @@ ArtistDashboardView = Backbone.View.extend({
 		'click .js-doRelease'  : 'doShare',
 		'click .js-showRelease': 'showRelease',
 	},
-
+        initialise : function(){
+		this.myScroll = new IScroll('.fans-scroll', {
+		    mouseWheel: true,
+		    click:true,
+		});	
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	},
+        
 	doShare : function(){
 		var contacts = [];
 		$('.ShareWithMe').each(function(){
