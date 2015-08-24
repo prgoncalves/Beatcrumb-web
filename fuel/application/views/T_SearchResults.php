@@ -19,7 +19,7 @@
                 	<div class="three-crumb-two"></div>
                 	<div class="three-crumb-three"></div>
             	</div>
-                </div>
+            </div>
 	      	<% }); %>
 
 	      </div>

@@ -1,26 +1,4 @@
-<script id="discover-page" type="text/template">
-  <div class="landing-page-wrapper">
-    <div class="main-container">
-        <div class="discover-left">
-            <div class="discover-scroll">
-				<% _.each(genres, function(value) { %>
-					<div class="genre-item" data-id="<%=value.id%>"><%=value.name%></div>
-				<% }); %>
-            </div>
-        </div>
-		<div class="discover-right" id="discover-right">
-		</div>
-
-		<div class="messages js-messages"></div>
-   		<div class="alerts js-alerts"></div>
-
-        </div>
-        <div class="copyright-container">
-            <p><span id="u148-2">Beatcrumb Inc 2014</span></p>
-        </div>
-  </div>
-</script>
-<script id="discover-tracks" type="text/template">
+<script id="tracks-list" type="text/template">
 		<% _.each(tracks, function(value) { %>
                 <div class="discover-block">
 			<div class="artist-mini-picture">
@@ -65,6 +43,6 @@
                     </div>
                 </div>
 </script>
-<script id="discover-tracks-empty" type="text/template">
+<script id="tracks-empty" type="text/template">
 	<h3>There are no tracks for that Genre!</h3>
 </script>
