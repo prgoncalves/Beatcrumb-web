@@ -21,16 +21,16 @@ class unittests extends CI_Controller {
 
 	public function index(){
 		echo('<h1>Unit Tests</h1>');
-		$this->_getAllControllersLoaded();
-		$this->_getAllModelsLoaded();
+//		$this->_getAllControllersLoaded();
+//		$this->_getAllModelsLoaded();
 		$classes = get_declared_classes();
 		foreach($classes as $class){
 			$reflect = new ReflectionClass($class);
 			if ($reflect->implementsInterface('iTestCase')){
 				echo("<strong>Testing $class</strong><br>");
 				$controller = new $class;
-//				$method = new ReflectionMethod($class, 'run_tests');
-//				$method->invoke($controller);
+				$method = new ReflectionMethod($class, 'run_tests');
+				$method->invoke($controller);
 			}
 		}
 	}
