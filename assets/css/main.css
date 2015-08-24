@@ -681,7 +681,7 @@ header{
 .fans-scroll{
     box-sizing: border-box;
     float: right;
-    height: 300px;
+    height: 500px;
 /*    overflow: scroll;*/
     width: 100%;
     margin-top: 10%;
