@@ -12,8 +12,8 @@
                 <div class="search-result">
 	      		<p><%=value.artist_name%></p>
 	      		<p><%=value.filename%></p>
-	      		<a class=" playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>"><img src="assets/images/ear.png"/></a>
- 				<div data-id="<%=value.id%>" class="discover-crumb shareTrack"></div>
+	      		<img src="assets/images/ear.png"/></a>
+ 				<a class=" playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>"><div data-id="<%=value.id%>" class="discover-crumb shareTrack"></div></a>
 				<div class="discover-three-crumb">
             		<div class="three-crumb-one"></div>
                 	<div class="three-crumb-two"></div>

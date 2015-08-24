@@ -29,10 +29,11 @@
 			<h2 class="discover-artist-name"><%=value.artist_name%></h2>
 			<div class="discover-track-name"><%=value.filename%></div>
 			<div class="discover-listens"><%=value.plays%>
-            	<a class="playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>"><img src="assets/images/ear.png"/></a>
+            	<img src="assets/images/ear.png"/>
             </div>
 			<div class="discover-single-crumb">
-			    <div data-id="<%=value.id%>" class="discover-crumb shareTrack"></div>
+				<a class="playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>">
+			    <div data-id="<%=value.id%>" class="discover-crumb shareTrack"></div></a>
 			</div>
 			<div class="discover-three-crumb">
                             <div class="three-crumb-one"></div>
