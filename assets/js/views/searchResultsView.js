@@ -10,6 +10,7 @@ SearchResults = Backbone.View.extend({
 		};
 		var content = _.template($('#search-results').html(),data);
 		this.$el.html(content);
+		this.showTracks(this.tracks);
 	},
 	events : {
 		'click .playTrack'     : 'playMP3',
@@ -104,5 +105,18 @@ SearchResults = Backbone.View.extend({
 			$(container).addClass('ShareWithMe');			
 		}
 	},
-	
+	showTracks : function(tracks){
+		if (app.discoverTracks){
+			app.discoverTracks.undelegateEvents();
+			app.discoverTracks.unbind();
+			app.discoverTracks = null;
+		}
+		app.discoverTracks = new DiscoverTracks();
+		app.el = '.searchTracks';
+		app.discoverTracks.tracks = tracks;
+		app.discoverTracks.render();					
+		$('.release-form').hide();
+		$('.fans-scroll').hide();
+	}
+
 });
