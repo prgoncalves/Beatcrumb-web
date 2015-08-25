@@ -1,4 +1,5 @@
 <script id="tracks-list" type="text/template">
+		<div class="track-header">Play Share</div>
 		<% _.each(tracks, function(value) { %>
                 <div class="discover-block">
 			<div class="artist-mini-picture">
