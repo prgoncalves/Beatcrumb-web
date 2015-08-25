@@ -12,9 +12,9 @@
             </div>
 			<div class="discover-single-crumb">
 				<a class="playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>">
-			    <div data-id="<%=value.id%>" class="discover-crumb shareTrack"></div></a>
+			    <div data-id="<%=value.id%>" class="discover-crumb "></div></a>
 			</div>
-			<div class="discover-three-crumb">
+			<div class="discover-three-crumb shareTrack">
                             <div class="three-crumb-one"></div>
                             <div class="three-crumb-two"></div>
                             <div class="three-crumb-three"></div>
