@@ -112,7 +112,6 @@ SearchResults = Backbone.View.extend({
 			app.discoverTracks = null;
 		}
 		app.discoverTracks = new DiscoverTracks();
-		app.el = '.searchTracks';
 		app.discoverTracks.tracks = tracks;
 		app.discoverTracks.render();					
 		$('.release-form').hide();

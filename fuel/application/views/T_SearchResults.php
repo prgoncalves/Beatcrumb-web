@@ -7,7 +7,7 @@
 	      		<p><%=value.artist_name%></p>
 	      	<% }); %>
 	      </div>
-	      <div class="searchTracks">
+	      <div class="searchTracks" id="discover-right">
 	      </div>
 				<div class="release-form">
   					<label>Message</label>
