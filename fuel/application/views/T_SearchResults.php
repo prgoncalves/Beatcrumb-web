@@ -7,21 +7,7 @@
 	      		<p><%=value.artist_name%></p>
 	      	<% }); %>
 	      </div>
-	      <div class="searchTracks">
-	      	<% _.each(tracks, function(value) { %>
-                <div class="search-result">
-	      		<p><%=value.artist_name%></p>
-	      		<p><%=value.filename%></p>
-	      		<img src="assets/images/ear.png"/></a>
- 				<a class=" playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>"><div data-id="<%=value.id%>" class="discover-crumb shareTrack"></div></a>
-				<div class="discover-three-crumb">
-            		<div class="three-crumb-one"></div>
-                	<div class="three-crumb-two"></div>
-                	<div class="three-crumb-three"></div>
-            	</div>
-            </div>
-	      	<% }); %>
-
+	      <div class="searchTracks" id="discover-right">
 	      </div>
 				<div class="release-form">
   					<label>Message</label>
