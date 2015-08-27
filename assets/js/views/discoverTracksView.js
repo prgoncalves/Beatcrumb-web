@@ -21,7 +21,7 @@ DiscoverTracks = Backbone.View.extend({
 		'click .playTrack'     : 'playMP3'
 	},
 	initialise : function(){
-		this.myScroll = new IScroll('.scroll-inner', {
+		this.myScroll = new IScroll('.fans-scroll', {
 		    mouseWheel: true,
 		    click:true,
 		});	
