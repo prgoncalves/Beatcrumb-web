@@ -27,8 +27,9 @@ DiscoverTracks = Backbone.View.extend({
 		$('.discover-crumb').removeClass('active_crumb');
 		$(target).addClass('active-crumb');
 		// show contacts........
-		$('.release-form').show();
-		$('.fans-scroll').show();		
+//		$('.release-form').show();
+                $('.release-form').css( "max-width", "500px" );
+//		$('.fans-scroll').show();
 	},
 	shareTrack : function(ev){
 		var contacts = [];

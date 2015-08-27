@@ -48,7 +48,8 @@ ArtistDashboardView = Backbone.View.extend({
 			    	switch(Result.Status){
 			    		case 'OK'  : 
 			    			app.message('Your tracks have been shared.');
-			    			$('.release-form').hide();
+//			    			$('.release-form').hide();
+                                                $('.release-form').css( "max-width", "0px" );
 			    			$("div").removeClass('ShareMe');
 			    			$("div").removeClass('active-crumb');			    			
 			    			break;
@@ -157,6 +158,7 @@ ArtistDashboardView = Backbone.View.extend({
 		$('.upload-form').show();
 	},
 	showRelease : function(){
-		$('.release-form').show();
+                $('.release-form').css( "max-width", "500px" );
+//		$('.release-form').show();
 	}
 });

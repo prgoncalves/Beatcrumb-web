@@ -25,24 +25,26 @@
   					<label>Message</label>
 					<input id="shareMessage" plaecholder="Message to send with share" value="" type="text" name="messageInput">
 					<button class="js-doShare">Send</button>
-				</div>
-                <div class="fans-scroll">
-                    <div class="scroll-inner">
-						<%_.each(contacts,function(value) { %>
-                        <div class="fan-block">
-                            <div class="fan-info js-ReleaseToMe" data-id="<%=value.id%>">
-                                <div class="fan-mini-picture">
-                                    <img src="<%=value.image%><"/>
-                                </div>
-                                <h5 class="fan-name"><%=value.name%></h5>
-                                <div class="fan-crumb">
-                                </div>
-                            </div>
-                        </div>
-						<% }); %>
+                                
+                                        <div class="fans-scroll">
+                                            <div class="scroll-inner">
+                                                                        <%_.each(contacts,function(value) { %>
+                                                <div class="fan-block">
+                                                    <div class="fan-info js-ReleaseToMe" data-id="<%=value.id%>">
+                                                        <div class="fan-mini-picture">
+                                                            <img src="<%=value.image%><"/>
+                                                        </div>
+                                                        <h5 class="fan-name"><%=value.name%></h5>
+                                                        <div class="fan-crumb">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                        <% }); %>
 
-                    </div>
-                </div>
+                                            </div>
+                                        </div>
+				</div>
+                
 </script>
 <script id="tracks-empty" type="text/template">
 	<h3>There are no tracks for that Genre!</h3>
