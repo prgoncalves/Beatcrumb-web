@@ -20,6 +20,13 @@ DiscoverTracks = Backbone.View.extend({
 		'click .js-ReleaseToMe': 'shareWith',
 		'click .playTrack'     : 'playMP3'
 	},
+	initialise : function(){
+		this.myScroll = new IScroll('.scroll-inner', {
+		    mouseWheel: true,
+		    click:true,
+		});	
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	},
 	showShareDialog : function(ev){
 		var target = $(ev.target);
 		this.trackId = $(target).data('id');

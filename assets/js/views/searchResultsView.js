@@ -20,7 +20,8 @@ SearchResults = Backbone.View.extend({
 		}
 		app.discoverTracks = new DiscoverTracks();
 		app.discoverTracks.tracks = tracks;
-		app.discoverTracks.render();					
+		app.discoverTracks.render();	
+		app.discoverTracks.initialise();
 //		$('.release-form').hide();
                 $('.release-form').css( "max-width", "0px" );
 //		$('.fans-scroll').hide();
