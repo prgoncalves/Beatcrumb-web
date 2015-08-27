@@ -1,5 +1,8 @@
 <script id="tracks-list" type="text/template">
-		<div class="track-header">Play Share</div>
+		<div class="track-header">
+                <div class="share-label">Share</div>
+                <div class="play-label">Play</div>
+                </div>
 		<% _.each(tracks, function(value) { %>
                 <div class="discover-block">
 			<div class="artist-mini-picture">

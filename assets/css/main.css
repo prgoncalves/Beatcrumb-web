@@ -735,11 +735,19 @@ header{
     box-sizing: border-box;
     width: 100%;
     float: left;
+    margin-bottom:15px;
+}
+
+.fan-info .fan-crumb{
+    margin-top:12px;
 }
 
 .fan-name{
     float:left;
-    margin-left: 5%;
+    margin:15px 0 0 15px;
+    max-width:130px;
+    overflow:hidden;
+    height: 20px;
 }
 
 .fan-mini-picture{
@@ -889,10 +897,11 @@ header{
     margin-top: 15px;
     box-sizing: border-box;
     height: 50px;
-    width:17%;
+    width:27%;
     font-size: 1.1em;
     line-height: 45px;
     color:#00ffff;
+    overflow:hidden;
 }
 
 .discover-artist-name,.beatbox-artist-name{
@@ -907,15 +916,17 @@ header{
 .discover-listens,.beatbox-listens,.beatbox-shares{
     float: left;
     height: 50px;
-    width: 26%;
+    width: 16%;
     box-sizing: border-box;
     margin-top: 15px;
     color:#00ffff;
     line-height: 45px;
+    text-align:right;
 }
 
 .discover-listens img{
     float: right;
+    margin-left:10px;
 }
 
 .discover-single-crumb,.beatbox-single-crumb{
@@ -973,6 +984,22 @@ header{
     bottom: 0;
 }
 
+.track-header{
+    width:100%;
+}
+
+.play-label, .share-label{
+    float:right;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #00ffff;
+    font-weight: normal;
+    margin-right:5px;
+}
+
+.play-label{
+    margin-right: 15px;
+}
 
 /*end of discover page*/
 
