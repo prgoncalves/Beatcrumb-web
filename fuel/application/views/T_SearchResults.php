@@ -8,12 +8,6 @@
 	      	<% }); %>
 	      </div>
 	      <div class="searchTracks" id="discover-right">
-	      </div>
-				<div class="release-form">
-  					<label>Message</label>
-					<input id="shareMessage" plaecholder="Message to send with share" value="" type="text" name="messageInput">
-					<button class="js-doShare">Send</button>
-				</div>
-                
+	      </div>                
 	</div>
 </script>
