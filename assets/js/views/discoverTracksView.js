@@ -101,19 +101,24 @@ DiscoverTracks = Backbone.View.extend({
 	playMP3 : function (e){
 		e.preventDefault();
 		var track = $(e.target).parent().attr("href");
-		var mySoundObject = soundManager.createSound({
-		 id : 'foundTrack',
-		 url: track,
-         onload: function(bSuccess){
-        	if (!bSuccess){
-        		app.alert('You cannot currently play that track!');
-        	}
-         },
-         onfinish : function(){
-        	 this.destroy();
-         }
-		});
-		mySoundObject.play();
+		if (this.mySoundObject && this.mySoundObject.playState === 1){
+			// we are playing at the moment so go away
+			app.alert('A track is already playing.. Please wait!');
+		} else {
+			this.mySoundObject = soundManager.createSound({
+				 id : 'foundTrack',
+				 url: track,
+		         onload: function(bSuccess){
+		        	if (!bSuccess){
+		        		app.alert('You cannot currently play that track!');
+		        	}
+		         },
+		         onfinish : function(){
+		        	 this.destruct();
+		         }
+				});
+			this.mySoundObject.play();			
+		}
 	return false;
 	},
 
