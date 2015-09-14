@@ -166,7 +166,7 @@ class Tracks_model extends base_model{
 		}
 		// if we have more than 3 contacts make the track playable
 		if (count($contacts) > 2){
-			$this->setTrackPlayableAfterShare($uuid, $track);
+			$this->setTrackPlayableAfterShare($uuid, $data['track']);
 		}
 		return true;
 	}
