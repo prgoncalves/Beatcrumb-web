@@ -25,7 +25,7 @@ DiscoverTracks = Backbone.View.extend({
 		    mouseWheel: true,
 		    click:true,
 		});	
-		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+//		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 	},
 	showShareDialog : function(ev){
 		var target = $(ev.target);
