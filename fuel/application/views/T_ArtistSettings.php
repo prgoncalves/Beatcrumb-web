@@ -37,7 +37,7 @@ $link = $link . $client_id . '&redirect_uri='.$redirect_uri .'&scope=https://www
 				<label>Artist Name</label>
 				<input type='text' name='artist_name' value="<%=settings.artist_name%>"/>
 				<label>Upload Profile Image</label>
-  				<input id="fileInput" value="Upload" type="file" name="fileInput">
+  				<input value="Upload" type="file" name="fileInput">
 				<button class='js-saveProfile'>Save</button>
 			</form>
 		</div>
