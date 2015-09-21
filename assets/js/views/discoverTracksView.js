@@ -27,7 +27,13 @@ DiscoverTracks = Backbone.View.extend({
 		});	
 		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 	},
+	stopMusic : function(){
+		if (this.mySoundObject){
+			this.mySoundObject.stopAll();
+		}
+	},
 	showShareDialog : function(ev){
+		this.stopMusic();
 		var target = $(ev.target);
 		this.trackId = $(target).data('id');
 		// remove active crumb from all
@@ -37,6 +43,7 @@ DiscoverTracks = Backbone.View.extend({
        $('.release-form').css( "max-width", "500px" );
 	},
 	shareTrack : function(ev){
+		this.stopMusic();
 		var contacts = [];
 		$('.ShareWithMe').each(function(){
 			contacts.push($(this).data('id'));
@@ -82,6 +89,7 @@ DiscoverTracks = Backbone.View.extend({
 		
 	},
 	shareWith : function(e){
+		this.stopMusic();
 		e.preventDefault();
 		var container = $(e.target).closest('.fan-info');
 		var crumb = $(container).children('.fan-crumb');
