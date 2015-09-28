@@ -15,12 +15,12 @@
             </div>
 			<div class="discover-single-crumb">
 				<a class="playTrack" href="tracks/play/<%=value.id%>/<%=value.uuid%>">
-			    <div data-id="<%=value.id%>" class="discover-crumb "></div></a>
+			    <div data-id="<%=value.id%>" class="discover-crumb <% if(value.playable !== 'no') {%> active-crumb <%} %>"></div></a>
 			</div>
-			<div class="discover-three-crumb active-crumb shareTrack">
-                            <div class="three-crumb-one"></div>
-                            <div class="three-crumb-two"></div>
-                            <div class="three-crumb-three"></div>
+			<div class="discover-three-crumb shareTrack">
+                            <div class="three-crumb-one active-crumb"></div>
+                            <div class="three-crumb-two active-crumb"></div>
+                            <div class="three-crumb-three active-crumb"></div>
                         </div>
                 </div>
 		<% }); %>

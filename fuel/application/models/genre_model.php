@@ -9,7 +9,7 @@ class Genre_model extends Base_module_model {
 	}
 	function getTracksForGenre($id,$uuid){
 		// need to change this so that it gets a flag to see if the track can be played or shared.
-		$this->db->select('artist_name,artist.uuid,tracks.id,tracks.plays,tracks.shares,filename,artist.image,playable');
+		$this->db->select('artist_name,artist.uuid,tracks.id,tracks.plays,tracks.shares,filename,artist.image,IFNULL(playable,"yes") as playable',false);
 		if ($id > 0){
 			$this->db->where('genre',$id);
 		} else {
