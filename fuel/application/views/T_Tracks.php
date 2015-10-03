@@ -19,8 +19,8 @@
 			</div>
 			<div class="discover-three-crumb shareTrack">
                             <div class="three-crumb-one <% if(value.played > 0) {%> active-crumb <%} %>"></div>
-                            <div class="three-crumb-two <% if(value.playable > 0) {%> active-crumb <%} %>"></div>
-                            <div class="three-crumb-three <% if(value.playable > 0) {%> active-crumb <%} %>"></div>
+                            <div class="three-crumb-two <% if(value.played > 0) {%> active-crumb <%} %>"></div>
+                            <div class="three-crumb-three <% if(value.played > 0) {%> active-crumb <%} %>"></div>
                         </div>
                 </div>
 		<% }); %>
