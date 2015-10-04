@@ -18,9 +18,9 @@
 			    <div data-id="<%=value.id%>" class="discover-crumb <% if(value.playable !== 'no') {%> active-crumb <%} %>"></div></a>
 			</div>
 			<div class="discover-three-crumb shareTrack">
-                            <div class="three-crumb-one <% if(value.played > 0) {%> active-crumb <%} %>"></div>
-                            <div class="three-crumb-two <% if(value.played > 0) {%> active-crumb <%} %>"></div>
-                            <div class="three-crumb-three <% if(value.played > 0) {%> active-crumb <%} %>"></div>
+                            <div class="three-crumb-one <% if(value.playable === 'no') {%> active-crumb <%} %>"></div>
+                            <div class="three-crumb-two <% if(value.playable === 'no') {%> active-crumb <%} %>"></div>
+                            <div class="three-crumb-three <% if(value.playable === 'no') {%> active-crumb <%} %>"></div>
                         </div>
                 </div>
 		<% }); %>
