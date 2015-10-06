@@ -1477,7 +1477,7 @@ button.js-saveProfile, .js-saveContact{
     padding-left:10px;
 }
 
-.js-doShare{
+.js-doShare, .js-doRelease{
     width:20%;
     box-sizing:border-box;
     background: #1A8AF2;
