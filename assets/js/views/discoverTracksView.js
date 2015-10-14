@@ -26,6 +26,8 @@ DiscoverTracks = Backbone.View.extend({
 		    click:true,
 		});	
 		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    	_.bindAll(this,"refreshTrackList");
+    	app.pubSub.bind('refreshTracks',this.refreshTrackList);
 	},
 	stopMusic : function(){
 		if (this.mySoundObject){
@@ -129,5 +131,7 @@ DiscoverTracks = Backbone.View.extend({
 	return false;
 	},
 
-	
+	refreshTrackList : function(){
+		console.log('Refreshing tracks!');
+	}
 });

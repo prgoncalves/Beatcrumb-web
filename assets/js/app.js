@@ -14,6 +14,12 @@ _.extend(Backbone.Router.prototype,{
     }
 });
 
+/**
+ * Event aggregator - Publisher And Subscriber
+ */
+app.pubSub = _.extend({}, Backbone.Events);
+app.currentView = '';
+
 var AppRouter = Backbone.Router.extend({
 	routes:{
 		"login"          : 'login',
