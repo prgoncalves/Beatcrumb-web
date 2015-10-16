@@ -21,6 +21,8 @@ DiscoverView = Backbone.View.extend({
 		    click:true,
 		});	
 		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    	_.bindAll(this,"refreshTracks");
+    	app.pubSub.bind('discoverTracks',this.refreshTracks);
 	},
 	getTracks : function(id){
     	var data = {id:id};    			
@@ -50,5 +52,8 @@ DiscoverView = Backbone.View.extend({
 		app.discoverTracks.initialise();
 		app.discoverTracks.parent = 'discover';
         $('.release-form').css( "max-width", "0px" );
+	},
+	refreshTracks : function(){
+		this.getTracks(0);
 	}
 });

@@ -26,6 +26,7 @@ PageHeader = Backbone.View.extend({
     				}
     				app.searchResults.tracks = data.Result.tracks;
     				app.searchResults.artists = data.Result.artists;
+    				app.searchResults.initialize();
     				app.searchResults.render();
     				
     				app.message('Results ');

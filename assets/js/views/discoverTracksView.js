@@ -26,8 +26,6 @@ DiscoverTracks = Backbone.View.extend({
 		    click:true,
 		});	
 		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-    	_.bindAll(this,"refreshTrackList");
-    	app.pubSub.bind('refreshTracks',this.refreshTrackList);
 	},
 	stopMusic : function(){
 		if (this.mySoundObject){
@@ -108,6 +106,7 @@ DiscoverTracks = Backbone.View.extend({
 		e.stopPropagation();
 	},
 	playMP3 : function (e){
+		this.stopMusic();		
 		e.preventDefault();
 		var track = $(e.target).parent().attr("href");
 		if (this.mySoundObject && this.mySoundObject.playState === 1){
@@ -126,12 +125,16 @@ DiscoverTracks = Backbone.View.extend({
 		        	 this.destruct();
 		         }
 				});
-			this.mySoundObject.play();			
+			this.mySoundObject.play();
+			this.fireTrackRefresh();
 		}
 	return false;
 	},
-
-	refreshTrackList : function(){
-		console.log('Refreshing tracks!');
+	fireTrackRefresh : function(){
+		if (this.parent === 'search'){
+	    	app.pubSub.trigger('searchTracks');    			
+		} else {
+	    	app.pubSub.trigger('discoverTracks');    						
+		}
 	}
 });
