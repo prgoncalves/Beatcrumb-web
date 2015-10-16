@@ -464,7 +464,10 @@ p.form-login a{
     font-style: italic;
     color: #00ffff;
     font-weight: normal;
-    
+}
+
+.release{
+    cursor:pointer;
 }
 
 .js-upload{
