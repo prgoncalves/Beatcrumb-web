@@ -464,7 +464,11 @@ p.form-login a{
     font-style: italic;
     color: #00ffff;
     font-weight: normal;
-    
+}
+
+.release{
+    cursor:pointer;
+    float: right;
 }
 
 .js-upload{
@@ -473,6 +477,7 @@ p.form-login a{
     font-style: italic;
     color: #00ffff;
     font-weight: normal;
+    cursor:pointer;
 }
 
 .artist-header, .fan-header{
@@ -968,6 +973,7 @@ header{
     padding-bottom: 25%;
     border: 3px solid red;
     border-radius: 100%;
+    cursor:pointer;
 }
 
 .three-crumb-one{
@@ -1477,7 +1483,7 @@ button.js-saveProfile, .js-saveContact{
     padding-left:10px;
 }
 
-.js-doShare{
+.js-doShare, .js-doRelease{
     width:20%;
     box-sizing:border-box;
     background: #1A8AF2;

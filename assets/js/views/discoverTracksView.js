@@ -106,6 +106,7 @@ DiscoverTracks = Backbone.View.extend({
 		e.stopPropagation();
 	},
 	playMP3 : function (e){
+		this.stopMusic();		
 		e.preventDefault();
 		var track = $(e.target).parent().attr("href");
 		if (this.mySoundObject && this.mySoundObject.playState === 1){
@@ -124,10 +125,16 @@ DiscoverTracks = Backbone.View.extend({
 		        	 this.destruct();
 		         }
 				});
-			this.mySoundObject.play();			
+			this.mySoundObject.play();
+			this.fireTrackRefresh();
 		}
 	return false;
 	},
-
-	
+	fireTrackRefresh : function(){
+		if (this.parent === 'search'){
+	    	app.pubSub.trigger('searchTracks');    			
+		} else {
+	    	app.pubSub.trigger('discoverTracks');    						
+		}
+	}
 });
