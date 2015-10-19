@@ -44,6 +44,7 @@ DiscoverTracks = Backbone.View.extend({
 	},
 	shareTrack : function(ev){
 		this.stopMusic();
+		var that = this;
 		var contacts = [];
 		$('.ShareWithMe').each(function(){
 			contacts.push($(this).data('id'));
@@ -66,7 +67,8 @@ DiscoverTracks = Backbone.View.extend({
 				    			$('.release-form').hide();
 				    			$('.fans-scroll').hide();
 				    			$("div").removeClass('ShareMe');
-				    			$("div").removeClass('active-crumb');			    			
+				    			$("div").removeClass('active-crumb');
+				    			that.fireTrackRefresh();
 				    			break;
 				    		case 'ERR' : app.alert('Share Failed');break;
 				    		case 'LOG' : app.appRouter.navigate('/login',true);
