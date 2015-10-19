@@ -67,6 +67,7 @@ class Tracks_model extends base_model{
 			if (isset($played[0])){
 				$played[0]->playable = 'No';
 				$played[0]->plays += 1;
+				$played[0]->shares = 0;
 				$this->db->where('uuid',$uuid);
 				$this->db->where('track_id',$track);
 				$this->db->update('user_played',$played[0]);
@@ -149,6 +150,7 @@ class Tracks_model extends base_model{
 		// get the users uuid
 		$uuid = $this->session->userdata('uuid');
 		$contacts = $data['contacts'];
+		$increase = count($contacts);
 		foreach($contacts as $contact){
 			// get contact record and join it to a fan or artist
 			$this->db->select('contacts.email,contacts.name,contacts.contact_uuid,if (artist.uuid is null,fan.activated,artist.activated)as activated,if (artist.uuid is null,fan.uuid,artist.uuid)as uuid',false);
@@ -162,32 +164,30 @@ class Tracks_model extends base_model{
 				$this->shareWithNonMember($contact, $contactdata, $data);
 			}
 			// update the track with inreased share
-			$this->increaseTrackShareCount($data['track']);
+			$this->increaseTrackShareCount($data['track'],$increase);
 		}
-		// if we have more than 3 contacts make the track playable
-		if (count($contacts) > 2){
-			$this->setTrackPlayableAfterShare($uuid, $data['track']);
-		}
+		$this->setTrackPlayableAfterShare($uuid, $data['track'],$increase);
 		return true;
 	}
-	private function setTrackPlayableAfterShare($uuid,$track){
+	private function setTrackPlayableAfterShare($uuid,$track,$increase){
 			$this->db->where('uuid',$uuid);
 			$this->db->where('track_id',$track);
 			$played = $this->db->get('user_played')->result();
 			if (isset($played[0])){
 				// update record
-				$played[0]->playable = 'Yes';
-				$played[0]->shares += 1;
-				$this->db->where('uuid',$uuid);
-				$this->db->where('track_id',$track);
-				$this->db->update('user_played',$played[0]);
+				if ($played[0]->shares > 2){
+					$played[0]->playable = 'Yes';
+					$this->db->where('uuid',$uuid);
+					$this->db->where('track_id',$track);
+					$this->db->update('user_played',$played[0]);
+				}
 			} else {
 				// if not create
 				$this->db->insert('user_played',array(
 					'uuid'=>$uuid,
 					'track_id'=>$track,
 					'plays'=>0,
-					'shares'=>1,
+					'shares'=>$increase,
 					'playable'=>'Yes'
 				));
 			}
@@ -197,8 +197,8 @@ class Tracks_model extends base_model{
 		$this->db->where('id',$id);
 		$this->db->update('tracks');
 	}
-	private function increaseTrackShareCount($id){
-		$this->db->set('shares','shares+1',false);
+	private function increaseTrackShareCount($id,$increase = 1){
+		$this->db->set('shares',"shares+$increase",false);
 		$this->db->where('id',$id);
 		$this->db->update('tracks');
 	}
