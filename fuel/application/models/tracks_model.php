@@ -176,9 +176,10 @@ class Tracks_model extends base_model{
 			if (isset($played[0])){
 				$shares = $played[0]->shares + $increase;
 				// update record
-				if ($played[0]->shares > 2){
+				if ($shares > 2){
 					$played[0]->playable = 'Yes';
 				}
+				$played[0]->shares = $shares;
 				$this->db->where('uuid',$uuid);
 				$this->db->where('track_id',$track);
 				$this->db->update('user_played',$played[0]);
