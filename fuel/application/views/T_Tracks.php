@@ -4,11 +4,14 @@
                 <div class="play-label">Play</div>
                 </div>
 		<% _.each(tracks, function(value) { %>
-                <div class="discover-block">
+        <div class="discover-block">
 			<div class="artist-mini-picture">
 		    	<img src="assets/<%=value.image%>"/>
 			</div>
 			<h2 class="discover-artist-name"><%=value.artist_name%></h2>
+			<% if (typeof value.message != 'undefined') {%>
+			<div class="discover-message"><%=value.message%></div>
+			<% } %>
 			<div class="discover-track-name"><%=value.filename%></div>
 			<div class="discover-listens"><%=value.plays%>
             	<img src="assets/images/ear.png"/>
@@ -18,11 +21,11 @@
 			    <div data-id="<%=value.id%>" class="discover-crumb <% if(value.playable !== 'No') {%> active-crumb <%} %>"></div></a>
 			</div>
 			<div class="discover-three-crumb shareTrack" data-id="<%=value.id%>">
-                            <div data-id="<%=value.id%>" class="three-crumb-one <% if(value.playable === 'No') {%> active-crumb <%} %>"></div>
-                            <div data-id="<%=value.id%>" class="three-crumb-two <% if(value.playable === 'No') {%> active-crumb <%} %>"></div>
-                            <div data-id="<%=value.id%>" class="three-crumb-three <% if(value.playable === 'No') {%> active-crumb <%} %>"></div>
-                        </div>
-                </div>
+            	<div data-id="<%=value.id%>" class="three-crumb-one <% if(value.playable === 'No') {%> active-crumb <%} %>"></div>
+                <div data-id="<%=value.id%>" class="three-crumb-two <% if(value.playable === 'No') {%> active-crumb <%} %>"></div>
+                <div data-id="<%=value.id%>" class="three-crumb-three <% if(value.playable === 'No') {%> active-crumb <%} %>"></div>
+            </div>
+        </div>
 		<% }); %>
 				<div class="release-form">
   					<label>Message</label>
@@ -31,7 +34,7 @@
                                 
                                         <div class="fans-scroll">
                                             <div class="scroll-inner">
-                                                                        <%_.each(contacts,function(value) { %>
+                                            <%_.each(contacts,function(value) { %>
                                                 <div class="fan-block">
                                                     <div class="fan-info js-ReleaseToMe" data-id="<%=value.id%>">
                                                         <div class="fan-mini-picture">
@@ -42,7 +45,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                                        <% }); %>
+                                            <% }); %>
 
                                             </div>
                                         </div>
