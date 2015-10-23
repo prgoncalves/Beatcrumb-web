@@ -10,19 +10,24 @@ BeatboxView = Backbone.View.extend({
 		this.$el.html(content);
 	},
 	events : {
-		'click .beatbox-track' : 'playMP3'
 	},
-
-	playMP3 : function (e){
-		e.preventDefault();
-		var track = $(e.target).data("track");
-		var mySoundObject = soundManager.createSound({
-			 url: 'track/index/' + track,
-			 autoPlay: true,
-			 whileloading: function() {  }
-		});
-		return false;
+	initialise : function(){
+    	_.bindAll(this,"getTracks");
+    	app.pubSub.bind('beatboxTracks',this.getTracks);
 	},
 	getTracks : function(){
 	},
+	showTracks : function(tracks){
+		if (app.discoverTracks){
+			app.discoverTracks.undelegateEvents();
+			app.discoverTracks.unbind();
+			app.discoverTracks = null;
+		}
+		app.discoverTracks = new DiscoverTracks();
+		app.discoverTracks.parent = 'beatbox';
+		app.discoverTracks.tracks = tracks;
+		app.discoverTracks.render();
+		app.discoverTracks.initialise();
+        $('.release-form').css( "max-width", "0px" );		
+	}
 });

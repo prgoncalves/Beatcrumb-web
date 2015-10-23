@@ -133,10 +133,16 @@ DiscoverTracks = Backbone.View.extend({
 	return false;
 	},
 	fireTrackRefresh : function(){
-		if (this.parent === 'search'){
-	    	app.pubSub.trigger('searchTracks');    			
-		} else {
-	    	app.pubSub.trigger('discoverTracks');    						
+		switch(this.parent) {
+			case 'search':
+		    	app.pubSub.trigger('searchTracks');    			
+				break;
+			case 'discover' :
+		    	app.pubSub.trigger('discoverTracks');    						
+				break;
+			case 'beatbox' : 
+		    	app.pubSub.trigger('beatboxTracks');    						
+				break;
 		}
 	}
 });

@@ -50,5 +50,5 @@
                 
 </script>
 <script id="tracks-empty" type="text/template">
-	<h3>There are no tracks for that Genre!</h3>
+	<h3>There are no tracks for that at the moment!</h3>
 </script>
